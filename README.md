@@ -6,4 +6,4 @@ The purpose of this library is to generate the question answer pairs for low-res
 ## Process
 The process of generating the dataset consists of:
 - Translating the orginial English question to the language of our choice
-- Extending the answerEntity label with the label in our target language
+- Extending the answer label with the label in our target language
