@@ -1,18 +1,18 @@
-import json
-from Utils.amountChars import amountChars
+from Utils.amount_chars import amount_chars
+from Services.file_service import open_json, write_json
 
 # util for extracting all the questions in english from the mintaka dataset
 def extract_questions(data_path, output_path):
-    with open(data_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
+    data = open_json(data_path)
     questions = {item['id']: item['question'] for item in data}
-    chars = amountChars(questions.values())
+    chars = amount_chars(questions.values())
     print(f"Extracted {len(questions)} questions with a total of {chars} characters")
     questions = {"questions" : questions, "char_count": chars}
     # Write the new dictionary to the output file
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(questions, f, indent=4)
+    write_json(questions, output_path)
+    print(f"Saved {len(questions['questions'])} questions to {output_path} for mapping purposes and overview")
+
+    return questions
 
 
 

@@ -1,8 +1,5 @@
 
-import json
-
-
-def amountChars(questions):
+def amount_chars(questions):
     char_count = 0
     for question in questions:
         char_count += len(question)

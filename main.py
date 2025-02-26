@@ -8,8 +8,8 @@
     # 3.1. Pause and validate sample labels
 # 4. Update the mintaka json with newly translated questions and relevant labels. 
 
-from Utils.extractQuestions import extract_questions
-
+from Utils.extract_questions import extract_questions
+from Utils.generate_translation_file import generate_translation_file
 data_paths = {
     'train': './data/mintaka_train.json',
     'dev': './data/mintaka_dev.json',
@@ -23,8 +23,9 @@ output_paths = {
 }
 def process_datasets(data_paths, output_paths):
     for key in data_paths:
-        print(f"Extracting questions from {key} dataset and saving to {output_paths[key]}")
-        extract_questions(data_paths[key], output_paths[key])
+        print(f"Extracting questions from {key} dataset")
+        json_map = extract_questions(data_paths[key], output_paths[key])
+        generate_translation_file(json_map, f'./data/{key}_questions.txt')
 
 process_datasets(data_paths, output_paths)
     
