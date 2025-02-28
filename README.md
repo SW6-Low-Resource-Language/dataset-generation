@@ -10,5 +10,9 @@ The process of generating the dataset consists of:
 
 
 ## Requirements
+to install the dependencies write:
+`pip install -r requirements.txt`
+to update dependencies write:
+`pip freeze > requirements.txt`
 
 ## How to

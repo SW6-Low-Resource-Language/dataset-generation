@@ -1,4 +1,6 @@
 
+
+
 def amount_chars(questions):
     char_count = 0
     for question in questions:
@@ -6,4 +8,3 @@ def amount_chars(questions):
     return char_count
 
 
-# 112754
