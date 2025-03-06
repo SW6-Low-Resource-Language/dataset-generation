@@ -4,12 +4,18 @@ import deepl
 
 # Load environment variables from .env file
 load_dotenv()
-
 # Get the DeepL auth key from environment variables
 auth_key = os.getenv("DEEPL_AUTH_KEY")
 deepl_client = deepl.DeepLClient(auth_key)
 
 def deepl_translate_large_text_file(input_path, output_path, target_language="DA"):
+    """
+    Translates a large text file using the DeepL API and saves the translated file to the specified output path.
+    Args:
+        input_path (str): The path to the input file to be translated.
+        output_path (str): The path where the translated file will be saved.
+        target_language (str, optional): The target language code for translation. Defaults to "DA" (Danish).
+    """
     try:
         # Using translate_document_from_filepath() with file paths 
         deepl_client.translate_document_from_filepath(

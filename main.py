@@ -10,22 +10,36 @@
 
 from Utils.extract_questions import extract_questions
 from Utils.generate_translation_file import generate_translation_file
+from Utils.extract_answer_entities import extract_answer_entities
+from Utils.random_translation_sampling import random_translation_sampling
 data_paths = {
-    'train': './data/mintaka_train.json',
     'dev': './data/mintaka_dev.json',
-    'test': './data/mintaka_test.json'
 }
+# this object should be created on the fly when the pipeline is done
+txt_files = {
+    "English": "../data/dev_questions.txt",
+    "Translations": {
+        "Danish": "../Translation/dev_questions_da.txt",
+    }
+}
+
+
+translate = False
+samples = 0 # amount of translated samples extracted to excel sheet for validation
 
 output_paths = {
-    'train': './data/id2question_train.json',
     'dev': './data/id2question_dev.json',
-    'test': './data/id2question_test.json'
 }
-def process_datasets(data_paths, output_paths):
-    for key in data_paths:
-        print(f"Extracting questions from {key} dataset")
-        json_map = extract_questions(data_paths[key], output_paths[key])
-        generate_translation_file(json_map, f'./data/{key}_questions.txt')
+def run_pipeline(data_paths, output_paths):
+    for key, path in data_paths.items():
+        if translate:
+            json_map = extract_questions(path, output_paths[key])
+            generate_translation_file(json_map, f'./data/{key}_questions.txt')
 
-process_datasets(data_paths, output_paths)
+        
+    # Example usage
+    if(samples > 0):
+        random_translation_sampling(txt_files, samples)
+
+run_pipeline(data_paths, output_paths)
     
