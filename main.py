@@ -34,12 +34,12 @@ def run_pipeline(data_paths, output_paths):
     for key, path in data_paths.items():
         if translate:
             json_map = extract_questions(path, output_paths[key])
-            generate_translation_file(json_map, f'./data/{key}_questions.txt')
-
-        
+            generate_translation_file(json_map, f'./data/{key}_questions.txt')    
     # Example usage
     if(samples > 0):
         random_translation_sampling(txt_files, samples)
+    
+    extract_answer_entities(path)
 
 run_pipeline(data_paths, output_paths)
     
