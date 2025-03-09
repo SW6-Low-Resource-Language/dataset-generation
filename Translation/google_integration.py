@@ -8,8 +8,8 @@ PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT")
 print(PROJECT_ID)
 
 # Google API can only translate text up to 30,000 characters at a time
-# This function splits the text into chunks under 30,000 characters
-def chunk_text(text, max_size=30000):
+# This function splits the text into chunks under 20,000 characters
+def chunk_text(text, max_size=20000):
     """
     Splits the input text into chunks, each under the specified maximum size in bytes.
 
@@ -34,7 +34,7 @@ def chunk_text(text, max_size=30000):
 
     return chunks
 
-def google_translate_large_text_file(input_file, output_file, target_language="da"):
+def google_translate_chunks(input_file, output_file, target_language="bn"):
     """
     Translates the content of a large text file using Google Cloud Translation API and saves the translated text to an output file.
     Args:
@@ -47,28 +47,54 @@ def google_translate_large_text_file(input_file, output_file, target_language="d
 
     with open(input_file, "r", encoding="utf-8") as file:
         text = file.read()
-
     chunks = chunk_text(text)
     translated_chunks = []
-    charLen = 0
     for chunk in chunks:
-        charLen += chunk.count("?")
-        print(len(chunk))
         response = client.translate_text(
             parent=parent,
             contents=[chunk],
             mime_type="text/plain",
-            target_language_code=target_language
+            target_language_code=target_language,
+            source_language_code="en-US",
         )
-        # "Google sometimes returns double newlines, so we replace them with single newlines"
+        
+        # "Google sometimes returns double newlines in chunks, so we replace them with single newlines"
         translated_text = response.translations[0].translated_text.replace("\n\n", "\n")
         translated_chunks.append(translated_text)
-
-    print(translated_chunks)
     with open(output_file, "w", encoding="utf-8") as file:
         file.write("\n".join(translated_chunks))
 
     print(f"Translation saved to {output_file}")
-    print(f"Total characters: {charLen}")
+
+
+# This function translates a txt file line by line with google api, it's significantly slower than the chunking method but provides correct output (content was lost in translating to bn with chunks)
+def google_translate_line_by_line(input_file, output_file, target_language="bn"):
+    """
+    Translates the content of a large text file line by line using Google Cloud Translation API and saves the translated text to an output file.
+    Args:
+        input_file (str): The path to the input text file to be translated.
+        output_file (str): The path to the output text file where the translated text will be saved.
+        target_language (str, optional): The target language code for translation (default is "da" for Danish).
+    """
+    client = translate_v3.TranslationServiceClient()
+    parent = f"projects/{PROJECT_ID}/locations/global"
+
+    with open(input_file, "r", encoding="utf-8") as file:
+        lines = file.readlines()
+
+    translated_lines = []
+    for line in lines:
+        response = client.translate_text(
+            parent=parent,
+            contents=[line],
+            mime_type="text/plain",
+            target_language_code=target_language,
+            source_language_code="en-US",
+        )
+        translated_text = response.translations[0].translated_text
+        translated_lines.append(translated_text)
+
+    with open(output_file, "w", encoding="utf-8") as file:
+        file.write("\n".join(translated_lines))
+    print(f"Translation saved to {output_file}")
     
-google_translate_large_text_file("./test-input.txt", "./test-output.txt", "da")
