@@ -23,3 +23,4 @@ def open_txt(file_path, seperator = '\n'):
 def write_txt(data, file_path, seperator = '\n'):
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(seperator.join(data))
+    return file_path

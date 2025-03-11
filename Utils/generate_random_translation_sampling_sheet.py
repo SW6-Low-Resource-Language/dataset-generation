@@ -1,10 +1,9 @@
 import random
-import openpyxl
 from openpyxl import Workbook
 from Services.file_service import open_txt
 import os
 
-def random_translation_sampling(txt_data_object, samples):
+def generate_random_translation_sampling_sheet(txt_data_object, samples):
     """
     Randomly samples lines from multiple text files and writes them to an Excel file.
     
