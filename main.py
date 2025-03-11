@@ -13,7 +13,8 @@ from Utils.generate_translation_file import generate_translation_file
 from Utils.extract_answer_entities import extract_answer_entities
 from Utils.random_translation_sampling import random_translation_sampling
 from Services.wikidata import get_wikidata_labels
-from Services.file_service import write_json
+from Services.file_service import write_json, open_json
+from Utils.extend_mintaka_json import extend_mintaka_json
 import os
 data_paths = {
     'dev': './data/mintaka_dev.json',
@@ -23,8 +24,8 @@ txt_files = {
     'dev' : {
         "English": "../data/dev_questions.txt",
         "Translations": {
-            "da": "../outputs/translation/deepl/dev_questions_da.txt",
-            "bn": "../outputs/translation/google/dev_questions_bn_linebyline.txt"
+            "da": "./outputs/translations/deepl/dev_questions_da.txt",
+            "bn": "./outputs/translations/google/dev_questions_bn_linebyline.txt"
     }  
     }
 }
