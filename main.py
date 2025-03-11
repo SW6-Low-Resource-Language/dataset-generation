@@ -12,20 +12,27 @@ from Utils.extract_questions import extract_questions
 from Utils.generate_translation_file import generate_translation_file
 from Utils.extract_answer_entities import extract_answer_entities
 from Utils.random_translation_sampling import random_translation_sampling
+from Services.wikidata import get_wikidata_labels
+from Services.file_service import write_json
+import os
 data_paths = {
     'dev': './data/mintaka_dev.json',
 }
 # this object should be created on the fly when the pipeline is done
 txt_files = {
-    "English": "../data/dev_questions.txt",
-    "Translations": {
-        "Danish": "../Translation/dev_questions_da.txt",
+    'dev' : {
+        "English": "../data/dev_questions.txt",
+        "Translations": {
+            "da": "../outputs/translation/deepl/dev_questions_da.txt",
+            "bn": "../outputs/translation/google/dev_questions_bn_linebyline.txt"
+    }  
     }
 }
 
 
 translate = False
 samples = 0 # amount of translated samples extracted to excel sheet for validation
+validate_translations = False
 
 output_paths = {
     'dev': './data/id2question_dev.json',
@@ -34,12 +41,24 @@ def run_pipeline(data_paths, output_paths):
     for key, path in data_paths.items():
         if translate:
             json_map = extract_questions(path, output_paths[key])
-            generate_translation_file(json_map, f'./data/{key}_questions.txt')    
-    # Example usage
-    if(samples > 0):
-        random_translation_sampling(txt_files, samples)
+            generate_translation_file(json_map, f'./data/{key}_questions.txt') 
+    # pause and validate the translations
+        if(samples > 0):
+            random_translation_sampling(txt_files, samples)
+            
+    if validate_translations:
+        print("Exiting pipeline, validate the batch of translationsamples before proceeding") 
+        return 
     
-    extract_answer_entities(path)
+    # first step with translation done, now we will find wikidata labels for the answer entities
+    for key, d_path in data_paths.items():
+        answer_entities = extract_answer_entities(d_path)
+        write_json(answer_entities, f'./outputs/answer_entities_maps/{os.path.basename(d_path.replace(".json",""))}_answer_entities.json')
+        answer_labels = get_wikidata_labels(answer_entities)
+        write_json(answer_labels, f'./outputs/answer_labels/{os.path.basename(d_path).replace(".json","")}_answer_labels.json')
+        translated_files = txt_files[key]["Translations"]
+        extend_mintaka_json(d_path, answer_labels, translated_files)
+    
 
 run_pipeline(data_paths, output_paths)
     

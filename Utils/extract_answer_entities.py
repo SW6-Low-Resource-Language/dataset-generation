@@ -2,9 +2,7 @@ from Services.file_service import open_json, write_json
 import os
 
 
-def extract_answer_entities(data_path, output_path = None):
-    if output_path is None:
-        output_path = f'./outputs/answer_entities_maps/{os.path.basename(data_path.replace(".json",""))}_answer_entities.json'
+def extract_answer_entities(data_path): 
     data = open_json(data_path)
     id_answer_entities_map = {}
     for item in data:
@@ -29,7 +27,7 @@ def extract_answer_entities(data_path, output_path = None):
         for entity in answer_entities:
             entities_wikiIDs.append(entity['name'])
         id_answer_entities_map[id] = entities_wikiIDs
-    write_json(id_answer_entities_map, output_path)
+    
     return id_answer_entities_map
         
 
