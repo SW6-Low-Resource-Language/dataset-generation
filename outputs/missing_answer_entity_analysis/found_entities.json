@@ -1,0 +1,120 @@
+{
+    "all": {
+        "sports": {
+            "total": 3,
+            "comparative": 1,
+            "generic": 1,
+            "superlative": 1
+        },
+        "books": {
+            "total": 36,
+            "difference": 7,
+            "intersection": 3,
+            "ordinal": 2,
+            "superlative": 3,
+            "generic": 19,
+            "comparative": 2
+        },
+        "videogames": {
+            "total": 17,
+            "intersection": 4,
+            "multihop": 7,
+            "generic": 1,
+            "difference": 2,
+            "ordinal": 3
+        },
+        "geography": {
+            "total": 3,
+            "generic": 3
+        },
+        "movies": {
+            "total": 4,
+            "multihop": 2,
+            "superlative": 1,
+            "generic": 1
+        },
+        "music": {
+            "total": 10,
+            "multihop": 1,
+            "superlative": 8,
+            "generic": 1
+        },
+        "politics": {
+            "total": 1,
+            "generic": 1
+        }
+    },
+    "dev": {
+        "total": 13,
+        "sports": {
+            "comparative": 1
+        },
+        "books": {
+            "difference": 3,
+            "intersection": 1,
+            "ordinal": 1,
+            "superlative": 1,
+            "generic": 2
+        },
+        "videogames": {
+            "intersection": 1,
+            "multihop": 1,
+            "generic": 1
+        },
+        "geography": {
+            "generic": 1
+        }
+    },
+    "test": {
+        "total": 35,
+        "sports": {
+            "generic": 1,
+            "superlative": 1
+        },
+        "movies": {
+            "multihop": 2,
+            "superlative": 1,
+            "generic": 1
+        },
+        "music": {
+            "multihop": 1,
+            "superlative": 5,
+            "generic": 1
+        },
+        "books": {
+            "comparative": 2,
+            "difference": 4,
+            "ordinal": 1,
+            "superlative": 2,
+            "intersection": 2,
+            "generic": 2
+        },
+        "videogames": {
+            "difference": 1,
+            "intersection": 1,
+            "multihop": 5,
+            "ordinal": 2
+        }
+    },
+    "train": {
+        "total": 26,
+        "music": {
+            "superlative": 3
+        },
+        "videogames": {
+            "difference": 1,
+            "intersection": 2,
+            "multihop": 1,
+            "ordinal": 1
+        },
+        "books": {
+            "generic": 15
+        },
+        "geography": {
+            "generic": 2
+        },
+        "politics": {
+            "generic": 1
+        }
+    }
+}

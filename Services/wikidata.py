@@ -1,4 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, SPARQLExceptions, JSON
+import wikipedia
+from wikipedia.exceptions import DisambiguationError, PageError 
 import time
 
 query_find_labels_template = """SELECT ?entity ?label WHERE {
@@ -7,9 +9,76 @@ query_find_labels_template = """SELECT ?entity ?label WHERE {
   FILTER(LANG_STR)
 }
 """
-"LANG(?label) = '{lang}'"
+"LANG(?label) = '{lang}'" 
+
+query_find_dbpedia_page = """select ?e where
+{
+<http://dbpedia.org/resource/PAGE_IDENT> owl:sameAs ?e .
+FILTER contains(str(?e), "wikidata")
+}
+"""
+
+def find_wikidata_entity_from_string(search_string):
+    wp_search = wikipedia.search(search_string)
+
+    print(f"searching for: {search_string}")
+    print(f"found: {wp_search}")
+    if not wp_search:
+        print(f"Could not find a Wikipedia page for the search string: {search_string}")
+        return None
+    try:
+        page = wikipedia.page(wp_search[0], auto_suggest=False)
+    except DisambiguationError as e:
+        print(f"DisambiguationError: may refer to:")
+        disambiguation_options = e.options
+        print(disambiguation_options)
+    except PageError as e:
+        print(f"PageErro' does not match any pages. {e}")
+        return None
+    
+    url = page.url
+    ident = url.split("/")[-1]
+    query = query_find_dbpedia_page.replace("PAGE_IDENT", ident)
+    db_search = queryDBpedia(query)
+    if not db_search:
+        print(f"Could not find a DBpedia entity for the search string: {search_string}")
+        return
+    if not db_search['results']['bindings']:
+        print(f"Could not find a Wikidata entity for the search string: {search_string}")
+        return None
+    
+
+    entity_id = db_search['results']['bindings'][0]['e']['value'].split("/")[-1]
+    # {'head': {'link': [], 'vars': ['e']},
+    # 'results': 
+    #   {'distinct': False, 
+    #   'ordered': True, 
+    #   'bindings': 
+    #       [{'e': 
+    #           {'type': 'uri', 
+    #           'value': 'http://www.wikidata.org/entity/Q529026'}}]}}#
+    #results=> bindings[] => idx 0 => e => value => bingo.split
+    # use identifier on datapedia 
+    return entity_id
 
 
+def queryDBpedia(query):
+    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    try:
+        results = sparql.query().convert()
+        return results
+    except SPARQLExceptions.EndPointInternalError as e:
+        print(f"An internal error occurred while querying DBpedia: {e}")
+        print(f"Headers: {e.response.headers}")
+    except SPARQLExceptions.QueryBadFormed as e:
+        print(f"The query is malformed: {e}")
+        print(f"Headers: {e.response.headers}")
+    except Exception as e:
+        print(f"An error occurred while querying DBpedia: {e}")
+        if hasattr(e, 'response') and hasattr(e.response, 'headers'):
+            print(f"Headers: {e.response.headers}")
     
 def queryWikidata(query):
     """
@@ -100,6 +169,9 @@ def get_wikidata_labels_for_answer(entities, lang_codes):
 
 # Example usage
 if __name__ == "__main__":
-    entities = ["Q53945", "Q42", "Q1", "Q2", "Q3", "Q4", "Q430658"]
-    labels = get_wikidata_labels_for_answer(entities, ["da", "bn"])
-    print(labels)
+    search_string = "Truly Devious"
+    entity = find_wikidata_entity_from_string(search_string) #['Sound the Alarm', 'Alarm clock', 'Sound an Alarm', 'Sound the Alarm (Booker T. Jones album)', 'Sound the Alarm (band)', 'Sound the Alarm (Saves the Day album)', 'The Dawn (band)', 'Sound the Alarm (EP)', 'Saves the Day', 'Sound the Alarm (Howie Day album)']
+    print(entity)
+   
+  
+    

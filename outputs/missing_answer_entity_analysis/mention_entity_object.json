@@ -1,0 +1,1483 @@
+{
+    "dev": {
+        "c5fafd00": {
+            "question": "Did the total viewers of the Super Bowl increase or decrease from 2013 to 2020?",
+            "mention": "Decrease",
+            "entity": "Q5249659"
+        },
+        "183a6e96": {
+            "question": "Which Dragonriders of Pern book has not been released yet?",
+            "mention": "After the Fall is Over",
+            "entity": null
+        },
+        "17bc61e0": {
+            "question": "Which Ann Rule book is not about Ted Bundy?",
+            "mention": "Green River Running Red",
+            "entity": "Q357498"
+        },
+        "d5127f73": {
+            "question": "Which After (Anna Todd) novels were not released in 2014?",
+            "mention": "After Ever Happy, Before",
+            "entity": "Q105807115"
+        },
+        "4ec45191": {
+            "question": "Which Jack Reacher book was released in 2021?",
+            "mention": "Better Off Dead",
+            "entity": "Q1041839"
+        },
+        "8ccfccf2": {
+            "question": "Which book in the Truly Devious series was released in 2020?",
+            "mention": "The Hand on the Wall",
+            "entity": null
+        },
+        "865152d1": {
+            "question": "What is Beverly Jenkins first book in the Blessings series?",
+            "mention": "Bring on the Blessings",
+            "entity": "Q1137050"
+        },
+        "2bf3e2c6": {
+            "question": "In the Trails in the Sky series, who is Estelle's adopted brother and eventually becomes her love interest?",
+            "mention": "Joshua Bright",
+            "entity": "Q2468138"
+        },
+        "c5d31018": {
+            "question": "What is the name of the fourth zone in the third Sonic the Hedgehog game?",
+            "mention": "Carnival Night Zone",
+            "entity": "Q856562"
+        },
+        "fda4401b": {
+            "question": "Who is the adoptive brother of the main character of Assassin's Creed Valhalla?",
+            "mention": "Sigurd Styrbjornsson",
+            "entity": null
+        },
+        "f19eff0e": {
+            "question": "Who was the main villain played by Josh Brolin in the second Deadpool movie?",
+            "mention": "Cable",
+            "entity": null
+        },
+        "b8801438": {
+            "question": "What is the only Dick King-Smith book that was not released in or after the 1980s?",
+            "mention": "The Fox Busters",
+            "entity": "Q529399"
+        },
+        "bb9f5371": {
+            "question": "What is the length of time in years the longest running book series has continued?",
+            "mention": "Simon and Schuster Crossword Puzzle Book",
+            "entity": "Q83207"
+        },
+        "53ca8d20": {
+            "question": "Who is the main character in the Trivia Man?",
+            "mention": "Kevin Dwyer",
+            "entity": null
+        },
+        "926be4bd": {
+            "question": "What charity did the author of the Kingkiller Chronicles start?",
+            "mention": "Worldbuilders",
+            "entity": "Q514546"
+        },
+        "de4b71d0": {
+            "question": "Who is Alexei Karamazov's primary spiritual teacher at the monastery?",
+            "mention": "the elder Zosima",
+            "entity": "Q183157"
+        },
+        "bbdb166f": {
+            "question": "What does the Hachiko Statue in Shibuya signify?",
+            "mention": "Enduring loyalty",
+            "entity": "Q326668"
+        },
+        "e8836ab2": {
+            "question": "In the Fallout series, what is the word for the areas in which the games start?",
+            "mention": "Vaults",
+            "entity": null
+        },
+        "11ca35ae": {
+            "question": "How did Joel's daughter die in The Last of Us?",
+            "mention": "She was shot",
+            "entity": "Q266789"
+        }
+    },
+    "test": {
+        "b41ae115": {
+            "question": "Who performed at the Super Bowl XXIII halftime show?",
+            "mention": "Elvis Presto",
+            "entity": "Q1307150"
+        },
+        "c6ae646e": {
+            "question": "Which movie did the writer who wrote Me Talk Pretty One Day help write in 1994?",
+            "mention": "Smoking",
+            "entity": "Q662860"
+        },
+        "88f04611": {
+            "question": "What's the name of the father of the director of Star Wars?",
+            "mention": "George Walton Lucas Sr.",
+            "entity": "Q38222"
+        },
+        "4766fb88": {
+            "question": "What is the least-famous movie where John Travolta has acted?",
+            "mention": "Paul Williams Still Alive",
+            "entity": "Q111701048"
+        },
+        "607466c6": {
+            "question": "What is the name of the son of the oldest member of One Direction?",
+            "mention": "Freddie Reign Tomlinson",
+            "entity": "Q10745343"
+        },
+        "218d269b": {
+            "question": "What non-intro song is the shortest song on And Their Name Was Treason?",
+            "mention": "Sound the Alarm",
+            "entity": null
+        },
+        "547fd539": {
+            "question": "What is the longest song on the Now or Never album?",
+            "mention": "That's Country Music",
+            "entity": "Q83440"
+        },
+        "8cfcf5a1": {
+            "question": "What is the shortest song on the Now or Never album?",
+            "mention": "Coffee with Her",
+            "entity": null
+        },
+        "76938ff1": {
+            "question": "What is the longest song on the The Archer album?",
+            "mention": "Bad Disease",
+            "entity": "Q16408"
+        },
+        "8934427b": {
+            "question": "What is the shortest song on Tha Carter II?",
+            "mention": "Fly In",
+            "entity": "Q25312"
+        },
+        "6cbc1826": {
+            "question": "What is the shortest song on Let's Get It: Thug Motivation 101?",
+            "mention": "Get Ya Mind Right",
+            "entity": null
+        },
+        "913ff545": {
+            "question": "What's the shortest song on Miley Cyrus's album Plastic Hearts?",
+            "mention": "Gimme What I Want",
+            "entity": null
+        },
+        "472418b6": {
+            "question": "Who was the youngest person to win a Grammy?",
+            "mention": "Leah Peasall",
+            "entity": "Q20858447"
+        },
+        "4d0adb54": {
+            "question": "What is the shortest Imagine Dragons track?",
+            "mention": "Rocks",
+            "entity": "Q8063"
+        },
+        "eb18faae": {
+            "question": "Who has the highest career yards in the Div II division of NCAA football?",
+            "mention": "Bo Cordell",
+            "entity": "Q6591095"
+        },
+        "aa73af9b": {
+            "question": "Which series has more books, Kane Chronicles or The MacGregors?",
+            "mention": "The MacGregors",
+            "entity": "Q176254"
+        },
+        "7729770f": {
+            "question": "Which has more series, Magnus Chase or The MacKade Brothers?",
+            "mention": "The MacKade Brothers",
+            "entity": "Q1996601"
+        },
+        "46c39b30": {
+            "question": "Which Rachel Hollis book title does not start with the word Girl?",
+            "mention": "Didn't See That Coming",
+            "entity": null
+        },
+        "e4d57021": {
+            "question": "Which V.C Andrews book in the Audrina series was not written by Virginia Andrews?",
+            "mention": "Whitefern",
+            "entity": "Q3712586"
+        },
+        "767378b4": {
+            "question": "Which of Nicholas Sparks' first novels did he not publish?",
+            "mention": "The Passing and The Royal Murders",
+            "entity": "Q1288729"
+        },
+        "a5e07d6f": {
+            "question": "What character was in the book version of To Kill a Mockingbird but not the movie version?",
+            "mention": "Alexandra Finch",
+            "entity": "Q525777"
+        },
+        "afaa7618": {
+            "question": "Which book in Stephen King's Gwendy series has not been released yet as of 2021?",
+            "mention": "Gwendy's Final Task",
+            "entity": null
+        },
+        "25fd14d6": {
+            "question": "What is the second book in the Red Queen series?",
+            "mention": "Glass Sword",
+            "entity": "Q20967683"
+        },
+        "f513a285": {
+            "question": "Who was the oldest author when the final draft of their book was accepted for publication?",
+            "mention": "Jim Downing",
+            "entity": "Q6194705"
+        },
+        "f8701b0c": {
+            "question": "Which book in 20th Century's Greatest Hits: 100 English-Language Books of Fiction has lowest number of characters in its title (including spaces)?",
+            "mention": "Up",
+            "entity": null
+        },
+        "a9ef1d5b": {
+            "question": "In the 74th Hunger Games, who is the oldest tribute?",
+            "mention": "Tamora",
+            "entity": "Q443681"
+        },
+        "26f8bbb4": {
+            "question": "Which Apex Legends character is not and has never been human?",
+            "mention": "Pathfinder",
+            "entity": null
+        },
+        "98aed9e3": {
+            "question": "In which Call of Duty game mode do loadout drops not appear?",
+            "mention": "Plunder",
+            "entity": "Q17232029"
+        },
+        "0642b0fd": {
+            "question": "Which sequel to a 2D game is in 3D and features an electric ukulele?",
+            "mention": "Rick of Rain 2",
+            "entity": "Q17111841"
+        },
+        "101e3e66": {
+            "question": "Who is the protagonist in the fifth Final Fantasy game?",
+            "mention": "Bartz Klauser",
+            "entity": "Q5073823"
+        },
+        "3ceda9d9": {
+            "question": "What is the main goal of the first Final Fantasy's main character?",
+            "mention": "Save the Crystals",
+            "entity": "Q5297456"
+        },
+        "168f5d6c": {
+            "question": "What is Tifa Lockheart's childhood friend's first weapon called?",
+            "mention": "Buster Sword",
+            "entity": "Q1798592"
+        },
+        "1429b85a": {
+            "question": "In the original NES Castlevania, who is the boss of the level after the one with the giant bat?",
+            "mention": "Medusa",
+            "entity": "Q160730"
+        },
+        "d3a1994b": {
+            "question": "Who is the protagonist in the Assassin's Creed game that came out in 2013?",
+            "mention": "William Miles",
+            "entity": null
+        },
+        "12776624": {
+            "question": "What is the first DLC for Borderlands 3?",
+            "mention": "Moxxi's Heist of the Handsome Jackpot",
+            "entity": "Q21004482"
+        },
+        "4c3babb6": {
+            "question": "Who was the 121st hero to be released in Dota 2?",
+            "mention": "Dawnbreaker",
+            "entity": "Q85447921"
+        },
+        "b4facc4d": {
+            "question": "What is the first piñata you get in Viva Piñata?",
+            "mention": "Whirlm",
+            "entity": null
+        },
+        "663ca4d0": {
+            "question": "What symphony did Beethoven not finish?",
+            "mention": "10th Symphony",
+            "entity": null
+        },
+        "678ad284": {
+            "question": "What is the longest song on the Eternal Blue album?",
+            "mention": "Constance",
+            "entity": null
+        },
+        "2fe1f593": {
+            "question": "Which of Patrick Bateman's girlfriends did he not kill in American Psycho?",
+            "mention": "Evelyn, Jeanette",
+            "entity": "Q6171887"
+        },
+        "dd78e6f0": {
+            "question": "Which author wrote Dog Man: Mothering Heights, which is the best-selling book in America in 2021?",
+            "mention": "Dav Pilkey",
+            "entity": "Q2550486"
+        },
+        "b2d2a2ee": {
+            "question": "Which character in the Fudge series was born on February 26 and inspires the \"Baby Feet\" paintings?",
+            "mention": "Tootsie Hatcher",
+            "entity": "Q6571479"
+        },
+        "02074df8": {
+            "question": "What is the fourth main dungeon in the first Zelda game for the N64?",
+            "mention": "Forest Temple",
+            "entity": "Q13099569"
+        },
+        "afc96493": {
+            "question": "What is the trophy for a Grammy?",
+            "mention": "The Gramophone Trophy",
+            "entity": "Q41254"
+        },
+        "095d7dc0": {
+            "question": "What rapper did Dave Chappelle famously parody?",
+            "mention": "Dylan",
+            "entity": "Q392"
+        },
+        "8504d749": {
+            "question": "Who was the successor of Martin in the Redwall series?",
+            "mention": "Matthias",
+            "entity": "Q4927273"
+        },
+        "79ed00bf": {
+            "question": "What did Charlie find to win a tour of the Willy Wonka's Chocolate Factory?",
+            "mention": "a golden ticket",
+            "entity": null
+        },
+        "06d6d97a": {
+            "question": "What did Jon Snow name his wolf?",
+            "mention": "Ghost",
+            "entity": "Q193291"
+        },
+        "9eb78f38": {
+            "question": "What is Anastasia's roommate named?",
+            "mention": "Kate Kavanagh",
+            "entity": null
+        },
+        "8886712e": {
+            "question": "What competition did Dean Koontz win as a senior in college?",
+            "mention": "Atlantic Monthly Fiction Competition",
+            "entity": null
+        },
+        "85324095": {
+            "question": "Who designed the Little Rock Nine Memorial that is located on the grounds of the Arkansas State Capitol?",
+            "mention": "John Deering",
+            "entity": null
+        },
+        "9dc8224c": {
+            "question": "Who is Grant Gustin married to?",
+            "mention": "Andrea Thoma",
+            "entity": null
+        },
+        "820eb79c": {
+            "question": "Who is the main eight-year-old-boy character in The Magic Tree House books?",
+            "mention": "Jack",
+            "entity": null
+        },
+        "524d2ee9": {
+            "question": "What planet does Subnautica take place on?",
+            "mention": "4546B",
+            "entity": null
+        },
+        "07e92cd9": {
+            "question": "What was the first raid in World of Warcraft?",
+            "mention": "Molten Core",
+            "entity": null
+        },
+        "4cf24d95": {
+            "question": "What is the name of the magic system in Final Fantasy VII?",
+            "mention": "Materia",
+            "entity": null
+        },
+        "99d621de": {
+            "question": "In Killing Floor, who is the final boss at the end of each game?",
+            "mention": "Patriarch",
+            "entity": null
+        },
+        "258c4fe1": {
+            "question": "What is the homeworld called in Homeworld?",
+            "mention": "Higara",
+            "entity": null
+        },
+        "1dbb7d6a": {
+            "question": "What world do the Landgraabs live in in The Sims 4?",
+            "mention": "Oasis Springs",
+            "entity": null
+        },
+        "c6510626": {
+            "question": "What is the name of Jack Mitchell's best friend in Call of Duty?",
+            "mention": "Will Irons",
+            "entity": null
+        },
+        "80e02a41": {
+            "question": "Who is the main bad guy in the Mega Man series?",
+            "mention": "Dr Wiley",
+            "entity": null
+        },
+        "87f1ac13": {
+            "question": "What is Mario's original name?",
+            "mention": "Ossan",
+            "entity": null
+        },
+        "3b4fc97d": {
+            "question": "What is the name of the final boss in Dark Souls?",
+            "mention": "Gwyn, Lord of Cinder",
+            "entity": null
+        },
+        "ad8dcec7": {
+            "question": "Who is the most popular deity in the Dragon Age franchise?",
+            "mention": "The Maker",
+            "entity": null
+        },
+        "e94b4483": {
+            "question": "What's one of Yoshi's unique superpowers?",
+            "mention": "He can turn the enemies that he eats into eggs that can then be thrown.",
+            "entity": null
+        },
+        "9b9a14d0": {
+            "question": "What was the name of Final Fantasy 4's main protagonist?",
+            "mention": "Cecil",
+            "entity": null
+        },
+        "d0336c26": {
+            "question": "Who is the protagonist of Fallout 4?",
+            "mention": "The Sole Survivor",
+            "entity": null
+        }
+    },
+    "train": {
+        "1381b12b": {
+            "question": "Where did the headlining actress of the movie Pretty Woman go to elementary school?",
+            "mention": "Fitzhugh Lee Elementary School",
+            "entity": null
+        },
+        "a77046cd": {
+            "question": "Which role did the recipient of the Oscar for Best Actor in 2021 play?",
+            "mention": "Anthony",
+            "entity": null
+        },
+        "2c29e477": {
+            "question": "What was Martin Scorsese's first movie?",
+            "mention": "New York City...Melting Point",
+            "entity": null
+        },
+        "fa27fbe8": {
+            "question": "Who directed the third movie in the Piranha series?",
+            "mention": "Scott P. Levy",
+            "entity": null
+        },
+        "e85bf7ac": {
+            "question": "Which Game of Thrones battle is the longest?",
+            "mention": "The Battle of Winterfell",
+            "entity": null
+        },
+        "4d2011f2": {
+            "question": "Which member of Amon Amarth was not born in Sweden?",
+            "mention": "Jocke Wallgren",
+            "entity": null
+        },
+        "f5ba441e": {
+            "question": "Which song was nominated for MTV VMA Best Push Performance of the Year and did not win in 2021?",
+            "mention": "Jxdn: Think About Me",
+            "entity": null
+        },
+        "1051e27b": {
+            "question": "Which Jhene Aiko collaboration was nominated for the Best R&B Performance Grammy but did not win?",
+            "mention": "Lightning & Thunder",
+            "entity": null
+        },
+        "767187e4": {
+            "question": "Which member of the Sauce Factory is not African American, as the rest of the artists are?",
+            "mention": "Peso Peso",
+            "entity": null
+        },
+        "78ca3fc5": {
+            "question": "Which song by Hatebreed was nominated for an award but did not win?",
+            "mention": "Live For This",
+            "entity": null
+        },
+        "bb2fa0af": {
+            "question": "Which awards were Powerwolf nominated for in Metal Hammer 2013 but did not receive?",
+            "mention": "Best German & Live Band",
+            "entity": null
+        },
+        "cc493bdb": {
+            "question": "Which members of BTS were not born in Seoul?",
+            "mention": "none of the BTS members were born in Seoul",
+            "entity": null
+        },
+        "622fef93": {
+            "question": "What is the vocal range of the singer of Bohemian Rhapsody?",
+            "mention": "4 octave, F2-F6",
+            "entity": null
+        },
+        "be3aa2ab": {
+            "question": "In which Joe Rogan episodes was the lead singer of Tool interviewed?",
+            "mention": "1326 and 1553",
+            "entity": null
+        },
+        "daff7e6e": {
+            "question": "What is Garth Brooks' first album?",
+            "mention": "Hungry Years",
+            "entity": null
+        },
+        "52649f1b": {
+            "question": "What was the name of the last Beatles' album?",
+            "mention": "Silver Beatles At Home 1960",
+            "entity": null
+        },
+        "9aaa274e": {
+            "question": "What is the last song on Taylor Swift's album 1989?",
+            "mention": "Clean",
+            "entity": null
+        },
+        "17e20a8c": {
+            "question": "What is the longest song in the world?",
+            "mention": "The Noise Militia (#38/76)",
+            "entity": null
+        },
+        "06840d74": {
+            "question": "What is the highest number of people to ever attend a rock concert event?",
+            "mention": "Rod Stewart at Copacabana Beach, 1994",
+            "entity": null
+        },
+        "d7b2018f": {
+            "question": "What's the longest song on CUTIEMARKS?",
+            "mention": "I DON'T NEED TO BE FIXED",
+            "entity": null
+        },
+        "d4477fad": {
+            "question": "Who is the youngest person to win a Grammy?",
+            "mention": "Leah Peasall",
+            "entity": "Q20858447"
+        },
+        "9f4924e9": {
+            "question": "Who is the youngest person to ever win a Grammy Award?",
+            "mention": "Leah Peasall",
+            "entity": "Q20858447"
+        },
+        "4f6b98aa": {
+            "question": "What is the shortest song on the Jagged Little Pill album?",
+            "mention": "Right Through You",
+            "entity": null
+        },
+        "28f90916": {
+            "question": "What is the longest song on the Dead and Gone album?",
+            "mention": "\"Cold\" (StabWalts 12\" Dance Mix)",
+            "entity": null
+        },
+        "b111320f": {
+            "question": "What is the longest Metallica song ever?",
+            "mention": "Mercyful Fate (song)",
+            "entity": null
+        },
+        "65141012": {
+            "question": "Who was the youngest artist to win a Grammy Award?",
+            "mention": "Leah Peasall",
+            "entity": "Q20858447"
+        },
+        "a485ac3e": {
+            "question": "What is the longest song recorded?",
+            "mention": "The Rise and Fall of Bossanova",
+            "entity": null
+        },
+        "5728060f": {
+            "question": "Of the 13 decathlons that Bruce Jenner competed in between 1973 and 1976, what was his only loss?",
+            "mention": "1975 AAU National Championships",
+            "entity": null
+        },
+        "adfd52b1": {
+            "question": "What is the name of the spouse of the current manager of the Philadelphia Phillies?",
+            "mention": "Kimberly Innocenzi",
+            "entity": null
+        },
+        "66cd0ac7": {
+            "question": "Which Baby-Sitters Club Super Special book was published later, Snowbound or BSC in the USA?",
+            "mention": "BSC in the USA",
+            "entity": null
+        },
+        "add362b0": {
+            "question": "Which Crescent City book has not been released yet?",
+            "mention": "House of Sky and Breath",
+            "entity": null
+        },
+        "7b74abf1": {
+            "question": "Which J.D. Robb book is not yet published?",
+            "mention": "Abandoned in Death",
+            "entity": null
+        },
+        "4a93b8ed": {
+            "question": "Which Outlander series book has not been released yet?",
+            "mention": "Go Tell the Bees That I am Gone",
+            "entity": null
+        },
+        "56a2eeb8": {
+            "question": "Which Alex Cross book hasn't been released yet?",
+            "mention": "Fear No Evil",
+            "entity": null
+        },
+        "a00c990a": {
+            "question": "Which book hasn't been released yet of the Girls of Paper and Fire series?",
+            "mention": "Girls of Fate and Fury",
+            "entity": null
+        },
+        "0e51bd39": {
+            "question": "Which book in The Last Hours trilogy has not been released yet?",
+            "mention": "Chain of Thorns",
+            "entity": null
+        },
+        "85798e3f": {
+            "question": "Which Jen Sincero book doesn't include You Are a Badass in the title?",
+            "mention": "Badass Habits",
+            "entity": null
+        },
+        "43036cb1": {
+            "question": "Which V.C Andrews book is not part of a series?",
+            "mention": "Gods of Green Mountain",
+            "entity": null
+        },
+        "6cc17fa8": {
+            "question": "Which book in the Shadowhunters saga has not hit the market yet?",
+            "mention": "Chain of Thorns",
+            "entity": null
+        },
+        "565f85b6": {
+            "question": "Which of the first three episodes of the second Nancy Drew series was not directed by Jon Cassar?",
+            "mention": "\"Welcome to the Callisto\"",
+            "entity": null
+        },
+        "a9d43d84": {
+            "question": "Which Outlander books have not been released yet?",
+            "mention": "Go Tell the Bees That I am Gone",
+            "entity": null
+        },
+        "11482690": {
+            "question": "Which Kingkiller Chronicle book has not been released yet?",
+            "mention": "The Doors of Stone",
+            "entity": null
+        },
+        "5714b251": {
+            "question": "What book, written by Kurt Vonnegut, was never published?",
+            "mention": "If God Were Alive Today",
+            "entity": null
+        },
+        "eabbf182": {
+            "question": "What character was featured in the Hunger Games books but not the movies?",
+            "mention": "Madge Undersee",
+            "entity": null
+        },
+        "d832e516": {
+            "question": "What Jurassic Park character appears in the books but not the movies?",
+            "mention": "Dr. Martin Guitierrez",
+            "entity": null
+        },
+        "a1062f9c": {
+            "question": "Which John Grisham legal/suspense novel has not been released yet as of October 12, 2021?",
+            "mention": "The Judge's List",
+            "entity": null
+        },
+        "037a76a2": {
+            "question": "Which book in the Serpent & Dove series was released in 2019?",
+            "mention": "Serpent & Dove",
+            "entity": null
+        },
+        "fb3d775c": {
+            "question": "Which book in the Serpent & Dove series was released in 2020?",
+            "mention": "Blood & Honey",
+            "entity": null
+        },
+        "be84c48a": {
+            "question": "Which book in the Truly Devious series was released in 2018?",
+            "mention": "Truly Devious: A Mystery",
+            "entity": null
+        },
+        "2d40ce8b": {
+            "question": "Which book in the Truly Devious series was released in 2019?",
+            "mention": "The Vanishing Stair",
+            "entity": null
+        },
+        "002b6bf5": {
+            "question": "Which book in John Sandford's Prey series was released in 2000?",
+            "mention": "Easy Prey",
+            "entity": null
+        },
+        "6583429e": {
+            "question": "Who did the author of the Twilight saga marry?",
+            "mention": "Christian Meyer",
+            "entity": null
+        },
+        "1694051c": {
+            "question": "What is Danielle Steel's last book?",
+            "mention": "The Butler",
+            "entity": null
+        },
+        "568d0ab8": {
+            "question": "What was Terry McMillian first book?",
+            "mention": "Mama",
+            "entity": null
+        },
+        "af22fc90": {
+            "question": "What was James Patterson's first book?",
+            "mention": "The Thomas Berryman Number",
+            "entity": null
+        },
+        "ae885aff": {
+            "question": "What is the last book Dan Brown has written?",
+            "mention": "Wild Symphony",
+            "entity": null
+        },
+        "24bb5807": {
+            "question": "What was J.K. Rowling's very first book?",
+            "mention": "Rabbit",
+            "entity": null
+        },
+        "37f36e68": {
+            "question": "Who is the youngest author?",
+            "mention": "Chryseis Knight",
+            "entity": null
+        },
+        "473c9d3e": {
+            "question": "Which Goosebumps book is the longest?",
+            "mention": "Goosebumps Wanted: The Haunted Mask",
+            "entity": null
+        },
+        "71a1d6a6": {
+            "question": "What is the smallest printed book?",
+            "mention": "Flowers of the Four Seasons",
+            "entity": null
+        },
+        "f2dd901b": {
+            "question": "What is the longest novel written in English?",
+            "mention": "The Blah Story",
+            "entity": null
+        },
+        "faf70747": {
+            "question": "Which group of younger citizens were not eligible for a stimulus check until January, 2021?",
+            "mention": "Dependents and college students.",
+            "entity": null
+        },
+        "ceead8c3": {
+            "question": "Which Halo game is the first and only mission not to feature a magnum?",
+            "mention": "Truth and Reconciliation",
+            "entity": "Q1501336"
+        },
+        "845b1b57": {
+            "question": "Which Everquest servers do not have all raid content unlocked by default?",
+            "mention": "Mischief, Thornblade, Aradune, Rizlona, Miragul, Selo, Mangler, Coirnav, Agnarr, Phinigel, Ragefire",
+            "entity": null
+        },
+        "741579ab": {
+            "question": "Which Legend of Heroes arc features Lloyd Bannings as the main protagonist and is based in the state of Crossbell?",
+            "mention": "Crossbell arc",
+            "entity": "Q20073229"
+        },
+        "645a4577": {
+            "question": "Who is a main character in the Trails in the Sky series and used to be an enforcer for Ouroboros?",
+            "mention": "Joshua Bright",
+            "entity": "Q2468138"
+        },
+        "f2c2c3dc": {
+            "question": "What was the name of the town founded by the inhabitants of the first Vault that the Vault Dweller turned to for help in Fallout?",
+            "mention": "Shady Sands",
+            "entity": null
+        },
+        "17ed65a4": {
+            "question": "What is the name of the little girl that the android, who rebels against Todd Williams, wants to protect in Detroit: Become Human?",
+            "mention": "Alice",
+            "entity": null
+        },
+        "7519ece4": {
+            "question": "What was Sora's nobody's favorite treat?",
+            "mention": "Sea Salt ice cream",
+            "entity": null
+        },
+        "50fb40fa": {
+            "question": "What are the names of Sora's Nobody's closest friends?",
+            "mention": "Axel and Xion",
+            "entity": null
+        },
+        "978e4026": {
+            "question": "Who is the father of Link's love interest in The Legend of Zelda: Breath of the Wild?",
+            "mention": "King Zora",
+            "entity": "Q13099569"
+        },
+        "c63b98cc": {
+            "question": "Who was the villain in the seventh Call of Duty?",
+            "mention": "Nikita Dragovich",
+            "entity": null
+        },
+        "fe5ff22f": {
+            "question": "Who is the antagonist in the second Shenmue game?",
+            "mention": "Lan Di",
+            "entity": null
+        },
+        "f2f000f4": {
+            "question": "Who is the antagonist in the second Resident Evil game?",
+            "mention": "the Super Tyrant",
+            "entity": null
+        },
+        "62830474": {
+            "question": "In Dota 2, who is the tree-hopping hero that was released in the A New Journey update?",
+            "mention": "Monkey King",
+            "entity": null
+        },
+        "71c17ae7": {
+            "question": "Who is the protagonist in the second Final Fantasy game?",
+            "mention": "Firion",
+            "entity": null
+        },
+        "cdfb9996": {
+            "question": "Who is the antagonist of Final Fantasy XIII's first sequel?",
+            "mention": "Caius Ballad",
+            "entity": null
+        },
+        "39ef70d6": {
+            "question": "What is the third dungeon of the first Zelda game for the Nintendo 64?",
+            "mention": "Jabu Jabu's Belly",
+            "entity": null
+        },
+        "1ea5ec97": {
+            "question": "Who is the final boss of the last Final Fantasy game for the NES?",
+            "mention": "Cloud of Darkness",
+            "entity": null
+        },
+        "dec9aa31": {
+            "question": "What were the crystals called that made the partner of the fox with two tails gain extra powers?",
+            "mention": "Chaos Crystals",
+            "entity": null
+        },
+        "9ee6f9c0": {
+            "question": "What is the name of the mother of the main character of Uncharted?",
+            "mention": "Cassandra Morgan",
+            "entity": null
+        },
+        "af388f97": {
+            "question": "Which character in Until Dawn was voiced by the 2019 Academy Award winner for Best Actor?",
+            "mention": "Josh Washington",
+            "entity": null
+        },
+        "5dd268fa": {
+            "question": "In Call of Duty: Advanced Warfare, what is the name of the best friend of the main protagonist?",
+            "mention": "Will Irons",
+            "entity": null
+        },
+        "19e8b6d6": {
+            "question": "Who is the love interest of the protagonist in the eighth game of the Assassin's Creed series?",
+            "mention": "Elise De LaSerre",
+            "entity": null
+        },
+        "a4d24bb0": {
+            "question": "Who is the main antagonist in the first expansion of Final Fantasy 14?",
+            "mention": "Archbishop Thordan VII",
+            "entity": null
+        },
+        "ead0ec11": {
+            "question": "Who is the daughter of the kidnapper of the Boss in Saints Row: Gat Out of Hell?",
+            "mention": "Jezebel",
+            "entity": null
+        },
+        "c549319b": {
+            "question": "What is the last boss on Minecraft?",
+            "mention": "The Heart of Ender",
+            "entity": null
+        },
+        "df7535b5": {
+            "question": "Who was the 12th character to be released in Apex Legends?",
+            "mention": "Revenant",
+            "entity": null
+        },
+        "15774a5d": {
+            "question": "What is the third level in Kingdom Hearts?",
+            "mention": "The Kingdom of Corona",
+            "entity": null
+        },
+        "078dab81": {
+            "question": "Who was a sibling of Isaac Newton's and also not a female?",
+            "mention": "Benjamin Smith",
+            "entity": null
+        },
+        "7f969b68": {
+            "question": "Which type of Olympic medals have not been included since 1948?",
+            "mention": "fine arts",
+            "entity": null
+        },
+        "014aa604": {
+            "question": "What is the name of the dog owned by the 37th president of the United States?",
+            "mention": "Checkers",
+            "entity": null
+        },
+        "836aad6c": {
+            "question": "What is the name of the star of Iron Man's eldest child?",
+            "mention": "Indio",
+            "entity": null
+        },
+        "085815d8": {
+            "question": "What is the name of the star of Iron Man's youngest child?",
+            "mention": "Avri Roel",
+            "entity": null
+        },
+        "684e2a0c": {
+            "question": "What is the name of the star of Iron Man's middle child?",
+            "mention": "Exton Elias",
+            "entity": null
+        },
+        "805a8775": {
+            "question": "Which character did the director of Matilda play?",
+            "mention": "Harry Wormwood",
+            "entity": null
+        },
+        "45fdbf11": {
+            "question": "What song recorded around the time of Taylor Swift's first album was not released?",
+            "mention": "I'd Lie",
+            "entity": null
+        },
+        "8720042f": {
+            "question": "Which song has the shortest duration in Lady Gaga's Chromatica standard edition album?",
+            "mention": "Chromatica III",
+            "entity": null
+        },
+        "d0f29588": {
+            "question": "What is the shortest track on Future's Purple Reign album?",
+            "mention": "Intro",
+            "entity": null
+        },
+        "a25dc1db": {
+            "question": "What is the shortest A Perfect Circle track on the Thirteenth Step album?",
+            "mention": "Lullaby",
+            "entity": null
+        },
+        "35dde9ba": {
+            "question": "What is the shortest track on Smoke and Mirrors album?",
+            "mention": "Release",
+            "entity": null
+        },
+        "48460d14": {
+            "question": "Who was the caddy for the golfer who won the 2005 US Open?",
+            "mention": "Michael Waite",
+            "entity": null
+        },
+        "f2599056": {
+            "question": "Who is the wife of the quarterback from the team who won the 2015 Superbowl?",
+            "mention": "Ashley Thompson",
+            "entity": null
+        },
+        "4ca5d1c6": {
+            "question": "Which book in The Kingkiller Chronicles has not been released yet?",
+            "mention": "The Doors of Stone",
+            "entity": null
+        },
+        "6f1f7078": {
+            "question": "Which book from the Outlander series has not been released yet?",
+            "mention": "Go Tell the Bees That I Am Gone",
+            "entity": null
+        },
+        "147fa4d6": {
+            "question": "What was the only Dick King-Smith publication that did not have just a single part?",
+            "mention": "Sophie",
+            "entity": null
+        },
+        "100f3e2a": {
+            "question": "Which Night's Watch character in the prologue of A Game of Thrones doesn't make a return in later books after he deserts?",
+            "mention": "Will",
+            "entity": null
+        },
+        "c0e16085": {
+            "question": "Which book features a kid's song and dozens of small insects who march?",
+            "mention": "The Ants Go Marching",
+            "entity": null
+        },
+        "45da50d9": {
+            "question": "What is the twentieth book in the Nancy Drew series?",
+            "mention": "The Vanishing Statue",
+            "entity": null
+        },
+        "c320035e": {
+            "question": "What was J.K. Rowling's first book?",
+            "mention": "Rabbit",
+            "entity": null
+        },
+        "18c6094f": {
+            "question": "What is Ben Greenfield's longest book that he wrote that was published?",
+            "mention": "Boundless",
+            "entity": null
+        },
+        "69c89d7e": {
+            "question": "Who is the oldest debut novelist?",
+            "mention": "Lorna Page",
+            "entity": null
+        },
+        "01c1cd03": {
+            "question": "Who is the oldest Game of Thrones character?",
+            "mention": "Bloodraven",
+            "entity": null
+        },
+        "cbdc6ca6": {
+            "question": "What street is Dubai's tallest building on?",
+            "mention": "Sheikh Mohammed bin Rashid Boulevard",
+            "entity": null
+        },
+        "1c85d79c": {
+            "question": "What is the tallest bridge in Tennessee?",
+            "mention": "The New River Bridge",
+            "entity": null
+        },
+        "cc549cb7": {
+            "question": "What political party did the first U.S. president belong to?",
+            "mention": "Unaffiliated",
+            "entity": null
+        },
+        "d35c0063": {
+            "question": "Which character in the Babysitters' Club series coaches a softball team and serves as club president?",
+            "mention": "Kristy Thomas",
+            "entity": null
+        },
+        "48fb380a": {
+            "question": "Which character in the Babysitters' Club series has diabetes and moved from New York City?",
+            "mention": "Stacey McGill",
+            "entity": null
+        },
+        "f3262629": {
+            "question": "What is the longest song on T. Rex's The Slider album?",
+            "mention": "Main Man",
+            "entity": null
+        },
+        "a453bc94": {
+            "question": "Who was the wife of the captain who went down with the Titanic?",
+            "mention": "Sarah Eleanor Pennington",
+            "entity": null
+        },
+        "1f2bdf53": {
+            "question": "Who is the protagonist in the third game of the Darksiders series?",
+            "mention": "Fury",
+            "entity": null
+        },
+        "1764ad13": {
+            "question": "Who is the first boss in the last Zelda game on the N64 platform?",
+            "mention": "Odolwa",
+            "entity": null
+        },
+        "86dc3dcf": {
+            "question": "Who is the third boss in the first SNES Link game?",
+            "mention": "The Lanmolas",
+            "entity": null
+        },
+        "2b03afe1": {
+            "question": "What is the first level of the first N64 Kirby game?",
+            "mention": "Pop Star",
+            "entity": null
+        },
+        "f4b7a94b": {
+            "question": "Who was the main villain in the tenth major installment in the Call of Duty series?",
+            "mention": "Gabriel T. Rorke",
+            "entity": null
+        },
+        "4d722ed3": {
+            "question": "What is the fifth mission of Metal Gear Solid V: The Phantom Pain?",
+            "mention": "Over the Fence",
+            "entity": null
+        },
+        "e0cf0136": {
+            "question": "What is the first Summon Materia you get in Final Fantasy VII Remake?",
+            "mention": "Ifrit",
+            "entity": null
+        },
+        "7dbb8a3b": {
+            "question": "The third Witcher game started off in which location?",
+            "mention": "White Orchard",
+            "entity": null
+        },
+        "8f0d678b": {
+            "question": "What was the second dungeon in Ocarina of Time?",
+            "mention": "Dodongo's Cavern",
+            "entity": "Q13099569"
+        },
+        "9d3baffb": {
+            "question": "What game on Steam has the most achievements?",
+            "mention": "Running Through Russia",
+            "entity": null
+        },
+        "8d5361f0": {
+            "question": "In the Matrix, does Neo take the red pill or the blue pill?",
+            "mention": "Red pill",
+            "entity": null
+        },
+        "55c75864": {
+            "question": "What is tattooed on Ozzy Osbourne's knees?",
+            "mention": "Smiley Faces",
+            "entity": null
+        },
+        "ddef0f5f": {
+            "question": "Which Goonies character was famous for the Truffle Shuffle?",
+            "mention": "Chunk",
+            "entity": null
+        },
+        "6e159c59": {
+            "question": "What was the name of Leonardo DiCaprio's character in Once Upon a Time in Hollywood?",
+            "mention": "Rick Dalton",
+            "entity": null
+        },
+        "98979e98": {
+            "question": "What is Doc's full name in the Back to the Future movie franchise?",
+            "mention": "Doctor Emmet Brown",
+            "entity": null
+        },
+        "a72de97f": {
+            "question": "What was Charles Kane's last word in Citizen Kane?",
+            "mention": "Rosebud",
+            "entity": null
+        },
+        "ce4e5db5": {
+            "question": "Who is Zooey Deschanel's second ex-husband?",
+            "mention": "Jacob Pechenik",
+            "entity": null
+        },
+        "65c6e68a": {
+            "question": "What was the triple LP by Alan Silva and the Celestial Communication Orchestra?",
+            "mention": "Seasons",
+            "entity": null
+        },
+        "21cc2725": {
+            "question": "Who is the lead singer of King 810?",
+            "mention": "David Gunn",
+            "entity": null
+        },
+        "444b6081": {
+            "question": "What was Charlie Parker's first album?",
+            "mention": "Encores",
+            "entity": null
+        },
+        "e173146f": {
+            "question": "In Money, Cardi B. sings \"I was born to…\"?",
+            "mention": "flex",
+            "entity": null
+        },
+        "786a0e81": {
+            "question": "What first governed Major League Baseball?",
+            "mention": "National Baseball Commission",
+            "entity": null
+        },
+        "a67f89d8": {
+            "question": "What is the nickname given to the official football of the NFL?",
+            "mention": "The Duke",
+            "entity": null
+        },
+        "9ee01521": {
+            "question": "Who did the Cat in the Hat visit?",
+            "mention": "Sally and Sam",
+            "entity": null
+        },
+        "6e148206": {
+            "question": "What house does Darrow O'lykos belong to?",
+            "mention": "house mars",
+            "entity": null
+        },
+        "628aec7a": {
+            "question": "Who is Annabeth Chase's dad?",
+            "mention": "Frederick Chase",
+            "entity": null
+        },
+        "52bb9cb4": {
+            "question": "Who is Balsa a bodyguard for in Moribito?",
+            "mention": "Chagum or the Prince",
+            "entity": null
+        },
+        "51adf2ad": {
+            "question": "Who is the main male character in Gone Girl?",
+            "mention": "Nick Dunne",
+            "entity": null
+        },
+        "3ab65961": {
+            "question": "Who wrote a Single Thread Cobbled Court Quilts book one?",
+            "mention": "Marie Bostwick",
+            "entity": null
+        },
+        "733ee141": {
+            "question": "What was Mariam's husband's name in Land of One Thousand Splendid Suns?",
+            "mention": "rasheed",
+            "entity": null
+        },
+        "7398f77c": {
+            "question": "What book did J. K. Rowling write at the age of six?",
+            "mention": "Rabbit",
+            "entity": null
+        },
+        "d8db4ae5": {
+            "question": "Who is General Tilney's son and love interest of Catherine?",
+            "mention": "Henry",
+            "entity": null
+        },
+        "6120e40a": {
+            "question": "What are the first names of the Hardy Boys?",
+            "mention": "Frank and Joe",
+            "entity": "Q6209903"
+        },
+        "b0440531": {
+            "question": "What does Holden Caulfield hate?",
+            "mention": "Phony people",
+            "entity": "Q190882"
+        },
+        "2f117794": {
+            "question": "Who are the main characters in Of Mice and Men?",
+            "mention": "George and Lennie",
+            "entity": "Q457977"
+        },
+        "d97fc828": {
+            "question": "Who are the main characters in the Magic Tree House series?",
+            "mention": "Jack and Annie",
+            "entity": "Q3231290"
+        },
+        "86ba2a6c": {
+            "question": "Who is George R. R. Martin's current wife?",
+            "mention": "Parris McBride",
+            "entity": "Q181677"
+        },
+        "4b0b38a1": {
+            "question": "What was Legolas' main weapon of choice?",
+            "mention": "Bow of the Galadhrim",
+            "entity": null
+        },
+        "cea47803": {
+            "question": "Who heads the investigation of the murders in Crime and Punishment?",
+            "mention": "Porfiry Petrovich",
+            "entity": "Q165318"
+        },
+        "da51a3e5": {
+            "question": "What is Captain Underpants' true identity?",
+            "mention": "Benjamin Krupp",
+            "entity": "Q2603941"
+        },
+        "43d110ed": {
+            "question": "Of what genre is Edgar Allen Poe considered the father?",
+            "mention": "The modern detective story",
+            "entity": "Q6060520"
+        },
+        "9da53131": {
+            "question": "What is the name of Jon Snow's dire wolf?",
+            "mention": "Ghost",
+            "entity": "Q193291"
+        },
+        "64f4829c": {
+            "question": "Who wrote Salaryman?",
+            "mention": "Meg Pei",
+            "entity": null
+        },
+        "d1908cb8": {
+            "question": "What was R. L. Stine's first published book?",
+            "mention": "Blind Date",
+            "entity": "Q884125"
+        },
+        "ac7764a9": {
+            "question": "What is the name of the character who arrives fresh off the bus from her tiny town in New England to arrive at her new life in Valley of the Dolls?",
+            "mention": "Anne Wells",
+            "entity": "Q2626293"
+        },
+        "a24842d1": {
+            "question": "Who wrote With Every Letter (Wings of the Nightingale Book 1)?",
+            "mention": "Sarah Sundin",
+            "entity": "Q1420226"
+        },
+        "7b237ff2": {
+            "question": "Which character lived at Sunnybrook Farm?",
+            "mention": "Rebecca Rowena Randall",
+            "entity": "Q7301985"
+        },
+        "c0e387f1": {
+            "question": "What was the most popular \"choose your own adventure\" book?",
+            "mention": "The forbidden castle",
+            "entity": "Q6567146"
+        },
+        "4c1737ad": {
+            "question": "What is the name of Scarlett O'Hara's home?",
+            "mention": "Tara",
+            "entity": null
+        },
+        "60311f4d": {
+            "question": "What is Gandalf?",
+            "mention": "A wizard",
+            "entity": null
+        },
+        "bd004b01": {
+            "question": "What was Karen Kingsbury's first novel?",
+            "mention": "Where Yesterday Lives",
+            "entity": "Q4567381"
+        },
+        "bdf67f6a": {
+            "question": "What are the two characters called in Normal People?",
+            "mention": "Connell and Marianne",
+            "entity": null
+        },
+        "682d44ee": {
+            "question": "What is on top of the Washington Monument?",
+            "mention": "An Aluminium Pyramid",
+            "entity": "Q28220591"
+        },
+        "bead4e52": {
+            "question": "What was Bangkok nicknamed in the nineteenth century?",
+            "mention": "Venice of the east",
+            "entity": "Q6633505"
+        },
+        "d71589e2": {
+            "question": "What was Ohio representative Jim Jordan's job before he joined Congress?",
+            "mention": "Ohio State Wrestling Coach",
+            "entity": "Q85790365"
+        },
+        "16b36c0a": {
+            "question": "What was the European Union's initial aim back in the days?",
+            "mention": "end wars",
+            "entity": null
+        },
+        "6d003bd6": {
+            "question": "Who invented the underwire bra?",
+            "mention": "Marie Tucek",
+            "entity": null
+        },
+        "ebca5ba9": {
+            "question": "In Ancient Greece who was not allowed to watch the Olympic Games?",
+            "mention": "Married women",
+            "entity": null
+        },
+        "49ce4a6f": {
+            "question": "What is Candyman's real name?",
+            "mention": "Daniel Robitaille",
+            "entity": null
+        },
+        "a1b3631a": {
+            "question": "What is the name of Sephiroth's sword?",
+            "mention": "Masamune",
+            "entity": null
+        },
+        "ca16fc2f": {
+            "question": "What is the name of the Siren character in Borderlands?",
+            "mention": "Lillith",
+            "entity": null
+        },
+        "80741c11": {
+            "question": "What is the main feature or end game event in The Division?",
+            "mention": "The release of a virus.",
+            "entity": null
+        },
+        "32927810": {
+            "question": "Who was the main antagonist of Bioshock?",
+            "mention": "Frank Fontaine",
+            "entity": null
+        },
+        "9ad85480": {
+            "question": "What planet is Master Chief from the Halo series from?",
+            "mention": "Eridanus II",
+            "entity": null
+        },
+        "e26f1f3a": {
+            "question": "Who was the protagonist of Dragon Age Origins?",
+            "mention": "The Warden",
+            "entity": null
+        },
+        "92bdeecc": {
+            "question": "Who's castle do you have to enter in Megaman 2?",
+            "mention": "Dr. Wiley",
+            "entity": null
+        },
+        "b8ce1401": {
+            "question": "What happens to Mario when he eats a mushroom?",
+            "mention": "He gets bigger.",
+            "entity": null
+        },
+        "71543584": {
+            "question": "What happens to Mario when he eats a flower?",
+            "mention": "He shoots fireballs.",
+            "entity": null
+        },
+        "7221bead": {
+            "question": "What weapon does Tifa from Final Fantasy VII use?",
+            "mention": "Fists",
+            "entity": null
+        },
+        "e13355cc": {
+            "question": "What is the name of the final course in all Mario Kart video games?",
+            "mention": "rainbow road",
+            "entity": null
+        },
+        "2ea7af30": {
+            "question": "In Call of Duty: Advanced Warfare what is the name of Jack Mitchell's best friend?",
+            "mention": "will irons",
+            "entity": null
+        },
+        "39d122ef": {
+            "question": "Who is the carpenter in Stardew Valley?",
+            "mention": "Robin",
+            "entity": null
+        },
+        "19592add": {
+            "question": "How do you make obsidian in Minecraft?",
+            "mention": "Mix water with lava.",
+            "entity": null
+        },
+        "05f1c478": {
+            "question": "What is the name of the planet that Gears of War takes place on?",
+            "mention": "Sera",
+            "entity": null
+        },
+        "ccccb217": {
+            "question": "What clan does the witch Bayonetta belong to in Bayonetta?",
+            "mention": "Umbra Witches clan",
+            "entity": null
+        },
+        "cd70ea01": {
+            "question": "What are the names of the ghosts in the original Pac-Man game?",
+            "mention": "Inky, Blinky, Pinky and Clyde",
+            "entity": null
+        },
+        "fd038dc7": {
+            "question": "Who are the three playable characters in Resonance of Fate?",
+            "mention": "Zephyr, Vashyron, and Leanne",
+            "entity": null
+        },
+        "19ffccb5": {
+            "question": "Who is the lead character of Rise to Honor?",
+            "mention": "Kit Yun",
+            "entity": null
+        },
+        "38674089": {
+            "question": "Which item made Mario invincible in Super Mario Bros.?",
+            "mention": "Starman or Super Star",
+            "entity": null
+        },
+        "6d00d7b7": {
+            "question": "On what planet does Gears of War take place?",
+            "mention": "Sera",
+            "entity": null
+        },
+        "8b9a6e1e": {
+            "question": "What is the name of the final course in all Mario Kart games?",
+            "mention": "Rainbow Road",
+            "entity": null
+        },
+        "1bcb2feb": {
+            "question": "Who's the secondary antagonist of Mario?",
+            "mention": "Midbus",
+            "entity": null
+        },
+        "a9dded8e": {
+            "question": "What role does Toad play?",
+            "mention": "Toad is Princess Peach's attendant.",
+            "entity": null
+        },
+        "c120b0e0": {
+            "question": "What was the name of Final Fantasy 4's main antagonist?",
+            "mention": "Golbez",
+            "entity": null
+        },
+        "9a8e1d87": {
+            "question": "What was the name of Final Fantasy 4's controllable ninja character?",
+            "mention": "Edge",
+            "entity": null
+        },
+        "c85bd90e": {
+            "question": "In the game Overcooked, which kingdom is in danger?",
+            "mention": "Onion Kingdom",
+            "entity": null
+        },
+        "3c2fecea": {
+            "question": "What kingdom is Vaan Hail from in Final Fantasy 12?",
+            "mention": "Dalmasca",
+            "entity": null
+        },
+        "14baf722": {
+            "question": "In South Park: Stick of Truth, what class is named after an ethnic group?",
+            "mention": "The Jew",
+            "entity": null
+        },
+        "df0a47d6": {
+            "question": "What is the most expensive fish in Animal Crossing Pocket Camp?",
+            "mention": "King Koi, King Red Snapper",
+            "entity": null
+        }
+    }
+}
