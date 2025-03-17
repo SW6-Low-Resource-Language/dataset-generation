@@ -7,6 +7,7 @@ query_find_labels_template = """SELECT ?entity ?label WHERE {
   FILTER(LANG_STR)
 }
 """
+"LANG(?label) = '{lang}'"
 
 
     

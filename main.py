@@ -58,12 +58,12 @@ def run_pipeline(data_paths, output_paths, lang_codes = ["da", "bn"]):
     # first step with translation done, now we will find wikidata labels for the answer entities
     for key, d_path in data_paths.items():
         dataset_name = os.path.basename(d_path).replace(".json","")
-        """ answer_entities = extract_answer_entities(d_path)
+        answer_entities = extract_answer_entities(d_path)
         write_json(answer_entities, f'./outputs/answer_entities_maps/{os.path.basename(d_path.replace(".json",""))}_answer_entities.json')
         answer_labels = get_wikidata_labels(answer_entities)
         write_json(answer_labels, f'./outputs/answer_labels/{os.path.basename(d_path).replace(".json","")}_answer_labels.json')
         translated_files = txt_files[key]["Translations"]
-        extend_mintaka_json(d_path, answer_labels, translated_files) """
+        extend_mintaka_json(d_path, answer_labels, translated_files)
         answer_labels = open_json(f'./outputs/answer_labels/{os.path.basename(d_path).replace(".json","")}_answer_labels.json')
         generate_answer_label_sheet(answer_labels, lang_codes, dataset_name)
     

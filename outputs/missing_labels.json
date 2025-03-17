@@ -1,0 +1,177 @@
+{
+    "all": {
+        "sports": {
+            "total": 9,
+            "comparative": 1,
+            "generic": 3,
+            "superlative": 1,
+            "difference": 1,
+            "multihop": 3
+        },
+        "books": {
+            "total": 104,
+            "difference": 30,
+            "intersection": 12,
+            "ordinal": 9,
+            "superlative": 11,
+            "generic": 38,
+            "comparative": 3,
+            "multihop": 1
+        },
+        "videogames": {
+            "total": 98,
+            "intersection": 4,
+            "multihop": 33,
+            "generic": 45,
+            "difference": 4,
+            "ordinal": 10,
+            "superlative": 2
+        },
+        "movies": {
+            "total": 23,
+            "ordinal": 3,
+            "multihop": 8,
+            "superlative": 2,
+            "generic": 10
+        },
+        "geography": {
+            "total": 6,
+            "generic": 4,
+            "multihop": 1,
+            "superlative": 1
+        },
+        "music": {
+            "total": 45,
+            "multihop": 3,
+            "superlative": 25,
+            "difference": 9,
+            "generic": 5,
+            "ordinal": 3
+        },
+        "politics": {
+            "total": 4,
+            "difference": 1,
+            "multihop": 1,
+            "generic": 2
+        },
+        "history": {
+            "total": 6,
+            "difference": 2,
+            "multihop": 2,
+            "generic": 2
+        }
+    },
+    "dev": {
+        "total": 19,
+        "sports": {
+            "comparative": 1
+        },
+        "books": {
+            "difference": 4,
+            "intersection": 2,
+            "ordinal": 1,
+            "superlative": 1,
+            "generic": 3
+        },
+        "videogames": {
+            "intersection": 1,
+            "multihop": 2,
+            "generic": 2
+        },
+        "movies": {
+            "ordinal": 1
+        },
+        "geography": {
+            "generic": 1
+        }
+    },
+    "test": {
+        "total": 67,
+        "sports": {
+            "generic": 1,
+            "superlative": 1
+        },
+        "movies": {
+            "multihop": 2,
+            "superlative": 1,
+            "generic": 2
+        },
+        "music": {
+            "multihop": 1,
+            "superlative": 10,
+            "difference": 1,
+            "generic": 1
+        },
+        "books": {
+            "comparative": 2,
+            "difference": 6,
+            "ordinal": 1,
+            "superlative": 3,
+            "intersection": 2,
+            "generic": 6
+        },
+        "videogames": {
+            "difference": 2,
+            "intersection": 1,
+            "multihop": 6,
+            "ordinal": 3,
+            "generic": 14
+        },
+        "geography": {
+            "generic": 1
+        }
+    },
+    "train": {
+        "total": 209,
+        "movies": {
+            "multihop": 6,
+            "ordinal": 2,
+            "superlative": 1,
+            "generic": 8
+        },
+        "music": {
+            "difference": 8,
+            "multihop": 2,
+            "ordinal": 3,
+            "superlative": 15,
+            "generic": 4
+        },
+        "sports": {
+            "difference": 1,
+            "multihop": 3,
+            "generic": 2
+        },
+        "books": {
+            "comparative": 1,
+            "difference": 20,
+            "intersection": 8,
+            "multihop": 1,
+            "ordinal": 7,
+            "superlative": 7,
+            "generic": 29
+        },
+        "politics": {
+            "difference": 1,
+            "multihop": 1,
+            "generic": 2
+        },
+        "videogames": {
+            "difference": 2,
+            "intersection": 2,
+            "multihop": 25,
+            "ordinal": 7,
+            "superlative": 2,
+            "generic": 29
+        },
+        "history": {
+            "difference": 2,
+            "multihop": 2,
+            "generic": 2
+        },
+        "geography": {
+            "multihop": 1,
+            "superlative": 1,
+            "generic": 2
+        }
+    }
+}
