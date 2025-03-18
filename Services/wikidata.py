@@ -32,6 +32,7 @@ def find_wikidata_entity_from_string(search_string):
         print(f"DisambiguationError: may refer to:")
         disambiguation_options = e.options
         print(disambiguation_options)
+        return None
     except PageError as e:
         print(f"PageErro' does not match any pages. {e}")
         return None
@@ -39,6 +40,7 @@ def find_wikidata_entity_from_string(search_string):
     url = page.url
     ident = url.split("/")[-1]
     query = query_find_dbpedia_page.replace("PAGE_IDENT", ident)
+    print(f"querying dbpedia for: {query}")
     db_search = queryDBpedia(query)
     if not db_search:
         print(f"Could not find a DBpedia entity for the search string: {search_string}")

@@ -55,7 +55,7 @@ def run_analysis(data_sheets):
                     found_entities["all"][cat][complexity] += 1
                     found_entities["all"][cat]["total"] += 1
 
-                mention_entity_object[data_name][id] = {"question": question, "mention": mention, "entity": entity}
+                mention_entity_object[data_name][id] = {"question": question, "mention": mention, "entity": entity, "category": cat, "complexity": complexity}
 
                 
                 
