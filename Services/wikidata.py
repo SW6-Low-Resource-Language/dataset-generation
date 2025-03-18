@@ -126,9 +126,12 @@ def get_wikidata_labels(answer_entities, lang_codes=["da", "bn"]):
 
     inBatch = 0
     batch = []
+    batch_size = 100
     
     for answer_entities_ids in answer_entities.values():
-        if inBatch == 50:
+        batch.extend(answer_entities_ids)
+        inBatch += 1 
+        if inBatch == batch_size:
             labels = get_wikidata_labels_for_answer(batch, lang_codes)
             inBatch = 0
             batch = []
@@ -136,10 +139,7 @@ def get_wikidata_labels(answer_entities, lang_codes=["da", "bn"]):
             for entity, lan_labels in labels.items():
                 for lan, label in lan_labels.items():
                     entity_lan_labels_map[entity][lan] = label
-        else:
-            batch.extend(answer_entities_ids)
-            inBatch += 1 
-    
+            
     return entity_lan_labels_map
 
 

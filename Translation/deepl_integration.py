@@ -8,6 +8,28 @@ load_dotenv()
 auth_key = os.getenv("DEEPL_AUTH_KEY")
 deepl_client = deepl.DeepLClient(auth_key)
 
+
+def deepl_translate_text(text, target_language="DA"):
+    """
+    Translates a text string using the DeepL API.
+    Args:
+        text (str): The text to be translated.
+        target_language (str, optional): The target language code for translation. Defaults to "DA" (Danish).
+    Returns:
+        str: The translated text.
+    """
+    try:
+        # Using translate_text() with a text string
+        translated_text = deepl_client.translate_text(
+            text,
+            target_lang=target_language,
+        )
+        return translated_text
+    except deepl.DeepLException as error:
+        # Errors during upload raise a DeepLException
+        print(error)
+
+
 def deepl_translate_large_text_file(input_path, output_path, target_language="DA"):
     """
     Translates a large text file using the DeepL API and saves the translated file to the specified output path.
@@ -23,6 +45,7 @@ def deepl_translate_large_text_file(input_path, output_path, target_language="DA
             output_path,
             target_lang=target_language,
         )
+        print(f"DeepL Translated file saved to {output_path}")
     except deepl.DocumentTranslationException as error:
         # If an error occurs during document translation after the document was
         # already uploaded, a DocumentTranslationException is raised. The
@@ -34,4 +57,5 @@ def deepl_translate_large_text_file(input_path, output_path, target_language="DA
     except deepl.DeepLException as error:
         # Errors during upload raise a DeepLException
         print(error)
+
 

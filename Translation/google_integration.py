@@ -68,7 +68,7 @@ def google_translate_chunks(input_file, output_file, target_language="bn"):
 
 
 # This function translates a txt file line by line with google api, it's significantly slower than the chunking method but provides correct output (content was lost in translating to bn with chunks)
-def google_translate_line_by_line(input_file, output_file, target_language="bn"):
+def google_translate_line_by_line(input_path, output_path, target_language="bn"):
     """
     Translates the content of a large text file line by line using Google Cloud Translation API and saves the translated text to an output file.
     Args:
@@ -79,11 +79,15 @@ def google_translate_line_by_line(input_file, output_file, target_language="bn")
     client = translate_v3.TranslationServiceClient()
     parent = f"projects/{PROJECT_ID}/locations/global"
 
-    with open(input_file, "r", encoding="utf-8") as file:
+    with open(input_path, "r", encoding="utf-8") as file:
         lines = file.readlines()
 
     translated_lines = []
+    count = 0
+    lines_len = len(lines)
     for line in lines:
+        print(f"Translating line {count + 1} of {lines_len}")
+        count += 1
         response = client.translate_text(
             parent=parent,
             contents=[line],
@@ -91,10 +95,37 @@ def google_translate_line_by_line(input_file, output_file, target_language="bn")
             target_language_code=target_language,
             source_language_code="en-US",
         )
-        translated_text = response.translations[0].translated_text
+        translated_text = response.translations[0].translated_text.replace("\n", "")
+
         translated_lines.append(translated_text)
 
-    with open(output_file, "w", encoding="utf-8") as file:
+    with open(output_path, "w", encoding="utf-8") as file:
         file.write("\n".join(translated_lines))
-    print(f"Translation saved to {output_file}")
+    print(f"Translation saved to {output_path}")
+
+def google_translate_text(text, target_language):
+    """
+    Translates a text string using the Google Cloud Translation API.
+    Args:
+        text (str): The text to be translated.
+        target_language (str): The target language code for translation.
+    Returns:
+        str: The translated text.
+    """
+    client = translate_v3.TranslationServiceClient()
+    parent = f"projects/{PROJECT_ID}/locations/global"
+    response = client.translate_text(
+        parent=parent,
+        contents=[text],
+        mime_type="text/plain",
+        target_language_code=target_language,
+        source_language_code="en-US",
+    )
+    translated_text = response.translations[0].translated_text
+    return translated_text
+
+# Example usage of the functions
+if __name__ == "__main__":
+    text = google_translate_text("9ace9041: What is the fourth book in the Twilight series?", "bn")
+    print(text)
     
