@@ -17,3 +17,9 @@ to update dependencies write:
 
 ## How to
  
+
+## env variables
+in order for the pipeline to function you need to have the following api keys specified in a an .env file located in the root folder
+- DEEPL_AUTH_KEY - https://www.deepl.com/en/your-account/keys
+- GOOGLE_CLOUD_PROJECT - ID for your project with the translator api enabled
+- Note: For google translation ADC needs to be configured 
