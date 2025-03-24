@@ -41,7 +41,7 @@ txt_files = {
 }
 
 
-translate = True
+translate = False
 samples = 0 # amount of translated samples extracted to excel sheet for validation
 extend_mintaka = False
 
@@ -54,13 +54,13 @@ def run_pipeline(data_paths, output_paths, lang_codes = ["da"]):
     if translate:
         for key, path in data_paths.items():
             json_map = extract_questions(path, output_paths[key])
-            questions_path = f'./outputs/questions_txt_files/{key}_questions.txt_2.txt'
+            questions_path = f'./outputs/questions_txt_files/{key}_questions.txt'
             """ questions = generate_questions_txt_file(json_map, questions_path)  """
             for lang in lang_codes:
                 if lang == "bn":
                     google_translate_line_by_line(questions_path, f'./outputs/translations/google/{key}_questions_{lang}_linebyline.txt', lang)
                 elif lang == "da":
-                    deepl_translate_large_text_file(questions_path, f'./outputs/translations/deepl/{key}_questions_{lang}_2.txt')
+                    deepl_translate_large_text_file(questions_path, f'./outputs/translations/deepl/{key}_questions_{lang}.txt')
                 
     # pause and validate the translations
         if(samples > 0):
