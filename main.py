@@ -20,7 +20,7 @@ from Translation.google_integration import google_translate_line_by_line
 from Translation.deepl_integration import deepl_translate_large_text_file
 import os
 data_paths = {
-    'test': './data/mintaka_test.json',
+    'train': './data/mintaka_train.json',
 }
 # this object should be created on the fly when the pipeline is done
 txt_files = {
@@ -41,7 +41,7 @@ txt_files = {
 }
 
 
-translate = False
+translate = True
 samples = 0 # amount of translated samples extracted to excel sheet for validation
 extend_mintaka = False
 
@@ -50,17 +50,17 @@ output_paths = {
     'test': './data/id2question_test.json',
     'train': './data/id2question_train.json',
 }
-def run_pipeline(data_paths, output_paths, lang_codes = ["da", "bn"]):
+def run_pipeline(data_paths, output_paths, lang_codes = ["da"]):
     if translate:
         for key, path in data_paths.items():
             json_map = extract_questions(path, output_paths[key])
-            questions_path = f'./outputs/questions_txt_files/{key}_questions.txt'
-            questions = generate_questions_txt_file(json_map, questions_path) 
+            questions_path = f'./outputs/questions_txt_files/{key}_questions.txt_2.txt'
+            """ questions = generate_questions_txt_file(json_map, questions_path)  """
             for lang in lang_codes:
                 if lang == "bn":
                     google_translate_line_by_line(questions_path, f'./outputs/translations/google/{key}_questions_{lang}_linebyline.txt', lang)
                 elif lang == "da":
-                    deepl_translate_large_text_file(questions_path, f'./outputs/translations/deepl/{key}_questions_{lang}.txt')
+                    deepl_translate_large_text_file(questions_path, f'./outputs/translations/deepl/{key}_questions_{lang}_2.txt')
                 
     # pause and validate the translations
         if(samples > 0):
