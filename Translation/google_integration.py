@@ -2,6 +2,7 @@
 import os
 from dotenv import load_dotenv
 from google.cloud import translate_v3
+from Services.file_service import open_txt, write_txt
 
 load_dotenv()
 PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT")
@@ -79,9 +80,7 @@ def google_translate_line_by_line(input_path, output_path, target_language="bn")
     client = translate_v3.TranslationServiceClient()
     parent = f"projects/{PROJECT_ID}/locations/global"
 
-    with open(input_path, "r", encoding="utf-8") as file:
-        lines = file.readlines()
-
+    lines = open_txt(input_path)    
     translated_lines = []
     count = 0
     lines_len = len(lines)
@@ -99,8 +98,7 @@ def google_translate_line_by_line(input_path, output_path, target_language="bn")
 
         translated_lines.append(translated_text)
 
-    with open(output_path, "w", encoding="utf-8") as file:
-        file.write("\n".join(translated_lines))
+    write_txt(translated_lines, output_path)
     print(f"Translation saved to {output_path}")
 
 def google_translate_text(text, target_language):
