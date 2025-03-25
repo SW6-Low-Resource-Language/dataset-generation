@@ -7,6 +7,7 @@ def generate_answer_label_sheet(answer_labels, language_codes, dataset_name):
     headers = ["Entity ID"]
     lang_index_map = {}
     for index, lang in enumerate(language_codes):
+        print(f"Adding header for {lang}")
         headers.append(f"{lang}-label")
         lang_index_map[lang] = index + 1
     headers.append("Wikidata URL")

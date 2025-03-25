@@ -93,19 +93,25 @@ def queryWikidata(query):
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
-    try:
-        results = sparql.query().convert()
-        return results
-    except SPARQLExceptions.EndPointInternalError as e:
-        print(f"An internal error occurred while querying Wikidata: {e}")
-        print(f"Headers: {e.response.headers}")
-    except SPARQLExceptions.QueryBadFormed as e:
-        print(f"The query is malformed: {e}")
-        print(f"Headers: {e.response.headers}")
-    except Exception as e:
-        print(f"An error occurred while querying Wikidata: {e}")
-        if hasattr(e, 'response') and hasattr(e.response, 'headers'):
+    retries = 5
+    for attempt in range(retries):
+        try:
+            results = sparql.query().convert()
+            return results
+        except SPARQLExceptions.EndPointInternalError as e:
+            print(f"Attempt {attempt + 1}/{retries}: An internal error occurred while querying Wikidata: {e}")
             print(f"Headers: {e.response.headers}")
+        except SPARQLExceptions.QueryBadFormed as e:
+            print(f"Attempt {attempt + 1}/{retries}: The query is malformed: {e}")
+            print(f"Headers: {e.response.headers}")
+            break  # No point in retrying if the query is malformed
+        except Exception as e:
+            print(f"Attempt {attempt + 1}/{retries}: An error occurred while querying Wikidata: {e}")
+            if hasattr(e, 'response') and hasattr(e.response, 'headers'):
+                print(f"Headers: {e.response.headers}")
+        if attempt < retries - 1:
+            print(f"Error, Retrying in 5 seconds...")
+            time.sleep(5)
     return None
 
 def get_wikidata_labels(answer_entities, lang_codes=["da", "bn"]):
@@ -135,7 +141,7 @@ def get_wikidata_labels(answer_entities, lang_codes=["da", "bn"]):
             labels = get_wikidata_labels_for_answer(batch, lang_codes)
             inBatch = 0
             batch = []
-            time.sleep(0.5)
+            time.sleep(2)
             for entity, lan_labels in labels.items():
                 for lan, label in lan_labels.items():
                     entity_lan_labels_map[entity][lan] = label
@@ -160,6 +166,8 @@ def get_wikidata_labels_for_answer(entities, lang_codes):
     query = query_find_labels_template.replace("ENTITY_IDS", entity_ids).replace("LANG_STR", lang_str)
     results = queryWikidata(query)
     labels = {}
+    if not results:
+        return labels
     for result in results["results"]["bindings"]:
         entity = result["entity"]["value"].split("/")[-1]
         lang_code = result["label"]["xml:lang"]
@@ -174,6 +182,5 @@ if __name__ == "__main__":
     search_string = "Truly Devious"
     entity = find_wikidata_entity_from_string(search_string) #['Sound the Alarm', 'Alarm clock', 'Sound an Alarm', 'Sound the Alarm (Booker T. Jones album)', 'Sound the Alarm (band)', 'Sound the Alarm (Saves the Day album)', 'The Dawn (band)', 'Sound the Alarm (EP)', 'Saves the Day', 'Sound the Alarm (Howie Day album)']
     print(entity)
-   
-  
-    
+
+

@@ -25,17 +25,24 @@ data_paths = {
 # this object should be created on the fly when the pipeline is done
 txt_files = {
     'dev' : {
-        "English": "../data/dev_questions.txt",
+        "English": "./outputs/questions_txt_files/dev_questions.txt",
         "Translations": {
             "da": "./outputs/translations/deepl/dev_questions_da.txt",
             "bn": "./outputs/translations/google/dev_questions_bn_linebyline.txt"
         }  
     },
     'test' : {
-        "English": "../data/test_questions.txt",
+        "English": "./outputs/questions_txt_files/test_questions.txt",
         "Translations": {
             "da": "./outputs/translations/deepl/test_questions_da.txt",
             "bn": "./outputs/translations/google/test_questions_bn_linebyline.txt"
+        }
+    },
+    'train' : {
+        "English": "./outputs/questions_txt_files/train_questions.txt",
+        "Translations": {
+            "da": "./outputs/translations/deepl/train_questions_da.txt",
+            "bn": "./outputs/translations/google/train_questions_bn_linebyline.txt"
         }
     }
 }
@@ -43,14 +50,14 @@ txt_files = {
 
 translate = False
 samples = 0 # amount of translated samples extracted to excel sheet for validation
-extend_mintaka = False
+extend_mintaka = True
 
 output_paths = {
     'dev': './data/id2question_dev.json',
     'test': './data/id2question_test.json',
     'train': './data/id2question_train.json',
 }
-def run_pipeline(data_paths, output_paths, lang_codes = ["da"]):
+def run_pipeline(data_paths, output_paths, lang_codes = ["da", "bn"]):
     if translate:
         for key, path in data_paths.items():
             json_map = extract_questions(path, output_paths[key])
@@ -71,14 +78,15 @@ def run_pipeline(data_paths, output_paths, lang_codes = ["da"]):
     if extend_mintaka:
         for key, d_path in data_paths.items():
             dataset_name = os.path.basename(d_path).replace(".json","")
-            answer_entities = extract_answer_entities(d_path)
+            """ answer_entities = extract_answer_entities(d_path)
             write_json(answer_entities, f'./outputs/answer_entities_maps/{dataset_name}_answer_entities.json')
             answer_labels = get_wikidata_labels(answer_entities)
             write_json(answer_labels, f'./outputs/answer_labels/{dataset_name}_answer_labels.json')
             translated_files = txt_files[key]["Translations"]
-            extend_mintaka_json(d_path, answer_labels, translated_files)
+            extend_mintaka_json(d_path, answer_labels, translated_files) """
             answer_labels = open_json(f'./outputs/answer_labels/{dataset_name}_answer_labels.json')
             generate_answer_label_sheet(answer_labels, lang_codes, dataset_name)
+            
     
 
 run_pipeline(data_paths, output_paths)
