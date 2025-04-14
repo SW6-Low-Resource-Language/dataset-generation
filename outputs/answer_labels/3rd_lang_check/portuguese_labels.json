@@ -1,0 +1,4724 @@
+{
+    "Q53945": {
+        "pt": "Amanhecer"
+    },
+    "Q17150": {
+        "pt": "Uncharted: Drake's Fortune"
+    },
+    "Q17146": {
+        "pt": "Uncharted 2: Among Thieves"
+    },
+    "Q17138": {
+        "pt": "Uncharted 3: Drake's Deception"
+    },
+    "Q1156718": {
+        "pt": "Uncharted: Golden Abyss"
+    },
+    "Q16681843": {
+        "pt": "Uncharted 4: A Thief's End"
+    },
+    "Q28088198": {
+        "pt": "Uncharted: The Lost Legacy"
+    },
+    "Q396": {
+        "pt": "U2"
+    },
+    "Q51577": {
+        "pt": "James Ivory"
+    },
+    "Q1061560": {
+        "pt": "Super Mario Kart"
+    },
+    "Q1046604": {
+        "pt": "Mario Kart 64"
+    },
+    "Q2068675": {
+        "pt": "Mario Kart: Super Circuit"
+    },
+    "Q5721431": {
+        "pt": "Mario Kart: Double Dash"
+    },
+    "Q858564": {
+        "pt": "Mario Kart DS"
+    },
+    "Q838707": {
+        "pt": "Mario Kart Wii"
+    },
+    "Q1117024": {
+        "pt": "Mario Kart 7"
+    },
+    "Q2575214": {
+        "pt": "Mario Kart Arcade GP"
+    },
+    "Q98844808": {
+        "pt": "Mario Kart Live: Home Circuit"
+    },
+    "Q1751870": {
+        "pt": "A Game of Thrones"
+    },
+    "Q904928": {
+        "pt": "Super Bowl XL"
+    },
+    "Q1710023": {
+        "pt": "Super Bowl XLIX"
+    },
+    "Q7520267": {
+        "pt": "Simone Biles"
+    },
+    "Q19848": {
+        "pt": "Lady Gaga"
+    },
+    "Q48337": {
+        "pt": "Morgan Freeman"
+    },
+    "Q65932": {
+        "pt": "Anthony Hopkins"
+    },
+    "Q11618": {
+        "pt": "Eraserhead"
+    },
+    "Q23844": {
+        "pt": "George Clooney"
+    },
+    "Q37175": {
+        "pt": "Johnny Depp"
+    },
+    "Q38111": {
+        "pt": "Leonardo DiCaprio"
+    },
+    "Q3512046": {
+        "pt": "Jurassic Park 4"
+    },
+    "Q181803": {
+        "pt": "Star Wars: Episode VI – Return of the Jedi"
+    },
+    "Q485803": {
+        "pt": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe"
+    },
+    "Q222023": {
+        "pt": "The Chronicles of Narnia: Prince Caspian"
+    },
+    "Q474082": {
+        "pt": "The Chronicles of Narnia: The Voyage of the Dawn Treader"
+    },
+    "Q471159": {
+        "pt": "Born on the Fourth of July"
+    },
+    "Q329131": {
+        "pt": "Jerry Maguire"
+    },
+    "Q18199330": {
+        "pt": "Fantastic Beasts and Where to Find Them"
+    },
+    "Q18199331": {
+        "pt": "Monstros Fantásticos: Os Crimes de Grindelwald"
+    },
+    "Q762140": {
+        "pt": "Flores de Aço"
+    },
+    "Q207954": {
+        "pt": "Pretty Woman"
+    },
+    "Q220955": {
+        "pt": "Erin Brockovich"
+    },
+    "Q4055443": {
+        "pt": "August: Osage County"
+    },
+    "Q102438": {
+        "pt": "Harry Potter e a Pedra Filosofal"
+    },
+    "Q102244": {
+        "pt": "Harry Potter and the Chamber of Secrets"
+    },
+    "Q102448": {
+        "pt": "Harry Potter e o Prisioneiro de Azkaban"
+    },
+    "Q102225": {
+        "pt": "Harry Potter e o Cálice de Fogo"
+    },
+    "Q102235": {
+        "pt": "Harry Potter and the Order of the Phoenix"
+    },
+    "Q161687": {
+        "pt": "Harry Potter and the Half-Blood Prince"
+    },
+    "Q161678": {
+        "pt": "Harry Potter and the Deathly Hallows – Part 1"
+    },
+    "Q232009": {
+        "pt": "Harry Potter and the Deathly Hallows – Part 2"
+    },
+    "Q723679": {
+        "pt": "Star Trek Generations"
+    },
+    "Q221236": {
+        "pt": "Star Trek: First Contact"
+    },
+    "Q673198": {
+        "pt": "Star Trek: Insurrection"
+    },
+    "Q388319": {
+        "pt": "Star Trek Nemesis"
+    },
+    "Q5540479": {
+        "pt": "The Conjuring"
+    },
+    "Q21001651": {
+        "pt": "The Conjuring 2"
+    },
+    "Q29841731": {
+        "pt": "The Nun"
+    },
+    "Q55973412": {
+        "pt": "Annabelle Comes Home"
+    },
+    "Q64145552": {
+        "pt": "The Conjuring: The Devil Made Me Do It"
+    },
+    "Q153484": {
+        "pt": "Resident Evil"
+    },
+    "Q324557": {
+        "pt": "Resident Evil: Afterlife"
+    },
+    "Q83542": {
+        "pt": "Resident Evil: Retribution"
+    },
+    "Q12049257": {
+        "pt": "Resident Evil: The Final Chapter"
+    },
+    "Q171669": {
+        "pt": "Voando Sobre um Ninho de Cucos"
+    },
+    "Q221594": {
+        "pt": "Melhor É Impossível"
+    },
+    "Q74287": {
+        "pt": "O Hobbit"
+    },
+    "Q208002": {
+        "pt": "The Fellowship of the Ring"
+    },
+    "Q332388": {
+        "pt": "As Duas Torres"
+    },
+    "Q332581": {
+        "pt": "The Return of the King"
+    },
+    "Q79762": {
+        "pt": "O Silmarillion"
+    },
+    "Q819196": {
+        "pt": "Mortal Kombat"
+    },
+    "Q426837": {
+        "pt": "Mortal Kombat: Annihilation"
+    },
+    "Q63862159": {
+        "pt": "Mortal Kombat"
+    },
+    "Q213326": {
+        "pt": "The Incredibles"
+    },
+    "Q24832112": {
+        "pt": "The Incredibles 2"
+    },
+    "Q24053263": {
+        "pt": "Logan"
+    },
+    "Q197491": {
+        "pt": "The Wolverine"
+    },
+    "Q23781155": {
+        "pt": "Vingadores: Endgame"
+    },
+    "Q23780914": {
+        "pt": "Avengers: Infinity War"
+    },
+    "Q105598": {
+        "pt": "Assalto ao Arranha-Céus"
+    },
+    "Q230482": {
+        "pt": null
+    },
+    "Q105993": {
+        "pt": "Die Hard 2"
+    },
+    "Q104123": {
+        "pt": "Pulp Fiction"
+    },
+    "Q1111228": {
+        "pt": "Color of Night"
+    },
+    "Q107761": {
+        "pt": "You Only Live Twice"
+    },
+    "Q29021224": {
+        "pt": "Bad Boys for Life"
+    },
+    "Q193555": {
+        "pt": "Brendan Fraser"
+    },
+    "Q426346": {
+        "pt": "Rebel Without a Cause"
+    },
+    "Q79212167": {
+        "pt": "Pieces of a Woman"
+    },
+    "Q155163": {
+        "pt": "Alien vs. Predador"
+    },
+    "Q91540": {
+        "pt": "Regresso ao Futuro"
+    },
+    "Q230552": {
+        "pt": "Back to the Future Part III"
+    },
+    "Q73093591": {
+        "pt": "Mank"
+    },
+    "Q167726": {
+        "pt": "Parque Jurássico"
+    },
+    "Q192724": {
+        "pt": "Homem de Ferro"
+    },
+    "Q4941": {
+        "pt": "Skyfall"
+    },
+    "Q320423": {
+        "pt": "The Spy Who Loved Me"
+    },
+    "Q517958": {
+        "pt": "Field of Dreams"
+    },
+    "Q499656": {
+        "pt": "Elizabeth"
+    },
+    "Q41148": {
+        "pt": "Martin Scorsese"
+    },
+    "Q34436": {
+        "pt": "Scarlett Johansson"
+    },
+    "Q466508": {
+        "pt": "Rosemary Clooney"
+    },
+    "Q788822": {
+        "pt": "Her"
+    },
+    "Q188652": {
+        "pt": "Rocky"
+    },
+    "Q1358683": {
+        "pt": "Wilson Phillips"
+    },
+    "Q147077": {
+        "pt": "Emma Stone"
+    },
+    "Q1402152": {
+        "pt": "An American Tail: Fievel Goes West"
+    },
+    "Q1127709": {
+        "pt": "True Romance"
+    },
+    "Q47703": {
+        "pt": "O Padrinho"
+    },
+    "Q2023710": {
+        "pt": "Tom Holland"
+    },
+    "Q375855": {
+        "pt": "American Graffiti"
+    },
+    "Q2369793": {
+        "pt": "The Sandlot"
+    },
+    "Q208572": {
+        "pt": "American History X"
+    },
+    "Q164119": {
+        "pt": "Mark Wahlberg"
+    },
+    "Q16253025": {
+        "pt": "McFarland, USA"
+    },
+    "Q313470": {
+        "pt": "Donnie Wahlberg"
+    },
+    "Q5887360": {
+        "pt": "Guardians of the Galaxy"
+    },
+    "Q483118": {
+        "pt": "Ben Affleck"
+    },
+    "Q483941": {
+        "pt": "A Lista de Schindler"
+    },
+    "Q1509333": {
+        "pt": "Universidade do Estado da Geórgia"
+    },
+    "Q21": {
+        "pt": "Inglaterra"
+    },
+    "Q1027634": {
+        "pt": "Kapuskasing"
+    },
+    "Q16": {
+        "pt": "Canadá"
+    },
+    "Q172": {
+        "pt": "Toronto"
+    },
+    "Q471842": {
+        "pt": "Star Trek IV: The Voyage Home"
+    },
+    "Q42051": {
+        "pt": "Star Wars: Episódio III – A Vingança dos Sith"
+    },
+    "Q21534241": {
+        "pt": "No Time to Die"
+    },
+    "Q1213746": {
+        "pt": "Taps"
+    },
+    "Q17738": {
+        "pt": "Star Wars: Episódio IV – Uma Nova Esperança"
+    },
+    "Q1089281": {
+        "pt": "Child's Play 2"
+    },
+    "Q116928": {
+        "pt": "New Moon"
+    },
+    "Q104049": {
+        "pt": "Sidney Poitier"
+    },
+    "Q127367": {
+        "pt": "O Senhor dos Anéis - A Irmandade do Anel"
+    },
+    "Q18844656": {
+        "pt": "The Secret Life of Pets"
+    },
+    "Q161087": {
+        "pt": "Pirates of the Caribbean: Dead Man's Chest"
+    },
+    "Q183555": {
+        "pt": "Pirates of the Caribbean: On Stranger Tides"
+    },
+    "Q719915": {
+        "pt": "O Hobbit: A Desolação de Smaug"
+    },
+    "Q189600": {
+        "pt": "The Matrix Reloaded"
+    },
+    "Q40096": {
+        "pt": "Will Smith"
+    },
+    "Q213053": {
+        "pt": "Superman"
+    },
+    "Q643811": {
+        "pt": "Guerra e Paz"
+    },
+    "Q2696668": {
+        "pt": "Fresh Guacamole"
+    },
+    "Q18350026": {
+        "pt": "Damien Chazelle"
+    },
+    "Q39792": {
+        "pt": "Jack Nicholson"
+    },
+    "Q50861": {
+        "pt": "Live Free or Die Hard"
+    },
+    "Q200889": {
+        "pt": "Bambi II"
+    },
+    "Q56326730": {
+        "pt": null
+    },
+    "Q1217941": {
+        "pt": "La meglio gioventù"
+    },
+    "Q6074": {
+        "pt": "Star Wars: The Force Awakens"
+    },
+    "Q172678": {
+        "pt": "Samuel L. Jackson"
+    },
+    "Q20977110": {
+        "pt": "Star Wars: Episódio IX - A Ascensão de Skywalker"
+    },
+    "Q56016": {
+        "pt": "Katharine Hepburn"
+    },
+    "Q214466": {
+        "pt": "Nick Carter"
+    },
+    "Q23215": {
+        "pt": "Adele"
+    },
+    "Q298255": {
+        "pt": "Rob Zombie"
+    },
+    "Q1203": {
+        "pt": "John Lennon"
+    },
+    "Q2632": {
+        "pt": "Ringo Starr"
+    },
+    "Q19862": {
+        "pt": "Hybrid Theory"
+    },
+    "Q1299": {
+        "pt": "The Beatles"
+    },
+    "Q62766": {
+        "pt": "Jay-Z"
+    },
+    "Q15615": {
+        "pt": "Lil Wayne"
+    },
+    "Q7542": {
+        "pt": "Prince"
+    },
+    "Q12003": {
+        "pt": "Cher"
+    },
+    "Q128121": {
+        "pt": "Mick Jagger"
+    },
+    "Q42493": {
+        "pt": "Katy Perry"
+    },
+    "Q15958277": {
+        "pt": "Twenty One Pilots"
+    },
+    "Q17066299": {
+        "pt": "Regional at Best"
+    },
+    "Q7923335": {
+        "pt": "Vessel"
+    },
+    "Q19627383": {
+        "pt": "Blurryface"
+    },
+    "Q55455247": {
+        "pt": "Trench"
+    },
+    "Q106415159": {
+        "pt": "Scaled and Icy"
+    },
+    "Q2332326": {
+        "pt": null
+    },
+    "Q1271828": {
+        "pt": "Mickey Finn"
+    },
+    "Q287514": {
+        "pt": "Marc Bolan"
+    },
+    "Q391450": {
+        "pt": null
+    },
+    "Q216051": {
+        "pt": "Charlie Watts"
+    },
+    "Q211094": {
+        "pt": "Ron Wood"
+    },
+    "Q189599": {
+        "pt": "Keith Richards"
+    },
+    "Q11975789": {
+        "pt": null
+    },
+    "Q5897473": {
+        "pt": null
+    },
+    "Q16844626": {
+        "pt": null
+    },
+    "Q6103730": {
+        "pt": null
+    },
+    "Q185610": {
+        "pt": "will.i.am"
+    },
+    "Q293590": {
+        "pt": "apl.de.ap"
+    },
+    "Q145480": {
+        "pt": "Taboo"
+    },
+    "Q2425241": {
+        "pt": "Shaggy 2 Dope"
+    },
+    "Q2576435": {
+        "pt": "Violent J"
+    },
+    "Q526107": {
+        "pt": "Spencer Smith"
+    },
+    "Q3243860": {
+        "pt": "Brent Wilson"
+    },
+    "Q841247": {
+        "pt": "George Ryan Ross III"
+    },
+    "Q1047474": {
+        "pt": "Brendon Urie"
+    },
+    "Q1459443": {
+        "pt": "Grammy Award para melhor canção de R&B"
+    },
+    "Q1123766": {
+        "pt": "Grammy Award para Best Rap Song"
+    },
+    "Q43932": {
+        "pt": "Angus Young"
+    },
+    "Q318694": {
+        "pt": "Cliff Williams"
+    },
+    "Q295948": {
+        "pt": "Brian Johnson"
+    },
+    "Q345400": {
+        "pt": "Phil Rudd"
+    },
+    "Q1319593": {
+        "pt": "Stevie Young"
+    },
+    "Q151892": {
+        "pt": "Ariana Grande"
+    },
+    "Q4235": {
+        "pt": "Miley Cyrus"
+    },
+    "Q11975": {
+        "pt": "Britney Spears"
+    },
+    "Q332032": {
+        "pt": "Alice Cooper"
+    },
+    "Q7605721": {
+        "pt": null
+    },
+    "Q16247210": {
+        "pt": "Bleachers"
+    },
+    "Q1027904": {
+        "pt": "Grammy Award para Song of the Year"
+    },
+    "Q5593866": {
+        "pt": "Grammy Award para Best Pop Solo Performance"
+    },
+    "Q1542129": {
+        "pt": "Grammy Award para melhor álbum de música alternativa"
+    },
+    "Q691892": {
+        "pt": "Grammy Award para melhor álbum de rock"
+    },
+    "Q843219": {
+        "pt": "Prêmio Grammy para Gravação do Ano"
+    },
+    "Q3113385": {
+        "pt": null
+    },
+    "Q631088": {
+        "pt": "Doo-Wops & Hooligans"
+    },
+    "Q716353": {
+        "pt": "Unorthodox Jukebox"
+    },
+    "Q27133229": {
+        "pt": "24K Magic"
+    },
+    "Q14448491": {
+        "pt": "Yours Truly"
+    },
+    "Q17297888": {
+        "pt": "My Everything"
+    },
+    "Q23035063": {
+        "pt": "Dangerous Woman"
+    },
+    "Q52477911": {
+        "pt": "Sweetener"
+    },
+    "Q58192616": {
+        "pt": "Thank U, Next"
+    },
+    "Q100351980": {
+        "pt": "Positions"
+    },
+    "Q3311525": {
+        "pt": "Chris Kirkpatrick"
+    },
+    "Q43432": {
+        "pt": "Justin Timberlake"
+    },
+    "Q538409": {
+        "pt": "Joshua Scott Chasez"
+    },
+    "Q1640877": {
+        "pt": "Joey Fatone"
+    },
+    "Q443120": {
+        "pt": "Lance Bass"
+    },
+    "Q44289": {
+        "pt": "Off the Wall"
+    },
+    "Q44320": {
+        "pt": "Thriller"
+    },
+    "Q44142": {
+        "pt": "Bad"
+    },
+    "Q44104": {
+        "pt": "Dangerous"
+    },
+    "Q44376": {
+        "pt": "Invincible"
+    },
+    "Q7824482": {
+        "pt": null
+    },
+    "Q1139397": {
+        "pt": "Creatures of the Night"
+    },
+    "Q257302": {
+        "pt": "LeToya Luckett"
+    },
+    "Q456592": {
+        "pt": "LaTavia Roberson"
+    },
+    "Q495302": {
+        "pt": "Meng Jia"
+    },
+    "Q3457830": {
+        "pt": "Wang Feifei"
+    },
+    "Q282636": {
+        "pt": "Grammy Award para melhor canção de rock"
+    },
+    "Q720722": {
+        "pt": "Pimp C"
+    },
+    "Q2001897": {
+        "pt": "Billboard R&B/Hip-Hop Albums"
+    },
+    "Q5593904": {
+        "pt": null
+    },
+    "Q1343509": {
+        "pt": "Heartbreak Hotel"
+    },
+    "Q904528": {
+        "pt": "Grammy Award para álbum do ano"
+    },
+    "Q11990002": {
+        "pt": null
+    },
+    "Q483379": {
+        "pt": "Gwen Stefani"
+    },
+    "Q50437010": {
+        "pt": null
+    },
+    "Q235952": {
+        "pt": "Gladys Knight"
+    },
+    "Q2831": {
+        "pt": "Michael Jackson"
+    },
+    "Q72984": {
+        "pt": "Bing Crosby"
+    },
+    "Q2927530": {
+        "pt": null
+    },
+    "Q167635": {
+        "pt": "Tyler, The Creator"
+    },
+    "Q131324": {
+        "pt": "Janet Jackson"
+    },
+    "Q484302": {
+        "pt": "James Hetfield"
+    },
+    "Q106316694": {
+        "pt": "Sour"
+    },
+    "Q22": {
+        "pt": "Escócia"
+    },
+    "Q862733": {
+        "pt": "Warren"
+    },
+    "Q1397": {
+        "pt": "Ohio"
+    },
+    "Q408": {
+        "pt": "Austrália"
+    },
+    "Q37073": {
+        "pt": "música pop"
+    },
+    "Q83440": {
+        "pt": "música country"
+    },
+    "Q938507": {
+        "pt": "Westlife"
+    },
+    "Q8030465": {
+        "pt": null
+    },
+    "Q41254": {
+        "pt": "Grammy Award"
+    },
+    "Q2731965": {
+        "pt": "Recovering the Satellites"
+    },
+    "Q212846": {
+        "pt": "L.A. Woman"
+    },
+    "Q222001": {
+        "pt": "In Utero"
+    },
+    "Q187507": {
+        "pt": "Master of Puppets"
+    },
+    "Q389281": {
+        "pt": "Aftermath"
+    },
+    "Q164646": {
+        "pt": "Born This Way"
+    },
+    "Q210122": {
+        "pt": "Atom Heart Mother"
+    },
+    "Q51845576": {
+        "pt": null
+    },
+    "Q58455699": {
+        "pt": null
+    },
+    "Q2350347": {
+        "pt": "Make Believe"
+    },
+    "Q200586": {
+        "pt": "Sheryl Crow"
+    },
+    "Q128085": {
+        "pt": "Georg Solti"
+    },
+    "Q101230794": {
+        "pt": null
+    },
+    "Q344793": {
+        "pt": "George Burns"
+    },
+    "Q85738614": {
+        "pt": null
+    },
+    "Q155715": {
+        "pt": "Back in Black"
+    },
+    "Q840710": {
+        "pt": "Speak to Me"
+    },
+    "Q33240": {
+        "pt": "Drake"
+    },
+    "Q130798": {
+        "pt": "Kendrick Lamar"
+    },
+    "Q11571": {
+        "pt": "Cristiano Ronaldo"
+    },
+    "Q131371": {
+        "pt": "Boston Celtics"
+    },
+    "Q41421": {
+        "pt": "Michael Jordan"
+    },
+    "Q36159": {
+        "pt": "LeBron James"
+    },
+    "Q127819": {
+        "pt": "Jim Kelly"
+    },
+    "Q2239218": {
+        "pt": "Max Verstappen"
+    },
+    "Q1149781": {
+        "pt": "Russell Wilson"
+    },
+    "Q641569": {
+        "pt": "Asante Samuel"
+    },
+    "Q106677557": {
+        "pt": null
+    },
+    "Q106677707": {
+        "pt": "Joshua Kaindoh"
+    },
+    "Q95693609": {
+        "pt": "Hamsah Nasirildeen"
+    },
+    "Q625210": {
+        "pt": "Super Bowl XXXV"
+    },
+    "Q126291": {
+        "pt": "Super Bowl XLVII"
+    },
+    "Q223522": {
+        "pt": "Kansas City Chiefs"
+    },
+    "Q389690": {
+        "pt": "Super Bowl XI"
+    },
+    "Q766921": {
+        "pt": "Super Bowl XV"
+    },
+    "Q1848392": {
+        "pt": "Super Bowl XVIII"
+    },
+    "Q223507": {
+        "pt": "Denver Broncos"
+    },
+    "Q1049630": {
+        "pt": "Super Bowl XXXVIII"
+    },
+    "Q19838042": {
+        "pt": null
+    },
+    "Q30275966": {
+        "pt": null
+    },
+    "Q3190505": {
+        "pt": "Justin Turner"
+    },
+    "Q24678701": {
+        "pt": null
+    },
+    "Q16226579": {
+        "pt": null
+    },
+    "Q2818923": {
+        "pt": null
+    },
+    "Q16233613": {
+        "pt": null
+    },
+    "Q597314": {
+        "pt": "Super Bowl XLII"
+    },
+    "Q849079": {
+        "pt": "Super Bowl XLVI"
+    },
+    "Q15633579": {
+        "pt": "Super Bowl LII"
+    },
+    "Q164177": {
+        "pt": "Phoenix Suns"
+    },
+    "Q132893": {
+        "pt": "Dallas Mavericks"
+    },
+    "Q121783": {
+        "pt": "Los Angeles Lakers"
+    },
+    "Q219602": {
+        "pt": "New York Jets"
+    },
+    "Q221878": {
+        "pt": "Seattle Seahawks"
+    },
+    "Q30632053": {
+        "pt": null
+    },
+    "Q223514": {
+        "pt": "Houston Texans"
+    },
+    "Q204862": {
+        "pt": "Dallas Cowboys"
+    },
+    "Q3087660": {
+        "pt": null
+    },
+    "Q28221485": {
+        "pt": null
+    },
+    "Q320484": {
+        "pt": "Tennessee Titans"
+    },
+    "Q223527": {
+        "pt": "Cleveland Browns"
+    },
+    "Q221626": {
+        "pt": "Buffalo Bills"
+    },
+    "Q271880": {
+        "pt": "Detroit Lions"
+    },
+    "Q330120": {
+        "pt": "Carolina Panthers"
+    },
+    "Q272059": {
+        "pt": "Atlanta Falcons"
+    },
+    "Q223511": {
+        "pt": "Cincinnati Bengals"
+    },
+    "Q272223": {
+        "pt": "Jacksonville Jaguars"
+    },
+    "Q272220": {
+        "pt": "Los Angeles Chargers"
+    },
+    "Q221150": {
+        "pt": "Minnesota Vikings"
+    },
+    "Q224164": {
+        "pt": "Arizona Cardinals"
+    },
+    "Q380200": {
+        "pt": "Paul McGrath"
+    },
+    "Q280275": {
+        "pt": "Masters de Golfe"
+    },
+    "Q13592724": {
+        "pt": null
+    },
+    "Q648144": {
+        "pt": "Super Bowl XXXII"
+    },
+    "Q7539": {
+        "pt": "Peyton Manning"
+    },
+    "Q611891": {
+        "pt": "Archie Manning"
+    },
+    "Q634669": {
+        "pt": null
+    },
+    "Q796358": {
+        "pt": "Chicago Sky"
+    },
+    "Q313381": {
+        "pt": "Tom Brady"
+    },
+    "Q337377": {
+        "pt": "Los Angeles Rams"
+    },
+    "Q209636": {
+        "pt": "Chicago Blackhawks"
+    },
+    "Q170329": {
+        "pt": "Indiana Pacers"
+    },
+    "Q650865": {
+        "pt": "Tampa Bay Rays"
+    },
+    "Q162990": {
+        "pt": "Cleveland Cavaliers"
+    },
+    "Q131412": {
+        "pt": "Mary da Escócia"
+    },
+    "Q954184": {
+        "pt": "Deion Sanders"
+    },
+    "Q956": {
+        "pt": "Pequim"
+    },
+    "Q715571": {
+        "pt": "Roy Halladay"
+    },
+    "Q368568": {
+        "pt": "Mike Modano"
+    },
+    "Q193390": {
+        "pt": "New England Patriots"
+    },
+    "Q615": {
+        "pt": "Lionel Messi"
+    },
+    "Q640546": {
+        "pt": "Danell Leyva"
+    },
+    "Q223243": {
+        "pt": "Miami Dolphins"
+    },
+    "Q713746": {
+        "pt": "Peter Ueberroth"
+    },
+    "Q352159": {
+        "pt": "Stephen Curry"
+    },
+    "Q316187": {
+        "pt": "Eli Manning"
+    },
+    "Q1239512": {
+        "pt": "Don Shula"
+    },
+    "Q1255625": {
+        "pt": "Samuel Eto'o"
+    },
+    "Q4586344": {
+        "pt": null
+    },
+    "Q220621": {
+        "pt": "Asociación Atlética Argentinos Juniors"
+    },
+    "Q743309": {
+        "pt": "Los Angeles Angels"
+    },
+    "Q848117": {
+        "pt": "Houston Astros"
+    },
+    "Q721134": {
+        "pt": "San Diego Padres"
+    },
+    "Q30": {
+        "pt": "Estados Unidos"
+    },
+    "Q314614": {
+        "pt": "Robert Parish"
+    },
+    "Q371118": {
+        "pt": "Mike Tomlin"
+    },
+    "Q205326": {
+        "pt": "Derrick Rose"
+    },
+    "Q8991894": {
+        "pt": "Giannis Antetokounmpo"
+    },
+    "Q325374": {
+        "pt": "Phil Mickelson"
+    },
+    "Q346924": {
+        "pt": "Oscar Swahn"
+    },
+    "Q739866": {
+        "pt": "Pete Rose"
+    },
+    "Q191477": {
+        "pt": "Pittsburgh Steelers"
+    },
+    "Q188143": {
+        "pt": "Canadiens de Montréal"
+    },
+    "Q213417": {
+        "pt": "New York Yankees"
+    },
+    "Q18685116": {
+        "pt": null
+    },
+    "Q233572": {
+        "pt": "Ágnes Keleti"
+    },
+    "Q213828": {
+        "pt": "Alessandro Costacurta"
+    },
+    "Q172882": {
+        "pt": "Pescara Circuit"
+    },
+    "Q473208": {
+        "pt": "Roger Clemens"
+    },
+    "Q601521": {
+        "pt": "Rickey Henderson"
+    },
+    "Q179051": {
+        "pt": "Kareem Abdul-Jabbar"
+    },
+    "Q311671": {
+        "pt": "James Patterson"
+    },
+    "Q44523": {
+        "pt": "Twilight"
+    },
+    "Q462": {
+        "pt": "Star Wars"
+    },
+    "Q214648": {
+        "pt": "Sansão"
+    },
+    "Q20897974": {
+        "pt": null
+    },
+    "Q212340": {
+        "pt": "To Kill a Mockingbird"
+    },
+    "Q483412": {
+        "pt": "As Crônicas de Nárnia"
+    },
+    "Q169976": {
+        "pt": "Northern Lights"
+    },
+    "Q472208": {
+        "pt": "The Subtle Knife"
+    },
+    "Q129929": {
+        "pt": "The Amber Spyglass"
+    },
+    "Q104880511": {
+        "pt": null
+    },
+    "Q6482759": {
+        "pt": null
+    },
+    "Q43361": {
+        "pt": "Harry Potter e a Pedra Filosofal"
+    },
+    "Q47209": {
+        "pt": "Harry Potter and the Chamber of Secrets"
+    },
+    "Q47598": {
+        "pt": "Harry Potter e o Prisioneiro de Azkaban"
+    },
+    "Q46751": {
+        "pt": "Harry Potter e o Cálice de Fogo"
+    },
+    "Q80817": {
+        "pt": "Harry Potter e a Ordem da Fénix"
+    },
+    "Q46887": {
+        "pt": "Harry Potter and the Half-Blood Prince"
+    },
+    "Q46758": {
+        "pt": "Harry Potter e as Relíquias da Morte"
+    },
+    "Q7766946": {
+        "pt": null
+    },
+    "Q17146261": {
+        "pt": null
+    },
+    "Q794360": {
+        "pt": "Além do Horizonte"
+    },
+    "Q1758947": {
+        "pt": "Anna Christie"
+    },
+    "Q7621410": {
+        "pt": "Interlúdio Estranho"
+    },
+    "Q618430": {
+        "pt": "Long Day's Journey into Night"
+    },
+    "Q4900203": {
+        "pt": null
+    },
+    "Q678277": {
+        "pt": "Mau Começo"
+    },
+    "Q1880392": {
+        "pt": "The Slippery Slope"
+    },
+    "Q2461233": {
+        "pt": "The Grim Grotto"
+    },
+    "Q2604058": {
+        "pt": "The Penultimate Peril"
+    },
+    "Q1771382": {
+        "pt": "A Sala dos Répteis"
+    },
+    "Q2264889": {
+        "pt": "The Wide Window"
+    },
+    "Q1981701": {
+        "pt": "The Miserable Mill"
+    },
+    "Q1990737": {
+        "pt": "The Austere Academy"
+    },
+    "Q2035626": {
+        "pt": "The Ersatz Elevator"
+    },
+    "Q2035952": {
+        "pt": "The Vile Village"
+    },
+    "Q2291923": {
+        "pt": "The Hostile Hospital"
+    },
+    "Q2291622": {
+        "pt": "The Carnivorous Carnival"
+    },
+    "Q936672": {
+        "pt": "O Fim"
+    },
+    "Q1798059": {
+        "pt": "Hyperion"
+    },
+    "Q2362526": {
+        "pt": null
+    },
+    "Q2656138": {
+        "pt": null
+    },
+    "Q2521688": {
+        "pt": null
+    },
+    "Q1771810": {
+        "pt": "A Wizard of Earthsea"
+    },
+    "Q2070380": {
+        "pt": null
+    },
+    "Q2288175": {
+        "pt": null
+    },
+    "Q2261855": {
+        "pt": null
+    },
+    "Q2499675": {
+        "pt": null
+    },
+    "Q717326": {
+        "pt": null
+    },
+    "Q206795": {
+        "pt": null
+    },
+    "Q273993": {
+        "pt": null
+    },
+    "Q650991": {
+        "pt": "David Wiesner"
+    },
+    "Q543375": {
+        "pt": null
+    },
+    "Q7242189": {
+        "pt": null
+    },
+    "Q7574927": {
+        "pt": null
+    },
+    "Q5422251": {
+        "pt": null
+    },
+    "Q40354": {
+        "pt": "Mockingjay"
+    },
+    "Q1627590": {
+        "pt": "Pedro Pevensie"
+    },
+    "Q1639626": {
+        "pt": "Susana Pevensie"
+    },
+    "Q331669": {
+        "pt": "The Silver Chair"
+    },
+    "Q157360": {
+        "pt": "The Horse and his Boy"
+    },
+    "Q477831": {
+        "pt": "The Magician's Nephew"
+    },
+    "Q485093": {
+        "pt": "O Leão, a Feiticeira e o Guarda-Roupa"
+    },
+    "Q741013": {
+        "pt": "Contact"
+    },
+    "Q6272668": {
+        "pt": null
+    },
+    "Q18813": {
+        "pt": "Novo Testamento"
+    },
+    "Q4743932": {
+        "pt": null
+    },
+    "Q280608": {
+        "pt": "Tom Bombadil"
+    },
+    "Q2570715": {
+        "pt": null
+    },
+    "Q5999233": {
+        "pt": null
+    },
+    "Q5458359": {
+        "pt": null
+    },
+    "Q4659226": {
+        "pt": null
+    },
+    "Q837283": {
+        "pt": "Fight Club"
+    },
+    "Q470937": {
+        "pt": "O Iluminado"
+    },
+    "Q333719": {
+        "pt": "Lee Child"
+    },
+    "Q160219": {
+        "pt": "Stephenie Meyer"
+    },
+    "Q45875": {
+        "pt": "As Crônicas de Gelo e Fogo"
+    },
+    "Q1087845": {
+        "pt": "Jacen Solo"
+    },
+    "Q509662": {
+        "pt": "Colson Whitehead"
+    },
+    "Q841931": {
+        "pt": null
+    },
+    "Q465360": {
+        "pt": "Retrato do Artista quando Jovem"
+    },
+    "Q5250046": {
+        "pt": null
+    },
+    "Q149552": {
+        "pt": "A Dança da Morte"
+    },
+    "Q3624677": {
+        "pt": "Arya Stark"
+    },
+    "Q4465": {
+        "pt": "Peter Jackson"
+    },
+    "Q28848": {
+        "pt": "Saint Paul"
+    },
+    "Q8016302": {
+        "pt": "Warner Bros. Pictures"
+    },
+    "Q371455": {
+        "pt": "David Slade"
+    },
+    "Q1168105": {
+        "pt": null
+    },
+    "Q837140": {
+        "pt": "Em Chamas"
+    },
+    "Q926345": {
+        "pt": null
+    },
+    "Q300370": {
+        "pt": "A Clash of Kings"
+    },
+    "Q1976938": {
+        "pt": null
+    },
+    "Q1725082": {
+        "pt": null
+    },
+    "Q462454": {
+        "pt": "The Talisman"
+    },
+    "Q384160": {
+        "pt": "The Long Walk"
+    },
+    "Q1355487": {
+        "pt": "Down and Out in Paris and London"
+    },
+    "Q1194196": {
+        "pt": null
+    },
+    "Q5155524": {
+        "pt": null
+    },
+    "Q7731579": {
+        "pt": null
+    },
+    "Q772435": {
+        "pt": "Fear and Loathing in Las Vegas"
+    },
+    "Q129778": {
+        "pt": "Heart of Darkness"
+    },
+    "Q11678": {
+        "pt": "The Hunger Games"
+    },
+    "Q41064": {
+        "pt": "Livro de Salmos"
+    },
+    "Q93157": {
+        "pt": "Eugene O'Neill"
+    },
+    "Q93620": {
+        "pt": "Christopher Paolini"
+    },
+    "Q2535532": {
+        "pt": "Carlisle Cullen"
+    },
+    "Q189378": {
+        "pt": "Crepúsculo"
+    },
+    "Q131466": {
+        "pt": "Epístola de Judas"
+    },
+    "Q40874": {
+        "pt": "Doris Lessing"
+    },
+    "Q179021": {
+        "pt": "O Alquimista"
+    },
+    "Q843": {
+        "pt": "Paquistão"
+    },
+    "Q15": {
+        "pt": "África"
+    },
+    "Q82019": {
+        "pt": "Kanchenjunga"
+    },
+    "Q11703": {
+        "pt": "Ilhas Virgens Americanas"
+    },
+    "Q414": {
+        "pt": "Argentina"
+    },
+    "Q155": {
+        "pt": "Brasil"
+    },
+    "Q23768": {
+        "pt": "Las Vegas"
+    },
+    "Q668": {
+        "pt": "Índia"
+    },
+    "Q1297": {
+        "pt": "Chicago"
+    },
+    "Q148": {
+        "pt": "China"
+    },
+    "Q1066": {
+        "pt": "Lago Superior"
+    },
+    "Q48": {
+        "pt": "Ásia"
+    },
+    "Q142": {
+        "pt": "França"
+    },
+    "Q478465": {
+        "pt": "Região Norte do Brasil"
+    },
+    "Q99": {
+        "pt": "Califórnia"
+    },
+    "Q1439": {
+        "pt": "Texas"
+    },
+    "Q812": {
+        "pt": "Flórida"
+    },
+    "Q1384": {
+        "pt": "Nova Iorque"
+    },
+    "Q160636": {
+        "pt": "Rio Grande"
+    },
+    "Q903306": {
+        "pt": "Rio Brazos"
+    },
+    "Q1356561": {
+        "pt": "Rio Pecos"
+    },
+    "Q847785": {
+        "pt": "Rio Colorado"
+    },
+    "Q156032": {
+        "pt": "Rio Vermelho do Sul"
+    },
+    "Q1009": {
+        "pt": "Camarões"
+    },
+    "Q929": {
+        "pt": "República Centro-Africana"
+    },
+    "Q657": {
+        "pt": "Chade"
+    },
+    "Q971": {
+        "pt": "República do Congo"
+    },
+    "Q983": {
+        "pt": "Guiné Equatorial"
+    },
+    "Q1000": {
+        "pt": "Gabão"
+    },
+    "Q1039": {
+        "pt": "São Tomé e Príncipe"
+    },
+    "Q974": {
+        "pt": "República Democrática do Congo"
+    },
+    "Q916": {
+        "pt": "Angola"
+    },
+    "Q1037": {
+        "pt": "Ruanda"
+    },
+    "Q967": {
+        "pt": "Burundi"
+    },
+    "Q51": {
+        "pt": "Antártida"
+    },
+    "Q3960": {
+        "pt": "Austrália"
+    },
+    "Q46": {
+        "pt": "Europa"
+    },
+    "Q351865": {
+        "pt": "Condado de Adams"
+    },
+    "Q156291": {
+        "pt": "Condado de Allegheny"
+    },
+    "Q494186": {
+        "pt": "Condado de Armstrong"
+    },
+    "Q494104": {
+        "pt": "Condado de Beaver"
+    },
+    "Q494174": {
+        "pt": "Condado de Bedford"
+    },
+    "Q109969": {
+        "pt": "Condado de Adams"
+    },
+    "Q485577": {
+        "pt": "Condado de Allen"
+    },
+    "Q403544": {
+        "pt": "Condado de Ashland"
+    },
+    "Q336322": {
+        "pt": "Condado de Ashtabula"
+    },
+    "Q485588": {
+        "pt": "Condado de Athens"
+    },
+    "Q691": {
+        "pt": "Papua-Nova Guiné"
+    },
+    "Q252": {
+        "pt": "Indonésia"
+    },
+    "Q60": {
+        "pt": "Nova Iorque"
+    },
+    "Q16553": {
+        "pt": "São José"
+    },
+    "Q65": {
+        "pt": "Los Angeles"
+    },
+    "Q16555": {
+        "pt": "Houston"
+    },
+    "Q16556": {
+        "pt": "Phoenix"
+    },
+    "Q1345": {
+        "pt": "Filadélfia"
+    },
+    "Q975": {
+        "pt": "San Antonio"
+    },
+    "Q16552": {
+        "pt": "San Diego"
+    },
+    "Q16557": {
+        "pt": "Dallas"
+    },
+    "Q1062": {
+        "pt": "Lago Ontário"
+    },
+    "Q5492": {
+        "pt": "Lago Erie"
+    },
+    "Q1169": {
+        "pt": "Lago Michigan"
+    },
+    "Q1383": {
+        "pt": "Lago Huron"
+    },
+    "Q739": {
+        "pt": "Colômbia"
+    },
+    "Q419": {
+        "pt": "Peru"
+    },
+    "Q717": {
+        "pt": "Venezuela"
+    },
+    "Q5463": {
+        "pt": "Montanhas Rochosas"
+    },
+    "Q26777": {
+        "pt": "Serra Nevada"
+    },
+    "Q93332": {
+        "pt": "Apalaches"
+    },
+    "Q79804": {
+        "pt": "Sitka"
+    },
+    "Q29445": {
+        "pt": "Juneau"
+    },
+    "Q43983": {
+        "pt": "Wrangell"
+    },
+    "Q39450": {
+        "pt": "Anchorage"
+    },
+    "Q797": {
+        "pt": "Alasca"
+    },
+    "Q1527": {
+        "pt": "Minnesota"
+    },
+    "Q1588": {
+        "pt": "Luisiana"
+    },
+    "Q1537": {
+        "pt": "Wisconsin"
+    },
+    "Q1546": {
+        "pt": "Iowa"
+    },
+    "Q1204": {
+        "pt": "Illinois"
+    },
+    "Q1581": {
+        "pt": "Missouri"
+    },
+    "Q1603": {
+        "pt": "Kentucky"
+    },
+    "Q1509": {
+        "pt": "Tennessee"
+    },
+    "Q1612": {
+        "pt": "Arkansas"
+    },
+    "Q1494": {
+        "pt": "Mississippi"
+    },
+    "Q3224": {
+        "pt": "Nova Gales do Sul"
+    },
+    "Q36687": {
+        "pt": "Vitória"
+    },
+    "Q36074": {
+        "pt": "Queensland"
+    },
+    "Q3206": {
+        "pt": "Austrália Ocidental"
+    },
+    "Q35715": {
+        "pt": "Austrália Meridional"
+    },
+    "Q34366": {
+        "pt": "Tasmânia"
+    },
+    "Q191954": {
+        "pt": "Presidente da França"
+    },
+    "Q49967564": {
+        "pt": "Bispo de Urgell"
+    },
+    "Q25": {
+        "pt": "País de Gales"
+    },
+    "Q26": {
+        "pt": "Irlanda do Norte"
+    },
+    "Q15499": {
+        "pt": "Paraná"
+    },
+    "Q41115": {
+        "pt": "Santa Catarina"
+    },
+    "Q40030": {
+        "pt": "Rio Grande do Sul"
+    },
+    "Q711": {
+        "pt": "Mongólia"
+    },
+    "Q17": {
+        "pt": "Japão"
+    },
+    "Q837": {
+        "pt": "Nepal"
+    },
+    "Q159": {
+        "pt": "Rússia"
+    },
+    "Q131347": {
+        "pt": "Oahu"
+    },
+    "Q201026": {
+        "pt": "Kauai"
+    },
+    "Q187063": {
+        "pt": "Lanai"
+    },
+    "Q68740": {
+        "pt": "Ilha Havai"
+    },
+    "Q1214": {
+        "pt": "Wyoming"
+    },
+    "Q1207": {
+        "pt": "Dakota do Norte"
+    },
+    "Q16551": {
+        "pt": "Vermont"
+    },
+    "Q911155": {
+        "pt": "Aeroporto Internacional Rei Fahd"
+    },
+    "Q1261": {
+        "pt": "Colorado"
+    },
+    "Q1522": {
+        "pt": "Novo México"
+    },
+    "Q829": {
+        "pt": "Utah"
+    },
+    "Q733": {
+        "pt": "Paraguai"
+    },
+    "Q750": {
+        "pt": "Bolívia"
+    },
+    "Q782": {
+        "pt": "Havaí"
+    },
+    "Q5413": {
+        "pt": "Rio Yangtzé"
+    },
+    "Q1239": {
+        "pt": "Oceano Índico"
+    },
+    "Q1391": {
+        "pt": "Maryland"
+    },
+    "Q1904": {
+        "pt": "Ontário"
+    },
+    "Q1952": {
+        "pt": "Nova Escócia"
+    },
+    "Q1951": {
+        "pt": "Alberta"
+    },
+    "Q1973": {
+        "pt": "Colúmbia Britânica"
+    },
+    "Q1948": {
+        "pt": "Manitoba"
+    },
+    "Q15120268": {
+        "pt": "Ilha do Príncipe Eduardo"
+    },
+    "Q2003": {
+        "pt": "Terra Nova e Labrador"
+    },
+    "Q1989": {
+        "pt": "Saskatchewan"
+    },
+    "Q43512": {
+        "pt": "K2"
+    },
+    "Q788": {
+        "pt": "Oceano Ártico"
+    },
+    "Q7354": {
+        "pt": "Oceano Antártico"
+    },
+    "Q816": {
+        "pt": "Arizona"
+    },
+    "Q176": {
+        "pt": "Quebec"
+    },
+    "Q34647": {
+        "pt": "Joanesburgo"
+    },
+    "Q1393": {
+        "pt": "Delaware"
+    },
+    "Q23661": {
+        "pt": "Wellington"
+    },
+    "Q664": {
+        "pt": "Nova Zelândia"
+    },
+    "Q83497": {
+        "pt": "Monte Rushmore"
+    },
+    "Q5451": {
+        "pt": "Himalaias"
+    },
+    "Q79": {
+        "pt": "Egito"
+    },
+    "Q1049": {
+        "pt": "Sudão"
+    },
+    "Q824": {
+        "pt": "Óregon"
+    },
+    "Q1497": {
+        "pt": "Rio Mississípi"
+    },
+    "Q1239004": {
+        "pt": "Pico Humphreys"
+    },
+    "Q1033": {
+        "pt": "Nigéria"
+    },
+    "Q1461": {
+        "pt": "Manila"
+    },
+    "Q3783": {
+        "pt": "rio Amazonas"
+    },
+    "Q19682": {
+        "pt": "Rio Severn"
+    },
+    "Q235": {
+        "pt": "Mónaco"
+    },
+    "Q4491409": {
+        "pt": null
+    },
+    "Q158526": {
+        "pt": "Monte Titano"
+    },
+    "Q3132596": {
+        "pt": null
+    },
+    "Q90": {
+        "pt": "Paris"
+    },
+    "Q7296": {
+        "pt": "Kilimanjaro"
+    },
+    "Q83101": {
+        "pt": "Taipei 101"
+    },
+    "Q217457": {
+        "pt": "Chkhara"
+    },
+    "Q59320": {
+        "pt": null
+    },
+    "Q212": {
+        "pt": "Ucrânia"
+    },
+    "Q232": {
+        "pt": "Cazaquistão"
+    },
+    "Q28603": {
+        "pt": "Frankfort"
+    },
+    "Q1179471": {
+        "pt": "Monte Foraker"
+    },
+    "Q5419": {
+        "pt": "Rio Missouri"
+    },
+    "Q237": {
+        "pt": "Vaticano"
+    },
+    "Q459173": {
+        "pt": "Challenger Deep"
+    },
+    "Q1265": {
+        "pt": "Colorado"
+    },
+    "Q3411": {
+        "pt": "Rio Mackenzie"
+    },
+    "Q513": {
+        "pt": "Evereste"
+    },
+    "Q1489": {
+        "pt": "Cidade do México"
+    },
+    "Q1764": {
+        "pt": "Reykjavík"
+    },
+    "Q11245": {
+        "pt": "One World Trade Center"
+    },
+    "Q14716246": {
+        "pt": "North Country Trail"
+    },
+    "Q1353": {
+        "pt": "Deli"
+    },
+    "Q6583": {
+        "pt": "Deserto do Sara"
+    },
+    "Q1166": {
+        "pt": "Michigan"
+    },
+    "Q1370": {
+        "pt": "Virgínia"
+    },
+    "Q724": {
+        "pt": "Maine"
+    },
+    "Q1124": {
+        "pt": "Bill Clinton"
+    },
+    "Q1223": {
+        "pt": "Washington"
+    },
+    "Q1221": {
+        "pt": "Idaho"
+    },
+    "Q1558": {
+        "pt": "Kansas"
+    },
+    "Q1649": {
+        "pt": "Oklahoma"
+    },
+    "Q7339221": {
+        "pt": "Ro Khanna"
+    },
+    "Q7285471": {
+        "pt": "Raja Krishnamoorthi"
+    },
+    "Q449719": {
+        "pt": "Judy Martz"
+    },
+    "Q887930": {
+        "pt": "Pinckney Benton Stewart Pinchback"
+    },
+    "Q881154": {
+        "pt": "Douglas Wilder"
+    },
+    "Q11674": {
+        "pt": "David Paterson"
+    },
+    "Q11100": {
+        "pt": "Deval Patrick"
+    },
+    "Q35171": {
+        "pt": "Grover Cleveland"
+    },
+    "Q578102": {
+        "pt": "Bob Graham"
+    },
+    "Q731599": {
+        "pt": "Wayne Mixson"
+    },
+    "Q744098": {
+        "pt": "Lawton Chiles"
+    },
+    "Q362669": {
+        "pt": "Buddy MacKay"
+    },
+    "Q699872": {
+        "pt": "Eleição presidencial nos Estados Unidos em 2016"
+    },
+    "Q22923830": {
+        "pt": "Eleição presidencial nos Estados Unidos em 2020"
+    },
+    "Q8007": {
+        "pt": "Franklin Delano Roosevelt"
+    },
+    "Q1227": {
+        "pt": "Nevada"
+    },
+    "Q779": {
+        "pt": "Connecticut"
+    },
+    "Q76": {
+        "pt": "Barack Obama"
+    },
+    "Q23685": {
+        "pt": "Jimmy Carter"
+    },
+    "Q1212": {
+        "pt": "Montana"
+    },
+    "Q759": {
+        "pt": "Nova Hampshire"
+    },
+    "Q1415": {
+        "pt": "Indiana"
+    },
+    "Q11268": {
+        "pt": "Congresso dos Estados Unidos"
+    },
+    "Q194907": {
+        "pt": "Poder Judiciário Federal dos Estados Unidos"
+    },
+    "Q104907540": {
+        "pt": "Poder Executivo Federal dos Estados Unidos"
+    },
+    "Q6294": {
+        "pt": "Hillary Clinton"
+    },
+    "Q881335": {
+        "pt": "Evan Mecham"
+    },
+    "Q699900": {
+        "pt": "Fife Symington III"
+    },
+    "Q264297": {
+        "pt": "Jane Dee Hull"
+    },
+    "Q236941": {
+        "pt": "Jan Brewer"
+    },
+    "Q5300433": {
+        "pt": "Doug Ducey"
+    },
+    "Q11813": {
+        "pt": "James Madison"
+    },
+    "Q11815": {
+        "pt": "James Monroe"
+    },
+    "Q434902": {
+        "pt": "Ed Rendell"
+    },
+    "Q7794795": {
+        "pt": "Tom Wolf"
+    },
+    "Q705472": {
+        "pt": "Jim Gilmore"
+    },
+    "Q456924": {
+        "pt": "Bob McDonnell"
+    },
+    "Q7416": {
+        "pt": "Margaret Thatcher"
+    },
+    "Q264766": {
+        "pt": "Theresa May"
+    },
+    "Q207": {
+        "pt": "George W. Bush"
+    },
+    "Q22686": {
+        "pt": "Donald Trump"
+    },
+    "Q699776": {
+        "pt": "Eleição presidencial nos Estados Unidos em 1992"
+    },
+    "Q888007": {
+        "pt": "Bob Ehrlich"
+    },
+    "Q16731303": {
+        "pt": "Larry Hogan"
+    },
+    "Q11881": {
+        "pt": "John Tyler"
+    },
+    "Q12306": {
+        "pt": "Millard Fillmore"
+    },
+    "Q8612": {
+        "pt": "Andrew Johnson"
+    },
+    "Q9582": {
+        "pt": "Gerald Ford"
+    },
+    "Q7314681": {
+        "pt": null
+    },
+    "Q11676": {
+        "pt": "George Pataki"
+    },
+    "Q12325": {
+        "pt": "James Buchanan"
+    },
+    "Q4226": {
+        "pt": "Eleição presidencial nos Estados Unidos em 2012"
+    },
+    "Q9960": {
+        "pt": "Ronald Reagan"
+    },
+    "Q23505": {
+        "pt": "George H. W. Bush"
+    },
+    "Q6279": {
+        "pt": "Joe Biden"
+    },
+    "Q1428": {
+        "pt": "Geórgia"
+    },
+    "Q38051551": {
+        "pt": "eleições primárias presidenciais do Partido Democrata (Estados Unidos) em 2020"
+    },
+    "Q2685": {
+        "pt": "Arnold Schwarzenegger"
+    },
+    "Q152451": {
+        "pt": "Jerry Brown"
+    },
+    "Q461391": {
+        "pt": "Gavin Newsom"
+    },
+    "Q13133": {
+        "pt": "Michelle Obama"
+    },
+    "Q4895897": {
+        "pt": "Bertrand Snell"
+    },
+    "Q10853588": {
+        "pt": "Kamala Harris"
+    },
+    "Q359442": {
+        "pt": "Bernie Sanders"
+    },
+    "Q3487172": {
+        "pt": "Anthony Gonzalez"
+    },
+    "Q1714165": {
+        "pt": "Justin Amash"
+    },
+    "Q9916": {
+        "pt": "Dwight D. Eisenhower"
+    },
+    "Q230733": {
+        "pt": "Dianne Feinstein"
+    },
+    "Q319084": {
+        "pt": "Al Franken"
+    },
+    "Q653258": {
+        "pt": "Fred Grandy"
+    },
+    "Q9682": {
+        "pt": "Isabel II do Reino Unido"
+    },
+    "Q1108617": {
+        "pt": "Estes Kefauver"
+    },
+    "Q29468": {
+        "pt": "Partido Republicano"
+    },
+    "Q29552": {
+        "pt": "Partido Democrata"
+    },
+    "Q221997": {
+        "pt": "Jeb Bush"
+    },
+    "Q15070044": {
+        "pt": "Malia Obama"
+    },
+    "Q234263": {
+        "pt": "Caroline Harrison"
+    },
+    "Q191789": {
+        "pt": "Martha Washington"
+    },
+    "Q1143289": {
+        "pt": "Yale Law School"
+    },
+    "Q11220": {
+        "pt": "Marinha dos Estados Unidos"
+    },
+    "Q22947729": {
+        "pt": "Ruby M. Rouss"
+    },
+    "Q11806": {
+        "pt": "John Adams"
+    },
+    "Q3631124": {
+        "pt": "Susanna M. Salter"
+    },
+    "Q189": {
+        "pt": "Islândia"
+    },
+    "Q4496": {
+        "pt": "Mitt Romney"
+    },
+    "Q3105215": {
+        "pt": "Ron DeSantis"
+    },
+    "Q11891": {
+        "pt": "James Knox Polk"
+    },
+    "Q33866": {
+        "pt": "Theodore Roosevelt"
+    },
+    "Q273212": {
+        "pt": "John C. Breckinridge"
+    },
+    "Q55223040": {
+        "pt": "Alexandria Ocasio-Cortez"
+    },
+    "Q6380211": {
+        "pt": "Kay Ivey"
+    },
+    "Q648729": {
+        "pt": "Stevens T. Mason"
+    },
+    "Q9696": {
+        "pt": "John F. Kennedy"
+    },
+    "Q1211": {
+        "pt": "Dakota do Sul"
+    },
+    "Q16641": {
+        "pt": "Samoa Americana"
+    },
+    "Q766320": {
+        "pt": "Luke Ravenstahl"
+    },
+    "Q192156": {
+        "pt": "Call of Duty"
+    },
+    "Q16259390": {
+        "pt": "Darkest Dungeon"
+    },
+    "Q55381995": {
+        "pt": null
+    },
+    "Q925253": {
+        "pt": "Mortal Kombat 3"
+    },
+    "Q2084001": {
+        "pt": "Gauntlet Dark Legacy"
+    },
+    "Q1883234": {
+        "pt": "Madden NFL"
+    },
+    "Q474587": {
+        "pt": "Battlefield"
+    },
+    "Q207922": {
+        "pt": "Atari SA"
+    },
+    "Q2562228": {
+        "pt": "Castlevania: Circle of the Moon"
+    },
+    "Q2698085": {
+        "pt": "Castlevania: Harmony of Dissonance"
+    },
+    "Q2291309": {
+        "pt": "Castlevania: Aria of Sorrow"
+    },
+    "Q678394": {
+        "pt": "Final Fantasy XI"
+    },
+    "Q868389": {
+        "pt": "Final Fantasy XIV"
+    },
+    "Q211096": {
+        "pt": "Call of Duty"
+    },
+    "Q210298": {
+        "pt": "Call of Duty 2"
+    },
+    "Q308961": {
+        "pt": "Call of Duty 3"
+    },
+    "Q76255": {
+        "pt": "Call of Duty 4: Modern Warfare"
+    },
+    "Q207797": {
+        "pt": "Call of Duty: World at War"
+    },
+    "Q150294": {
+        "pt": "Mortal Kombat"
+    },
+    "Q843486": {
+        "pt": "Mortal Kombat II"
+    },
+    "Q1300499": {
+        "pt": "Mortal Kombat Trilogy"
+    },
+    "Q925269": {
+        "pt": "Mortal Kombat 4"
+    },
+    "Q1277009": {
+        "pt": "Psychonauts"
+    },
+    "Q21780590": {
+        "pt": null
+    },
+    "Q22019734": {
+        "pt": "Psychonauts 2"
+    },
+    "Q1798592": {
+        "pt": "Cloud Strife"
+    },
+    "Q3493144": {
+        "pt": null
+    },
+    "Q1199059": {
+        "pt": "Tifa Lockhart"
+    },
+    "Q2294772": {
+        "pt": "Aerith Gainsborough"
+    },
+    "Q3189842": {
+        "pt": null
+    },
+    "Q11680398": {
+        "pt": null
+    },
+    "Q66287650": {
+        "pt": null
+    },
+    "Q4199411": {
+        "pt": null
+    },
+    "Q2349973": {
+        "pt": "Vincent Valentine"
+    },
+    "Q287637": {
+        "pt": "The Witcher (jogo eletrônico)"
+    },
+    "Q917272": {
+        "pt": "The Witcher 2: Assassins of Kings"
+    },
+    "Q4267401": {
+        "pt": "The Witcher 3: Wild Hunt"
+    },
+    "Q16040657": {
+        "pt": null
+    },
+    "Q13427106": {
+        "pt": "Mario Kart 8"
+    },
+    "Q28321447": {
+        "pt": "Mario Kart 8 Deluxe"
+    },
+    "Q9029138": {
+        "pt": null
+    },
+    "Q276217": {
+        "pt": "Halo: Combat Evolved"
+    },
+    "Q252804": {
+        "pt": "Halo 2"
+    },
+    "Q137802": {
+        "pt": "Halo 3"
+    },
+    "Q45028": {
+        "pt": "Halo 4"
+    },
+    "Q911226": {
+        "pt": "Final Fantasy IV"
+    },
+    "Q535940": {
+        "pt": "Final Fantasy VI"
+    },
+    "Q323862": {
+        "pt": "The Elder Scrolls V: Skyrim"
+    },
+    "Q54913731": {
+        "pt": "The Elder Scrolls: Blades"
+    },
+    "Q1765733": {
+        "pt": "Metroid Prime"
+    },
+    "Q2089035": {
+        "pt": "Metroid Prime 2: Echoes"
+    },
+    "Q1987193": {
+        "pt": "Metroid Prime 3: Corruption"
+    },
+    "Q59380123": {
+        "pt": null
+    },
+    "Q719643": {
+        "pt": "World of Warcraft: The Burning Crusade"
+    },
+    "Q715719": {
+        "pt": "World of Warcraft: Wrath of the Lich King"
+    },
+    "Q737619": {
+        "pt": "World of Warcraft: Cataclysm"
+    },
+    "Q841953": {
+        "pt": "World of Warcraft: Mists of Pandaria"
+    },
+    "Q15139238": {
+        "pt": "World of Warcraft: Warlords of Draenor"
+    },
+    "Q3977581": {
+        "pt": "Super Mario Bros. Special"
+    },
+    "Q4836655": {
+        "pt": null
+    },
+    "Q56345292": {
+        "pt": null
+    },
+    "Q2540072": {
+        "pt": "Mario & Wario"
+    },
+    "Q1057942": {
+        "pt": "All Night Nippon Super Mario Bros."
+    },
+    "Q4021021": {
+        "pt": null
+    },
+    "Q107979981": {
+        "pt": null
+    },
+    "Q1415970": {
+        "pt": "Final Fantasy"
+    },
+    "Q921957": {
+        "pt": "Final Fantasy II"
+    },
+    "Q687559": {
+        "pt": "Final Fantasy III"
+    },
+    "Q900305": {
+        "pt": "Final Fantasy V"
+    },
+    "Q5345827": {
+        "pt": "Animal Crossing"
+    },
+    "Q877501": {
+        "pt": "Animal Crossing: Wild World"
+    },
+    "Q1195260": {
+        "pt": "Animal Crossing: City Folk"
+    },
+    "Q44462": {
+        "pt": "Animal Crossing: New Leaf"
+    },
+    "Q64566657": {
+        "pt": "Animal Crossing: New Horizons"
+    },
+    "Q49740": {
+        "pt": "Minecraft"
+    },
+    "Q17452": {
+        "pt": "Grand Theft Auto V"
+    },
+    "Q7706791": {
+        "pt": "Tetris"
+    },
+    "Q71936": {
+        "pt": "Wii Sports"
+    },
+    "Q28937399": {
+        "pt": "PlayerUnknown's Battlegrounds"
+    },
+    "Q213911": {
+        "pt": "The Legend of Zelda: Ocarina of Time"
+    },
+    "Q225912": {
+        "pt": "Kingdom Hearts"
+    },
+    "Q626802": {
+        "pt": "Kingdom Hearts II"
+    },
+    "Q28008605": {
+        "pt": null
+    },
+    "Q870981": {
+        "pt": "Super Smash Bros."
+    },
+    "Q388225": {
+        "pt": "Command & Conquer: Red Alert"
+    },
+    "Q585939": {
+        "pt": "Donkey Kong Country Returns"
+    },
+    "Q216995": {
+        "pt": "Super Mario 64"
+    },
+    "Q647249": {
+        "pt": "Super Mario Land"
+    },
+    "Q182172": {
+        "pt": "Nintendo GameCube"
+    },
+    "Q2471454": {
+        "pt": "Metroid II: Return of Samus"
+    },
+    "Q40993": {
+        "pt": "Porsche"
+    },
+    "Q83265": {
+        "pt": "Grand Theft Auto: San Andreas"
+    },
+    "Q1047938": {
+        "pt": "Guitar Hero III: Legends of Rock"
+    },
+    "Q187339": {
+        "pt": "Zelda II: The Adventure of Link"
+    },
+    "Q12384": {
+        "pt": "Donkey Kong"
+    },
+    "Q861205": {
+        "pt": "The Legend of Zelda: Skyward Sword"
+    },
+    "Q45080517": {
+        "pt": "SoulCalibur VI"
+    },
+    "Q591378": {
+        "pt": "Final Fantasy Tactics"
+    },
+    "Q6052688": {
+        "pt": "Assassin's Creed IV: Black Flag"
+    },
+    "Q20155152": {
+        "pt": "Final Fantasy VII Remake"
+    },
+    "Q193581": {
+        "pt": "Half-Life 2"
+    },
+    "Q1092945": {
+        "pt": "Battlefield 2: Modern Combat"
+    },
+    "Q648128": {
+        "pt": "Battlefield: Bad Company"
+    },
+    "Q811018": {
+        "pt": "Battlefield 1943"
+    },
+    "Q59756366": {
+        "pt": "Hades"
+    },
+    "Q55662649": {
+        "pt": "Doom Eternal"
+    },
+    "Q74669": {
+        "pt": "Star Wars: Knights of the Old Republic II – The Sith Lords"
+    },
+    "Q907226": {
+        "pt": "Metal Gear Solid 2: Sons of Liberty"
+    },
+    "Q63866855": {
+        "pt": "The Dark Pictures Anthology: Man of Medan"
+    },
+    "Q275950": {
+        "pt": "Resident Evil 4"
+    },
+    "Q520061": {
+        "pt": "Clock Tower"
+    },
+    "Q2739920": {
+        "pt": "Árbitro (Halo)"
+    },
+    "Q1078091": {
+        "pt": null
+    },
+    "Q764069": {
+        "pt": "Duck Hunt"
+    },
+    "Q3206515": {
+        "pt": "King K. Rool"
+    },
+    "Q2725594": {
+        "pt": "Tommy Vercetti"
+    },
+    "Q29545": {
+        "pt": "Kevin Durant"
+    },
+    "Q2349646": {
+        "pt": "Tidus"
+    },
+    "Q568553": {
+        "pt": "Link"
+    },
+    "Q2066495": {
+        "pt": "Lightning"
+    },
+    "Q3266236": {
+        "pt": "Conde Drácula"
+    },
+    "Q1274650": {
+        "pt": null
+    },
+    "Q677351": {
+        "pt": "Assassin's Creed: Brotherhood"
+    },
+    "Q54093632": {
+        "pt": "Super Smash Bros. Ultimate"
+    },
+    "Q5725706": {
+        "pt": "Ratchet & Clank: Going Commando"
+    },
+    "Q1651039": {
+        "pt": null
+    },
+    "Q739450": {
+        "pt": "The Elder Scrolls II: Daggerfall"
+    },
+    "Q216293": {
+        "pt": "Pong"
+    },
+    "Q10680": {
+        "pt": "PlayStation 2"
+    },
+    "Q486351": {
+        "pt": "Call of Duty: Modern Warfare 2"
+    },
+    "Q170410": {
+        "pt": "New Super Mario Bros. Wii"
+    },
+    "Q18154328": {
+        "pt": null
+    },
+    "Q637137": {
+        "pt": "Pokémon Red e Blue"
+    },
+    "Q1064927": {
+        "pt": "Dragon Age II"
+    },
+    "Q370055": {
+        "pt": "The Legend of Zelda: A Link to the Past"
+    },
+    "Q847571": {
+        "pt": "Bulbasaur"
+    },
+    "Q843131": {
+        "pt": "Super Smash Bros. Brawl"
+    },
+    "Q18602166": {
+        "pt": "Assassin's Creed Syndicate"
+    },
+    "Q30138024": {
+        "pt": "Asassin's Creed Origins"
+    },
+    "Q92464687": {
+        "pt": "Assassin's Creed Valhalla"
+    },
+    "Q56942": {
+        "pt": "Wii U"
+    },
+    "Q1986744": {
+        "pt": "The Last of Us"
+    },
+    "Q30015130": {
+        "pt": "Far Cry 5"
+    },
+    "Q64083878": {
+        "pt": "Call of Duty: Modern Warfare"
+    },
+    "Q207986": {
+        "pt": "Call of Duty: Black Ops"
+    },
+    "Q654354": {
+        "pt": "Shenmue"
+    },
+    "Q29045915": {
+        "pt": "Destiny 2"
+    },
+    "Q59511757": {
+        "pt": "Mortal Kombat 11"
+    },
+    "Q385184": {
+        "pt": "Ōkami"
+    },
+    "Q12579896": {
+        "pt": "Os Sims 4"
+    },
+    "Q515876": {
+        "pt": "Age of Empires: The Rise of Rome"
+    },
+    "Q2530723": {
+        "pt": "Metroid"
+    },
+    "Q229429": {
+        "pt": "3DO Interactive Multiplayer"
+    },
+    "Q581039": {
+        "pt": "Star Citizen"
+    },
+    "Q41117": {
+        "pt": "Kim Il-sung"
+    },
+    "Q91": {
+        "pt": "Abraham Lincoln"
+    },
+    "Q362": {
+        "pt": "Segunda Guerra Mundial"
+    },
+    "Q47674": {
+        "pt": "Américo Vespúcio"
+    },
+    "Q459578": {
+        "pt": "Canal de Erie"
+    },
+    "Q8663": {
+        "pt": "Guerra da Coreia"
+    },
+    "Q129247": {
+        "pt": "Eduardo III de Inglaterra"
+    },
+    "Q128633": {
+        "pt": "William Lyon Mackenzie King"
+    },
+    "Q8676": {
+        "pt": "Guerra de Secessão"
+    },
+    "Q8740": {
+        "pt": "Guerra do Vietnã"
+    },
+    "Q11812": {
+        "pt": "Thomas Jefferson"
+    },
+    "Q217519": {
+        "pt": "peste bubónica"
+    },
+    "Q192769": {
+        "pt": "Revolução Americana"
+    },
+    "Q188163": {
+        "pt": "Fat Man"
+    },
+    "Q115": {
+        "pt": "Etiópia"
+    },
+    "Q40949": {
+        "pt": "Guerra da Independência dos Estados Unidos"
+    },
+    "Q183": {
+        "pt": "Alemanha"
+    },
+    "Q12557": {
+        "pt": "Império Mongol"
+    },
+    "Q11869": {
+        "pt": "William Henry Harrison"
+    },
+    "Q34836": {
+        "pt": "Ulysses S. Grant"
+    },
+    "Q35686": {
+        "pt": "Rutherford B. Hayes"
+    },
+    "Q34597": {
+        "pt": "James A. Garfield"
+    },
+    "Q35678": {
+        "pt": "Benjamin Harrison"
+    },
+    "Q796": {
+        "pt": "Iraque"
+    },
+    "Q865263": {
+        "pt": "Naamá (esposa de Salomão)"
+    },
+    "Q158248": {
+        "pt": "Ana da Dinamarca"
+    },
+    "Q400266": {
+        "pt": "Ahinoam"
+    },
+    "Q2899077": {
+        "pt": "Rispa"
+    },
+    "Q145": {
+        "pt": "Reino Unido"
+    },
+    "Q258": {
+        "pt": "África do Sul"
+    },
+    "Q214910": {
+        "pt": "Kamehameha I"
+    },
+    "Q380341": {
+        "pt": "Kamehameha II"
+    },
+    "Q455795": {
+        "pt": "Kamehameha III"
+    },
+    "Q470398": {
+        "pt": "Kamehameha IV"
+    },
+    "Q887354": {
+        "pt": "Kamehameha V"
+    },
+    "Q499103": {
+        "pt": "Lunalilo"
+    },
+    "Q163080": {
+        "pt": "Kalākaua"
+    },
+    "Q107288": {
+        "pt": "Liliuokalani"
+    },
+    "Q35041": {
+        "pt": "William McKinley"
+    },
+    "Q82674": {
+        "pt": "Maria I de Inglaterra"
+    },
+    "Q7207": {
+        "pt": "Isabel I de Inglaterra"
+    },
+    "Q130812": {
+        "pt": "Maria II de Inglaterra"
+    },
+    "Q119702": {
+        "pt": "Ana da Grã-Bretanha"
+    },
+    "Q9439": {
+        "pt": "Vitória do Reino Unido"
+    },
+    "Q31747": {
+        "pt": "Estado Livre Irlandês"
+    },
+    "Q38610": {
+        "pt": "Domínio de Terra Nova"
+    },
+    "Q43274": {
+        "pt": "Carlos III do Reino Unido"
+    },
+    "Q153330": {
+        "pt": "André, Duque de Iorque"
+    },
+    "Q151754": {
+        "pt": "Ana, Princesa Real"
+    },
+    "Q154920": {
+        "pt": "Eduardo, conde de Wessex"
+    },
+    "Q15180": {
+        "pt": "União Soviética"
+    },
+    "Q222": {
+        "pt": "Albânia"
+    },
+    "Q219": {
+        "pt": "Bulgária"
+    },
+    "Q33946": {
+        "pt": "Checoslováquia"
+    },
+    "Q28": {
+        "pt": "Hungria"
+    },
+    "Q16957": {
+        "pt": "República Democrática Alemã"
+    },
+    "Q36": {
+        "pt": "Polónia"
+    },
+    "Q218": {
+        "pt": "Roménia"
+    },
+    "Q1400": {
+        "pt": "Pensilvânia"
+    },
+    "Q1371": {
+        "pt": "Virgínia Ocidental"
+    },
+    "Q31": {
+        "pt": "Bélgica"
+    },
+    "Q102911": {
+        "pt": "Holanda"
+    },
+    "Q38": {
+        "pt": "Itália"
+    },
+    "Q40": {
+        "pt": "Áustria"
+    },
+    "Q29": {
+        "pt": "Espanha"
+    },
+    "Q35": {
+        "pt": "Dinamarca"
+    },
+    "Q23": {
+        "pt": "George Washington"
+    },
+    "Q11817": {
+        "pt": "Andrew Jackson"
+    },
+    "Q35286": {
+        "pt": "Warren G. Harding"
+    },
+    "Q130805": {
+        "pt": "Jorge I da Grã-Bretanha"
+    },
+    "Q131981": {
+        "pt": "Jorge II da Grã-Bretanha"
+    },
+    "Q127318": {
+        "pt": "Jorge III do Reino Unido"
+    },
+    "Q130586": {
+        "pt": "Jorge IV do Reino Unido"
+    },
+    "Q269412": {
+        "pt": "Jorge V do Reino Unido"
+    },
+    "Q280856": {
+        "pt": "Jorge VI do Reino Unido"
+    },
+    "Q1454": {
+        "pt": "Carolina do Norte"
+    },
+    "Q1456": {
+        "pt": "Carolina do Sul"
+    },
+    "Q771": {
+        "pt": "Massachusetts"
+    },
+    "Q1387": {
+        "pt": "Rhode Island"
+    },
+    "Q1408": {
+        "pt": "Nova Jérsia"
+    },
+    "Q150872": {
+        "pt": "Matilde de Inglaterra"
+    },
+    "Q162356": {
+        "pt": "Joana Grey"
+    },
+    "Q228642": {
+        "pt": "Isabel de França"
+    },
+    "Q41931": {
+        "pt": "Jardins Suspensos da Babilónia"
+    },
+    "Q47722": {
+        "pt": "brócolos"
+    },
+    "Q517": {
+        "pt": "Napoleão Bonaparte"
+    },
+    "Q134549": {
+        "pt": "Ted Kennedy"
+    },
+    "Q255190": {
+        "pt": "Anna Harrison"
+    },
+    "Q38370": {
+        "pt": "Henrique VIII de Inglaterra"
+    },
+    "Q41563": {
+        "pt": "Julia Gillard"
+    },
+    "Q12551": {
+        "pt": "Guerra dos Cem Anos"
+    },
+    "Q590227": {
+        "pt": "Eduardo VIII do Reino Unido"
+    },
+    "Q34": {
+        "pt": "Suécia"
+    },
+    "Q7523": {
+        "pt": "Kublai Khan"
+    },
+    "Q9036": {
+        "pt": "Nikola Tesla"
+    },
+    "Q9212": {
+        "pt": "Exército dos Estados Unidos"
+    },
+    "Q173": {
+        "pt": "Alabama"
+    },
+    "Q216124": {
+        "pt": "Stonewall Jackson"
+    },
+    "Q311245": {
+        "pt": "USS Yorktown (CV-5)"
+    },
+    "Q36023": {
+        "pt": "Calvin Coolidge"
+    },
+    "Q157995": {
+        "pt": "Horemheb"
+    },
+    "Q1409": {
+        "pt": "Calígula"
+    },
+    "Q2259": {
+        "pt": "Júlia"
+    },
+    "Q51089": {
+        "pt": "Beatriz Regina de Scala"
+    },
+    "Q3052772": {
+        "pt": "Emmanuel Macron"
+    },
+    "Q346": {
+        "pt": "Luís IX de França"
+    },
+    "Q130822": {
+        "pt": "Guilherme IV do Reino Unido"
+    },
+    "Q762": {
+        "pt": "Leonardo da Vinci"
+    },
+    "Q43303": {
+        "pt": "Malcolm X"
+    },
+    "Q38234": {
+        "pt": "Nagasaki"
+    },
+    "Q397": {
+        "pt": "latim"
+    },
+    "Q858340": {
+        "pt": "lente bifocal"
+    },
+    "Q193426": {
+        "pt": "Nancy Davis Reagan"
+    },
+    "Q151018": {
+        "pt": "Batalha das Ardenas"
+    },
+    "Q8016": {
+        "pt": "Winston Churchill"
+    },
+    "Q1465751": {
+        "pt": "Luís XIX de França"
+    },
+    "Q2252": {
+        "pt": "Buzz Aldrin"
+    },
+    "Q180589": {
+        "pt": "Boris Johnson"
+    },
+    "Q9685": {
+        "pt": "Diana, Princesa de Gales"
+    },
+    "Q48745": {
+        "pt": "Lee Harvey Oswald"
+    },
+    "Q1044197": {
+        "pt": "USS Ranger"
+    },
+    "Q185152": {
+        "pt": "Pu Yi"
+    },
+    "Q190055": {
+        "pt": "Roxana"
+    },
+    "Q231876": {
+        "pt": "Sofia Doroteia de Brünswick-Luneburgo"
+    },
+    "Q162269": {
+        "pt": "Jefferson Davis"
+    },
+    "Q1523": {
+        "pt": "Ramsés II"
+    },
+    "Q435793": {
+        "pt": "Robert Todd Lincoln"
+    },
+    "Q2677": {
+        "pt": "Guilherme II da Alemanha"
+    },
+    "Q719200": {
+        "pt": "Hiram R. Revels"
+    },
+    "Q180971": {
+        "pt": "Apollo 17"
+    },
+    "Q37200": {
+        "pt": "Pirâmide de Quéops"
+    },
+    "Q12312": {
+        "pt": "Franklin Pierce"
+    },
+    "Q2646": {
+        "pt": "Friedrich Ebert"
+    },
+    "Q189574": {
+        "pt": "Menés"
+    },
+    "Q1861": {
+        "pt": "Banguecoque"
+    },
+    "Q130847": {
+        "pt": "Batalha de Verdun"
+    },
+    "Q1405": {
+        "pt": "Augusto"
+    },
+    "Q247253": {
+        "pt": "Batalha de Khe Sahn"
+    },
+    "Q160337": {
+        "pt": "Henrique VI de Inglaterra"
+    },
+    "Q432473": {
+        "pt": "Melania Trump"
+    },
+    "Q700572": {
+        "pt": "Batalha de Attu"
+    },
+    "Q2027162": {
+        "pt": "Gateway Arch"
+    },
+    "Q101384": {
+        "pt": "Henrique I de Inglaterra"
+    },
+    "Q33132": {
+        "pt": "Batalha de Gettysburg"
+    },
+    "Q1539513": {
+        "pt": "Batalha de Camden"
+    },
+    "Q104190": {
+        "pt": "Robert Walpole"
+    },
+    "Q1416": {
+        "pt": "Otão"
+    },
+    "Q7742": {
+        "pt": "Luís XIV de França"
+    },
+    "Q10806": {
+        "pt": "Ataques de 11 de setembro de 2001"
+    },
+    "Q40715": {
+        "pt": "Jennifer Lopez"
+    },
+    "Q746574": {
+        "pt": "My Left Foot"
+    },
+    "Q244315": {
+        "pt": "There Will Be Blood"
+    },
+    "Q32433": {
+        "pt": "Lincoln"
+    },
+    "Q507994": {
+        "pt": "Caça ao Outubro Vermelho"
+    },
+    "Q855222": {
+        "pt": "Patriot Games"
+    },
+    "Q1392442": {
+        "pt": "Clear and Present Danger"
+    },
+    "Q1048846": {
+        "pt": "The Sum of All Fears"
+    },
+    "Q902672": {
+        "pt": "Jack Ryan: Shadow Recruit"
+    },
+    "Q275120": {
+        "pt": "Capitão América: O Primeiro Vingador"
+    },
+    "Q182218": {
+        "pt": "The Avengers"
+    },
+    "Q1765358": {
+        "pt": "Captain America: The Winter Soldier"
+    },
+    "Q14171368": {
+        "pt": "Avengers: Age of Ultron"
+    },
+    "Q18407657": {
+        "pt": "Capitão América: Guerra Civil"
+    },
+    "Q23010088": {
+        "pt": "Homem-Aranha: Regresso a Casa"
+    },
+    "Q23781129": {
+        "pt": "Captain Marvel"
+    },
+    "Q102427": {
+        "pt": "Óscar de melhor filme"
+    },
+    "Q106291": {
+        "pt": "Óscar de melhor ator secundário"
+    },
+    "Q83495": {
+        "pt": "Matrix"
+    },
+    "Q207536": {
+        "pt": "The Matrix Revolutions"
+    },
+    "Q886597": {
+        "pt": "The Texas Chain Saw Massacre"
+    },
+    "Q334185": {
+        "pt": "The Texas Chainsaw Massacre 2"
+    },
+    "Q334169": {
+        "pt": "Leatherface: Texas Chainsaw Massacre III"
+    },
+    "Q334179": {
+        "pt": "The Return of the Texas Chainsaw Massacre"
+    },
+    "Q392696": {
+        "pt": "The Texas Chainsaw Massacre"
+    },
+    "Q642016": {
+        "pt": "The Texas Chainsaw Massacre: The Beginning"
+    },
+    "Q1832350": {
+        "pt": "Texas Chainsaw 3D"
+    },
+    "Q20026854": {
+        "pt": "Leatherface"
+    },
+    "Q108145849": {
+        "pt": "Texas Chainsaw Massacre"
+    },
+    "Q46717": {
+        "pt": "Pirates of the Caribbean: The Curse of the Black Pearl"
+    },
+    "Q54274": {
+        "pt": "Pirates of the Caribbean: At World's End"
+    },
+    "Q10350033": {
+        "pt": "Pirates of the Caribbean 5"
+    },
+    "Q255342": {
+        "pt": "Rush Hour"
+    },
+    "Q830208": {
+        "pt": "Rush Hour 2"
+    },
+    "Q498109": {
+        "pt": "Rush Hour 3"
+    },
+    "Q27985819": {
+        "pt": "Spider-Man: Far From Home"
+    },
+    "Q134077": {
+        "pt": "Rachel Weisz"
+    },
+    "Q208408": {
+        "pt": "Tim Allen"
+    },
+    "Q30136697": {
+        "pt": "Derek Kolstad"
+    },
+    "Q148659": {
+        "pt": "Indiana Jones"
+    },
+    "Q29470162": {
+        "pt": "Rampage"
+    },
+    "Q631103": {
+        "pt": "Mean Girls"
+    },
+    "Q153723": {
+        "pt": "Inglourious Basterds"
+    },
+    "Q4547": {
+        "pt": "Daniel Craig"
+    },
+    "Q106775": {
+        "pt": "Richard Harris"
+    },
+    "Q29057443": {
+        "pt": "O Irlandês"
+    },
+    "Q3005821": {
+        "pt": "The Gulf Between"
+    },
+    "Q7560184": {
+        "pt": null
+    },
+    "Q109331": {
+        "pt": "Regresso ao Futuro II"
+    },
+    "Q166389": {
+        "pt": "Daniel Day-Lewis"
+    },
+    "Q860461": {
+        "pt": "Gojira"
+    },
+    "Q383459": {
+        "pt": "The Slim Shady LP"
+    },
+    "Q6107": {
+        "pt": "Tupac Shakur"
+    },
+    "Q27655361": {
+        "pt": "Jisoo"
+    },
+    "Q26262599": {
+        "pt": "Jennie"
+    },
+    "Q27655344": {
+        "pt": "Rosé"
+    },
+    "Q26707663": {
+        "pt": "Lisa"
+    },
+    "Q54959065": {
+        "pt": null
+    },
+    "Q85846726": {
+        "pt": "My Turn"
+    },
+    "Q5593769": {
+        "pt": null
+    },
+    "Q488651": {
+        "pt": "Óscar de melhor banda sonora"
+    },
+    "Q21075020": {
+        "pt": "Suga"
+    },
+    "Q19198": {
+        "pt": "Chester Bennington"
+    },
+    "Q356986": {
+        "pt": "Levon Helm"
+    },
+    "Q349551": {
+        "pt": "Adam Gontier"
+    },
+    "Q2703232": {
+        "pt": "End of Time"
+    },
+    "Q79646941": {
+        "pt": "Yummy"
+    },
+    "Q1125266": {
+        "pt": "Confessions"
+    },
+    "Q249107": {
+        "pt": "Kevin Richardson"
+    },
+    "Q37814092": {
+        "pt": "Reputation"
+    },
+    "Q839322": {
+        "pt": "Infinity on High"
+    },
+    "Q371202": {
+        "pt": "Big Boi"
+    },
+    "Q448837": {
+        "pt": "André 3000"
+    },
+    "Q250406": {
+        "pt": "Like a Virgin"
+    },
+    "Q1046612": {
+        "pt": "Tom Chaplin"
+    },
+    "Q194045": {
+        "pt": "Steven Tyler"
+    },
+    "Q57752": {
+        "pt": "Hansi Kürsch"
+    },
+    "Q7934591": {
+        "pt": null
+    },
+    "Q98686743": {
+        "pt": null
+    },
+    "Q580504": {
+        "pt": "Out of Our Heads"
+    },
+    "Q190911": {
+        "pt": "…Baby One More Time"
+    },
+    "Q1766649": {
+        "pt": "Elvis"
+    },
+    "Q105763464": {
+        "pt": "Leave the Door Open"
+    },
+    "Q44347": {
+        "pt": "HIStory: Past, Present and Future, Book I"
+    },
+    "Q300392": {
+        "pt": "A Different Kind of Truth"
+    },
+    "Q47016264": {
+        "pt": null
+    },
+    "Q26876": {
+        "pt": "Taylor Swift"
+    },
+    "Q873384": {
+        "pt": "Santana"
+    },
+    "Q440898": {
+        "pt": "Gregory Isaacs"
+    },
+    "Q20514446": {
+        "pt": "Kim Nam-joon"
+    },
+    "Q66065198": {
+        "pt": "Fear Inoculum"
+    },
+    "Q169138": {
+        "pt": "Miami Heat"
+    },
+    "Q213837": {
+        "pt": "Green Bay Packers"
+    },
+    "Q69713": {
+        "pt": "Campeonato Mundial de Fórmula 1 de 1994"
+    },
+    "Q69722": {
+        "pt": "Temporada de Fórmula 1 de 1995"
+    },
+    "Q69805": {
+        "pt": "Temporada de Fórmula 1 de 2000"
+    },
+    "Q69835": {
+        "pt": "Temporada de Fórmula 1 de 2001"
+    },
+    "Q69844": {
+        "pt": "Temporada de Fórmula 1 de 2002"
+    },
+    "Q69859": {
+        "pt": "Temporada de Fórmula 1 de 2003"
+    },
+    "Q69869": {
+        "pt": "Temporada de Fórmula 1 de 2004"
+    },
+    "Q162954": {
+        "pt": "Denver Nuggets"
+    },
+    "Q388858": {
+        "pt": "Colorado Rockies"
+    },
+    "Q206297": {
+        "pt": "Colorado Avalanche"
+    },
+    "Q337758": {
+        "pt": "San Francisco 49ers"
+    },
+    "Q4586976": {
+        "pt": null
+    },
+    "Q4587787": {
+        "pt": null
+    },
+    "Q4588662": {
+        "pt": null
+    },
+    "Q4591549": {
+        "pt": "Finais da NBA de 1996"
+    },
+    "Q4592651": {
+        "pt": null
+    },
+    "Q4593827": {
+        "pt": null
+    },
+    "Q15098782": {
+        "pt": "NASCAR Sprint Cup Series de 2014"
+    },
+    "Q4597667": {
+        "pt": null
+    },
+    "Q4598928": {
+        "pt": null
+    },
+    "Q4600307": {
+        "pt": null
+    },
+    "Q1959941": {
+        "pt": null
+    },
+    "Q644353": {
+        "pt": null
+    },
+    "Q136678": {
+        "pt": "James Harden"
+    },
+    "Q7383887": {
+        "pt": "Ryan Blaney"
+    },
+    "Q43196": {
+        "pt": "Cincinnati"
+    },
+    "Q525002": {
+        "pt": "Troy Aikman"
+    },
+    "Q1031899": {
+        "pt": "Luis Díaz"
+    },
+    "Q1691437": {
+        "pt": "Joe Gibbs Racing"
+    },
+    "Q466586": {
+        "pt": "Seattle Mariners"
+    },
+    "Q650855": {
+        "pt": "Detroit Tigers"
+    },
+    "Q959520": {
+        "pt": "Henri Richard"
+    },
+    "Q7245": {
+        "pt": "Mark Twain"
+    },
+    "Q1396889": {
+        "pt": "A Revolução dos Bichos"
+    },
+    "Q1471089": {
+        "pt": "The Hardy Boys"
+    },
+    "Q35064": {
+        "pt": "Agatha Christie"
+    },
+    "Q3643599": {
+        "pt": "Bran Stark"
+    },
+    "Q23759071": {
+        "pt": null
+    },
+    "Q23759067": {
+        "pt": null
+    },
+    "Q595950": {
+        "pt": "Mortal Engines"
+    },
+    "Q3753136": {
+        "pt": "Predator's Gold"
+    },
+    "Q6029482": {
+        "pt": "Infernal Devices"
+    },
+    "Q4656261": {
+        "pt": "A Darkling Plain"
+    },
+    "Q326914": {
+        "pt": "The Adventures of Tom Sawyer"
+    },
+    "Q558971": {
+        "pt": "Tom Sawyer Abroad"
+    },
+    "Q4460113": {
+        "pt": null
+    },
+    "Q3174865": {
+        "pt": null
+    },
+    "Q3430858": {
+        "pt": "Charlie Weasley"
+    },
+    "Q3284911": {
+        "pt": "Percy Weasley"
+    },
+    "Q13359612": {
+        "pt": null
+    },
+    "Q13359613": {
+        "pt": null
+    },
+    "Q187923": {
+        "pt": "Ginevra Molly Weasley"
+    },
+    "Q218950": {
+        "pt": "Príncipe Caspian"
+    },
+    "Q331656": {
+        "pt": "The Voyage of the Dawn Treader"
+    },
+    "Q289130": {
+        "pt": "A Última Batalha"
+    },
+    "Q12900597": {
+        "pt": "Joffrey Baratheon"
+    },
+    "Q19799435": {
+        "pt": null
+    },
+    "Q19792294": {
+        "pt": "Tommen Baratheon"
+    },
+    "Q191540": {
+        "pt": "Lua Nova"
+    },
+    "Q212473": {
+        "pt": "Eclipse"
+    },
+    "Q2223341": {
+        "pt": "Elizabeth Bennet"
+    },
+    "Q2198673": {
+        "pt": null
+    },
+    "Q19816980": {
+        "pt": null
+    },
+    "Q19816987": {
+        "pt": null
+    },
+    "Q2337271": {
+        "pt": "Lydia Bennet"
+    },
+    "Q1140036": {
+        "pt": "The Titan's Curse"
+    },
+    "Q1991641": {
+        "pt": "The Battle of the Labyrinth"
+    },
+    "Q2077641": {
+        "pt": "o ultimo olimpiano"
+    },
+    "Q5120404": {
+        "pt": null
+    },
+    "Q17146592": {
+        "pt": null
+    },
+    "Q17006023": {
+        "pt": null
+    },
+    "Q182502": {
+        "pt": "Angels & Demons"
+    },
+    "Q2277526": {
+        "pt": "Dearly Devoted Dexter"
+    },
+    "Q2700672": {
+        "pt": "Dexter in the Dark"
+    },
+    "Q2000255": {
+        "pt": "Dexter by Design"
+    },
+    "Q608616": {
+        "pt": "Dexter is Delicious"
+    },
+    "Q2063235": {
+        "pt": "Double Dexter"
+    },
+    "Q17015413": {
+        "pt": null
+    },
+    "Q20856879": {
+        "pt": null
+    },
+    "Q7721296": {
+        "pt": null
+    },
+    "Q183883": {
+        "pt": "The Catcher in the Rye"
+    },
+    "Q140": {
+        "pt": "leão"
+    },
+    "Q1525933": {
+        "pt": null
+    },
+    "Q1212467": {
+        "pt": null
+    },
+    "Q181677": {
+        "pt": "George R. R. Martin"
+    },
+    "Q95612695": {
+        "pt": null
+    },
+    "Q123078": {
+        "pt": "Robert A. Heinlein"
+    },
+    "Q8276": {
+        "pt": "Mahabharata"
+    },
+    "Q2900543": {
+        "pt": "Ryoki Inoue"
+    },
+    "Q182137": {
+        "pt": "Lago de Maracaibo"
+    },
+    "Q193253": {
+        "pt": "Molokai"
+    },
+    "Q239743": {
+        "pt": "Niihau"
+    },
+    "Q188705": {
+        "pt": "Maui"
+    },
+    "Q97": {
+        "pt": "Oceano Atlântico"
+    },
+    "Q98": {
+        "pt": "Oceano Pacífico"
+    },
+    "Q159621": {
+        "pt": "Annapurna"
+    },
+    "Q538104": {
+        "pt": "propina escolar"
+    },
+    "Q594387": {
+        "pt": "Monte Baker"
+    },
+    "Q8684": {
+        "pt": "Seul"
+    },
+    "Q130736": {
+        "pt": "Nanga Parbat"
+    },
+    "Q168702": {
+        "pt": "Lhotse"
+    },
+    "Q1490": {
+        "pt": "Tóquio"
+    },
+    "Q23559": {
+        "pt": "Benito Mussolini"
+    },
+    "Q83063": {
+        "pt": "Petronas Twin Towers"
+    },
+    "Q40285": {
+        "pt": "Nova Guiné"
+    },
+    "Q40758": {
+        "pt": "Monte Damavand"
+    },
+    "Q10361521": {
+        "pt": "Rio Azuis"
+    },
+    "Q329266": {
+        "pt": "Lago Crater"
+    },
+    "Q626": {
+        "pt": "Rio Volga"
+    },
+    "Q19673": {
+        "pt": "Al Gore"
+    },
+    "Q192": {
+        "pt": "David Cameron"
+    },
+    "Q9588": {
+        "pt": "Richard Nixon"
+    },
+    "Q39311": {
+        "pt": "Pat McCrory"
+    },
+    "Q9062647": {
+        "pt": null
+    },
+    "Q5255749": {
+        "pt": null
+    },
+    "Q28723576": {
+        "pt": "Andrew Yang"
+    },
+    "Q5605224": {
+        "pt": "Greg Abbott"
+    },
+    "Q55386653": {
+        "pt": "Michael Waltz"
+    },
+    "Q6862109": {
+        "pt": "Mimi Alford"
+    },
+    "Q11613": {
+        "pt": "Harry S. Truman"
+    },
+    "Q926441": {
+        "pt": "Hiram Fong"
+    },
+    "Q35648": {
+        "pt": "William Howard Taft"
+    },
+    "Q186587": {
+        "pt": "Troia"
+    },
+    "Q181069": {
+        "pt": "Star Wars: Episódio II – Ataque dos Clones"
+    },
+    "Q207336": {
+        "pt": "Beatles for Sale"
+    },
+    "Q283884": {
+        "pt": "Paul Tsongas"
+    },
+    "Q6452715": {
+        "pt": "sim"
+    },
+    "Q8337": {
+        "pt": "Harry Potter"
+    },
+    "Q2712708": {
+        "pt": "The Winds of Winter"
+    },
+    "Q10371726": {
+        "pt": null
+    },
+    "Q19897982": {
+        "pt": null
+    },
+    "Q168728": {
+        "pt": "Robert Frost"
+    },
+    "Q18536": {
+        "pt": "Shard London Bridge"
+    },
+    "Q182637": {
+        "pt": "Joana Seymour"
+    },
+    "Q2421426": {
+        "pt": "Mary Dimmick Harrison"
+    },
+    "Q182642": {
+        "pt": "John Glenn"
+    },
+    "Q1542408": {
+        "pt": "Gran Torre Costanera"
+    },
+    "Q790054": {
+        "pt": null
+    },
+    "Q927744": {
+        "pt": "Monte Cheaha"
+    },
+    "Q177439": {
+        "pt": "Rubeus Hagrid"
+    },
+    "Q51740": {
+        "pt": "Obi-Wan Kenobi"
+    },
+    "Q712548": {
+        "pt": "Albus Dumbledore"
+    },
+    "Q1918366": {
+        "pt": null
+    },
+    "Q15920": {
+        "pt": "Metallica"
+    },
+    "Q98546064": {
+        "pt": null
+    },
+    "Q107940": {
+        "pt": "Star Trek: The Motion Picture"
+    },
+    "Q428808": {
+        "pt": "Grammy Award para Best Song Written for Visual Media"
+    },
+    "Q172339": {
+        "pt": "New Orleans Pelicans"
+    },
+    "Q8682": {
+        "pt": "Real Madrid Club de Fútbol"
+    },
+    "Q103916": {
+        "pt": "Óscar de melhor ator"
+    },
+    "Q19590955": {
+        "pt": "Star Wars Anthology: Rogue One"
+    },
+    "Q152019": {
+        "pt": "Laura Bush"
+    },
+    "Q692": {
+        "pt": null
+    },
+    "Q11816": {
+        "pt": "John Quincy Adams"
+    },
+    "Q41": {
+        "pt": "Grécia"
+    },
+    "Q2488178": {
+        "pt": null
+    },
+    "Q56641109": {
+        "pt": "Luigi's Mansion 3"
+    },
+    "Q669687": {
+        "pt": "Diablo: Hellfire"
+    },
+    "Q27950674": {
+        "pt": "The Last of Us Part II"
+    },
+    "Q786": {
+        "pt": "República Dominicana"
+    },
+    "Q370377": {
+        "pt": "Joe Hill"
+    },
+    "Q237514": {
+        "pt": "Laura Ingalls Wilder"
+    },
+    "Q2758526": {
+        "pt": "Madden NFL 09"
+    },
+    "Q2007514": {
+        "pt": "Raiden"
+    },
+    "Q845864": {
+        "pt": "Bowser"
+    },
+    "Q635": {
+        "pt": "Cleópatra VII"
+    },
+    "Q192943": {
+        "pt": "Catarina Parr"
+    },
+    "Q1136956": {
+        "pt": "SG-1000"
+    },
+    "Q4686254": {
+        "pt": null
+    },
+    "Q209868": {
+        "pt": "Sega Master System"
+    },
+    "Q10676": {
+        "pt": "Mega Drive"
+    },
+    "Q751719": {
+        "pt": "Sega Game Gear"
+    },
+    "Q1047516": {
+        "pt": "Sega CD"
+    },
+    "Q1374482": {
+        "pt": "Sega Pico"
+    },
+    "Q1063978": {
+        "pt": "Sega 32X"
+    },
+    "Q200912": {
+        "pt": "Sega Saturn"
+    },
+    "Q184198": {
+        "pt": "Dreamcast"
+    },
+    "Q1166232": {
+        "pt": "Dark Souls"
+    },
+    "Q3702740": {
+        "pt": "Dark Souls II"
+    },
+    "Q20112508": {
+        "pt": "Dark Souls III"
+    },
+    "Q773176": {
+        "pt": "Thomas Kirker"
+    },
+    "Q3036410": {
+        "pt": "Tammy Duckworth"
+    },
+    "Q298985": {
+        "pt": "William R. King"
+    },
+    "Q174": {
+        "pt": "São Paulo"
+    },
+    "Q61309": {
+        "pt": "Colima"
+    },
+    "Q642359": {
+        "pt": "Tomb Raider Chronicles"
+    },
+    "Q12391356": {
+        "pt": "Final Fantasy"
+    },
+    "Q326704": {
+        "pt": "FIFA"
+    },
+    "Q214232": {
+        "pt": "Final Fantasy VII"
+    },
+    "Q636219": {
+        "pt": "Gears of War"
+    },
+    "Q170510": {
+        "pt": "Ian McKellen"
+    },
+    "Q2272447": {
+        "pt": "Garden Party"
+    },
+    "Q178166": {
+        "pt": "Vin Diesel"
+    },
+    "Q217533": {
+        "pt": "Coringa"
+    },
+    "Q1140559": {
+        "pt": "Critters 3"
+    },
+    "Q38119": {
+        "pt": "Daniel Radcliffe"
+    },
+    "Q32522": {
+        "pt": "Jennifer Aniston"
+    },
+    "Q575901": {
+        "pt": "Observatório Griffith"
+    },
+    "Q29169280": {
+        "pt": "Love, Simon"
+    },
+    "Q138005": {
+        "pt": "Michael Keaton"
+    },
+    "Q309350": {
+        "pt": "Universidade Northwestern"
+    },
+    "Q215506": {
+        "pt": "Jerry Seinfeld"
+    },
+    "Q44578": {
+        "pt": "Titanic"
+    },
+    "Q669749": {
+        "pt": "A Canção de Bernadette"
+    },
+    "Q202381": {
+        "pt": "Maggie Gyllenhaal"
+    },
+    "Q104027": {
+        "pt": "Kirk Douglas"
+    },
+    "Q35332": {
+        "pt": "Brad Pitt"
+    },
+    "Q41548": {
+        "pt": "Antonio Banderas"
+    },
+    "Q43203": {
+        "pt": "Clint Eastwood"
+    },
+    "Q1079": {
+        "pt": "Breaking Bad"
+    },
+    "Q375590": {
+        "pt": "Rami Malek"
+    },
+    "Q188459": {
+        "pt": "Goldie Hawn"
+    },
+    "Q4914": {
+        "pt": "Jimmy Kimmel"
+    },
+    "Q228787": {
+        "pt": "Jada Pinkett Smith"
+    },
+    "Q652022": {
+        "pt": "Master Chief"
+    },
+    "Q152098": {
+        "pt": "Quarteto Fantástico"
+    },
+    "Q7088045": {
+        "pt": "Olivia Colman"
+    },
+    "Q37079": {
+        "pt": "Tom Cruise"
+    },
+    "Q165524": {
+        "pt": "Tobey Maguire"
+    },
+    "Q180704": {
+        "pt": "Homem de Ferro"
+    },
+    "Q263696": {
+        "pt": "Debbie Reynolds"
+    },
+    "Q5608": {
+        "pt": "Eminem"
+    },
+    "Q44570": {
+        "pt": "John Lee Hooker"
+    },
+    "Q185151": {
+        "pt": "Ronnie James Dio"
+    },
+    "Q272012": {
+        "pt": "Eddie Van Halen"
+    },
+    "Q738887": {
+        "pt": "On Through the Night"
+    },
+    "Q750794": {
+        "pt": "Pon de Replay"
+    },
+    "Q3505252": {
+        "pt": "overdose"
+    },
+    "Q127503": {
+        "pt": "Dangerously in Love"
+    },
+    "Q487027": {
+        "pt": "Louis Armstrong and His Hot Five"
+    },
+    "Q73523694": {
+        "pt": "Fine Line"
+    },
+    "Q12439": {
+        "pt": "Detroit"
+    },
+    "Q272121": {
+        "pt": "Ænima"
+    },
+    "Q910912": {
+        "pt": "Paranoid"
+    },
+    "Q29564107": {
+        "pt": "Billie Eilish"
+    },
+    "Q6096": {
+        "pt": "Snoop Dogg"
+    },
+    "Q192133": {
+        "pt": "Robert Johnson"
+    },
+    "Q16967700": {
+        "pt": null
+    },
+    "Q64729088": {
+        "pt": "Señorita"
+    },
+    "Q739935": {
+        "pt": "Kiss"
+    },
+    "Q231259": {
+        "pt": "Billy Ray Cyrus"
+    },
+    "Q6927": {
+        "pt": "século XX"
+    },
+    "Q483507": {
+        "pt": "Kelly Clarkson"
+    },
+    "Q1744": {
+        "pt": "Madonna"
+    },
+    "Q6176893": {
+        "pt": null
+    },
+    "Q2389029": {
+        "pt": null
+    },
+    "Q155512": {
+        "pt": "I Kissed a Girl"
+    },
+    "Q270935": {
+        "pt": "Chris Cornell"
+    },
+    "Q659445": {
+        "pt": "Country Grammar"
+    },
+    "Q11399": {
+        "pt": "rock"
+    },
+    "Q5897643": {
+        "pt": null
+    },
+    "Q184805": {
+        "pt": "Tom Waits"
+    },
+    "Q195777": {
+        "pt": "Diana Gordon"
+    },
+    "Q842214": {
+        "pt": "Fearless"
+    },
+    "Q240228": {
+        "pt": "Supa Dupa Fly"
+    },
+    "Q836667": {
+        "pt": "Under Pressure"
+    },
+    "Q42406": {
+        "pt": "ingleses"
+    },
+    "Q72763": {
+        "pt": "Lace Up"
+    },
+    "Q38952": {
+        "pt": "Drew Brees"
+    },
+    "Q16499788": {
+        "pt": "Rob Manfred"
+    },
+    "Q7287609": {
+        "pt": null
+    },
+    "Q4558500": {
+        "pt": null
+    },
+    "Q1126349": {
+        "pt": "Connie Mack"
+    },
+    "Q246782": {
+        "pt": "Chicago Cubs"
+    },
+    "Q16196869": {
+        "pt": "Steve Christie"
+    },
+    "Q849784": {
+        "pt": "Los Angeles Memorial Coliseum"
+    },
+    "Q740086": {
+        "pt": "Steve Young"
+    },
+    "Q1147525": {
+        "pt": "Ray Chapman"
+    },
+    "Q213346": {
+        "pt": "John Stockton"
+    },
+    "Q316246": {
+        "pt": "Phil Jackson"
+    },
+    "Q1338802": {
+        "pt": "Emmitt Smith"
+    },
+    "Q308966": {
+        "pt": "San Francisco Giants"
+    },
+    "Q826751": {
+        "pt": "Cincinnati Reds"
+    },
+    "Q190618": {
+        "pt": "New York Giants"
+    },
+    "Q2747877": {
+        "pt": null
+    },
+    "Q1074399": {
+        "pt": null
+    },
+    "Q1395269": {
+        "pt": "Terrell Owens"
+    },
+    "Q182455": {
+        "pt": "Wilt Chamberlain"
+    },
+    "Q314712": {
+        "pt": "Barry Bonds"
+    },
+    "Q6173732": {
+        "pt": "Jeff Driskel"
+    },
+    "Q1129916": {
+        "pt": "Coors Field"
+    },
+    "Q2918426": {
+        "pt": "Timmy Smith"
+    },
+    "Q959112": {
+        "pt": "Reggie Jackson"
+    },
+    "Q169661": {
+        "pt": "Detroit Pistons"
+    },
+    "Q173998": {
+        "pt": "Ronald Weasley"
+    },
+    "Q25161": {
+        "pt": "Roald Dahl"
+    },
+    "Q105167": {
+        "pt": "Tom Clancy"
+    },
+    "Q1052268": {
+        "pt": "Midnight Sun"
+    },
+    "Q1645692": {
+        "pt": null
+    },
+    "Q38082": {
+        "pt": "Lewis Carroll"
+    },
+    "Q7345": {
+        "pt": "Dan Brown"
+    },
+    "Q19827042": {
+        "pt": "arco e flecha"
+    },
+    "Q2183834": {
+        "pt": "Fifty Shades Freed"
+    },
+    "Q388190": {
+        "pt": "Os Legados de Lorien"
+    },
+    "Q40909": {
+        "pt": "Virginia Woolf"
+    },
+    "Q3566632": {
+        "pt": null
+    },
+    "Q223131": {
+        "pt": "Um estudo em vermelho"
+    },
+    "Q1155729": {
+        "pt": "Scholastic Corporation"
+    },
+    "Q991": {
+        "pt": "Fiódor Dostoiévski"
+    },
+    "Q14136664": {
+        "pt": null
+    },
+    "Q1060636": {
+        "pt": "Daniel Handler"
+    },
+    "Q39829": {
+        "pt": null
+    },
+    "Q1799013": {
+        "pt": "Bisonho"
+    },
+    "Q228624": {
+        "pt": "Suzanne Collins"
+    },
+    "Q7600060": {
+        "pt": null
+    },
+    "Q209502": {
+        "pt": "Maria Bolena"
+    },
+    "Q214788": {
+        "pt": "Estação Paddington"
+    },
+    "Q41506": {
+        "pt": "Universidade Stanford"
+    },
+    "Q69339": {
+        "pt": "Nathaniel Hawthorne"
+    },
+    "Q1992331": {
+        "pt": "Violet Baudelaire"
+    },
+    "Q5083": {
+        "pt": "Seattle"
+    },
+    "Q16559": {
+        "pt": "Austin"
+    },
+    "Q7558770": {
+        "pt": "Solomon Willard"
+    },
+    "Q2408350": {
+        "pt": "Thaddeus Kosciuszko National Memorial"
+    },
+    "Q167073": {
+        "pt": "Eero Saarinen"
+    },
+    "Q2900": {
+        "pt": "Quito"
+    },
+    "Q336432": {
+        "pt": "Gutzon Borglum"
+    },
+    "Q6550499": {
+        "pt": "Lincoln Borglum"
+    },
+    "Q406": {
+        "pt": "Istambul"
+    },
+    "Q36091": {
+        "pt": "Minneapolis"
+    },
+    "Q14452": {
+        "pt": "Ilha de Páscoa"
+    },
+    "Q2807": {
+        "pt": null
+    },
+    "Q71": {
+        "pt": "Genebra"
+    },
+    "Q1321": {
+        "pt": "espanhol"
+    },
+    "Q33": {
+        "pt": "Finlândia"
+    },
+    "Q5665082": {
+        "pt": "Alejandro Guillier"
+    },
+    "Q1148669": {
+        "pt": "Cyril Ramaphosa"
+    },
+    "Q711760": {
+        "pt": "John Hanson"
+    },
+    "Q794": {
+        "pt": "Irão"
+    },
+    "Q2502270": {
+        "pt": "Casa de Thani"
+    },
+    "Q510523": {
+        "pt": "Emmerson Mnangagwa"
+    },
+    "Q3106882": {
+        "pt": null
+    },
+    "Q387647": {
+        "pt": null
+    },
+    "Q310230": {
+        "pt": "Prudente de Morais"
+    },
+    "Q11005": {
+        "pt": "Câmara dos Comuns do Reino Unido"
+    },
+    "Q11701": {
+        "pt": "Câmara dos Representantes dos Estados Unidos"
+    },
+    "Q367825": {
+        "pt": "Salman bin Abdalaziz Al Saud"
+    },
+    "Q16149892": {
+        "pt": "Luis Alberto Arce Catacora"
+    },
+    "Q77": {
+        "pt": "Uruguai"
+    },
+    "Q15031": {
+        "pt": null
+    },
+    "Q20015136": {
+        "pt": "Francisco Sagasti"
+    },
+    "Q130873": {
+        "pt": "Menachem Begin"
+    },
+    "Q5218": {
+        "pt": "quíchua"
+    },
+    "Q191503": {
+        "pt": "duelo"
+    },
+    "Q59886": {
+        "pt": "Bombardeamento de Tóquio"
+    },
+    "Q12542": {
+        "pt": "asteca"
+    },
+    "Q6050878": {
+        "pt": null
+    },
+    "Q5684": {
+        "pt": "Babilónia"
+    },
+    "Q39464": {
+        "pt": "Pol Pot"
+    },
+    "Q130011": {
+        "pt": "tempestade geomagnética"
+    },
+    "Q759985": {
+        "pt": "Revolta dos Sobrancelhas Vermelhas"
+    },
+    "Q34296": {
+        "pt": "Thomas Woodrow Wilson"
+    },
+    "Q135364": {
+        "pt": "Olmecas"
+    },
+    "Q3392": {
+        "pt": "Rio Nilo"
+    },
+    "Q129234": {
+        "pt": "Hatchepsut"
+    },
+    "Q1747689": {
+        "pt": "Roma Antiga"
+    },
+    "Q7209": {
+        "pt": "Dinastia Han"
+    },
+    "Q3746183": {
+        "pt": "Pérsia"
+    },
+    "Q75459": {
+        "pt": "Delfos"
+    },
+    "Q35216": {
+        "pt": "Dinastia Zhou"
+    },
+    "Q3734827": {
+        "pt": "Jane Hajduk"
+    },
+    "Q20856802": {
+        "pt": "La La Land"
+    },
+    "Q732845": {
+        "pt": "Mariah Carey"
+    },
+    "Q7378": {
+        "pt": "elefante"
+    },
+    "Q1154004": {
+        "pt": "Ministério da Cultura (Brasil)"
+    },
+    "Q208508": {
+        "pt": "Baía dos Porcos"
+    },
+    "Q65121240": {
+        "pt": null
+    },
+    "Q1621656": {
+        "pt": "Solid Snake"
+    },
+    "Q507001": {
+        "pt": "Princesa Peach"
+    },
+    "Q210593": {
+        "pt": "Luigi"
+    },
+    "Q536138": {
+        "pt": "Wario"
+    },
+    "Q12395": {
+        "pt": "The Legend of Zelda"
+    },
+    "Q2716989": {
+        "pt": "Final Fight"
+    },
+    "Q220317": {
+        "pt": "Maxis"
+    },
+    "Q219758": {
+        "pt": "BioWare"
+    },
+    "Q2704368": {
+        "pt": "Spira"
+    },
+    "Q72222194": {
+        "pt": null
+    },
+    "Q723271": {
+        "pt": "Liberty City"
+    },
+    "Q739711": {
+        "pt": "Epic Games"
+    },
+    "Q188273": {
+        "pt": "Ubisoft"
+    },
+    "Q79031": {
+        "pt": "Mike Tyson"
+    },
+    "Q1189206": {
+        "pt": "dota"
+    },
+    "Q1060165": {
+        "pt": "Riot Games"
+    },
+    "Q2283257": {
+        "pt": "Goodsprings"
+    },
+    "Q194135": {
+        "pt": "Miles \"Tails\" Prower"
+    },
+    "Q71910": {
+        "pt": "Tetris"
+    },
+    "Q11427": {
+        "pt": "aço"
+    },
+    "Q5690": {
+        "pt": "Esparta"
+    },
+    "Q820011": {
+        "pt": null
+    },
+    "Q63294487": {
+        "pt": null
+    },
+    "Q568463": {
+        "pt": null
+    },
+    "Q856593": {
+        "pt": null
+    },
+    "Q96417649": {
+        "pt": null
+    },
+    "Q108857472": {
+        "pt": null
+    },
+    "Q15622224": {
+        "pt": null
+    },
+    "Q13099569": {
+        "pt": null
+    },
+    "Q100": {
+        "pt": null
+    },
+    "Q23902998": {
+        "pt": null
+    },
+    "Q2464302": {
+        "pt": null
+    },
+    "Q2078564": {
+        "pt": null
+    },
+    "Q690744": {
+        "pt": null
+    },
+    "Q2089569": {
+        "pt": null
+    },
+    "Q2084358": {
+        "pt": null
+    },
+    "Q1198641": {
+        "pt": null
+    },
+    "Q2410203": {
+        "pt": null
+    },
+    "Q2383911": {
+        "pt": null
+    },
+    "Q2999009": {
+        "pt": null
+    },
+    "Q132478": {
+        "pt": null
+    },
+    "Q1239599": {
+        "pt": null
+    },
+    "Q1411": {
+        "pt": null
+    },
+    "Q16969671": {
+        "pt": null
+    },
+    "Q243705": {
+        "pt": null
+    }
+}
