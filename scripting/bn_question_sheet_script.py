@@ -1,5 +1,5 @@
 from openpyxl import Workbook, load_workbook
-from Services.file_service import open_txt
+from shared_utils.file_service import open_txt
 
 
 da_wb = load_workbook("./outputs/sampling/sampled_translations.xlsx")

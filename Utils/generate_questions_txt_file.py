@@ -1,4 +1,4 @@
-from Services.file_service import write_txt
+from shared_utils.file_service import write_txt
 
 
 def generate_questions_txt_file(json_map, output_path, seperator = '\n'):

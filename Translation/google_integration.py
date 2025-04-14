@@ -2,7 +2,7 @@
 import os
 from dotenv import load_dotenv
 from google.cloud import translate_v3
-from Services.file_service import open_txt, write_txt
+from shared_utils.file_service import open_txt, write_txt
 
 load_dotenv()
 PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT")

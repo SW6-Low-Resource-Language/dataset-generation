@@ -1,6 +1,6 @@
 import random
 from openpyxl import Workbook
-from Services.file_service import open_txt
+from shared_utils.file_service import open_txt
 import os
 
 def generate_random_translation_sampling_sheet(txt_data_object, samples):

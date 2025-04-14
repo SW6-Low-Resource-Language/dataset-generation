@@ -1,4 +1,4 @@
-from Services.file_service import open_txt, write_txt
+from shared_utils.file_service import open_txt, write_txt
 import os
 
 def split_txt_file(input_file):

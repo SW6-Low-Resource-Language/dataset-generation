@@ -1,4 +1,4 @@
-from Services.file_service import open_json, write_json
+from shared_utils.file_service import open_json, write_json
 import os
 
 
