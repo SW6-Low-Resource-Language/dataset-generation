@@ -3,7 +3,7 @@ from openpyxl import Workbook
 from Services.file_service import open_txt
 import os
 
-def generate_random_translation_sampling_sheet(txt_data_object, samples):
+def generate_random_translation_sampling_sheet(txt_data_object, samples, lang_codes, dataset_type):
     """
     Randomly samples lines from multiple text files and writes them to an Excel file.
     
@@ -16,14 +16,15 @@ def generate_random_translation_sampling_sheet(txt_data_object, samples):
     script_dir = os.path.dirname(__file__)
     
     # Read the English file
-    english_file = txt_data_object["English"]
+    english_file = txt_data_object[dataset_type]["English"]
     english_lines = open_txt(os.path.join(script_dir, english_file))
     
     # Read all translation files and store lines in a dictionary
     all_lines = {"English": english_lines}
-    for language, file in txt_data_object["Translations"].items():
-        lines = open_txt(os.path.join(script_dir, file))
-        all_lines[language] = lines
+    for language, file in txt_data_object[dataset_type]["Translations"].items():
+        if language in lang_codes:
+            lines = open_txt(os.path.join(script_dir, file))
+            all_lines[language] = lines
     
     # Ensure all files have the same number of lines
     num_lines = len(english_lines)

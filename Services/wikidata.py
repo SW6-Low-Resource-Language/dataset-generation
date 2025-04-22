@@ -2,6 +2,7 @@ from SPARQLWrapper import SPARQLWrapper, SPARQLExceptions, JSON
 import wikipedia
 from wikipedia.exceptions import DisambiguationError, PageError 
 import time
+from 
 
 query_find_labels_template = """SELECT ?entity ?label WHERE {
   VALUES ?entity { ENTITY_IDS }

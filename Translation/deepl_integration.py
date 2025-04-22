@@ -9,7 +9,7 @@ auth_key = os.getenv("DEEPL_AUTH_KEY")
 deepl_client = deepl.DeepLClient(auth_key)
 
 
-def deepl_translate_text(text, target_language="DA"):
+def deepl_translate_text(text, target_language="fi"):
     """
     Translates a text string using the DeepL API.
     Args:
@@ -22,7 +22,7 @@ def deepl_translate_text(text, target_language="DA"):
         # Using translate_text() with a text string
         translated_text = deepl_client.translate_text(
             text,
-            target_lang=target_language,
+            target_lang=target_language.upper(),
         )
         return translated_text
     except deepl.DeepLException as error:
@@ -30,7 +30,7 @@ def deepl_translate_text(text, target_language="DA"):
         print(error)
 
 
-def deepl_translate_large_text_file(input_path, output_path, target_language="DA"):
+def deepl_translate_large_text_file(input_path, output_path, target_language="fi"):
     """
     Translates a large text file using the DeepL API and saves the translated file to the specified output path.
     Args:
@@ -43,7 +43,7 @@ def deepl_translate_large_text_file(input_path, output_path, target_language="DA
         deepl_client.translate_document_from_filepath(
             input_path,
             output_path,
-            target_lang=target_language,
+            target_lang=target_language.upper(),
         )
         print(f"DeepL Translated file saved to {output_path}")
     except deepl.DocumentTranslationException as error:
@@ -59,3 +59,7 @@ def deepl_translate_large_text_file(input_path, output_path, target_language="DA
         print(error)
 
 
+if __name__ == "__main__":
+    input = "Hej hvordan har du det?"
+    output = deepl_translate_text(input, target_language="fi")
+    print(output)

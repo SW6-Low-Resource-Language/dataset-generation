@@ -20,7 +20,7 @@ from Translation.google_integration import google_translate_line_by_line
 from Translation.deepl_integration import deepl_translate_large_text_file
 import os
 data_paths = {
-    'train': './data/mintaka_train.json',
+    'dev': './data/mintaka_dev.json',
 }
 # this object should be created on the fly when the pipeline is done
 txt_files = {
@@ -28,7 +28,8 @@ txt_files = {
         "English": "./outputs/questions_txt_files/dev_questions.txt",
         "Translations": {
             "da": "./outputs/translations/deepl/dev_questions_da.txt",
-            "bn": "./outputs/translations/google/dev_questions_bn_linebyline.txt"
+            "bn": "./outputs/translations/google/dev_questions_bn_linebyline.txt",
+            "fi": "./outputs/translations/fi/dev_questions_fi.txt"
         }  
     },
     'test' : {
@@ -49,7 +50,7 @@ txt_files = {
 
 
 translate = False
-samples = 0 # amount of translated samples extracted to excel sheet for validation
+samples = 100 # amount of translated samples extracted to excel sheet for validation
 extend_mintaka = True
 
 output_paths = {
@@ -57,37 +58,43 @@ output_paths = {
     'test': './data/id2question_test.json',
     'train': './data/id2question_train.json',
 }
-def run_pipeline(data_paths, output_paths, lang_codes = ["da", "bn"]):
+def run_pipeline(data_paths, output_paths, lang_codes = ["fi"]):
     if translate:
+        translation_functions = {
+            "bn": google_translate_line_by_line,
+            "da": deepl_translate_large_text_file,
+            "fi": deepl_translate_large_text_file,
+        }
         for key, path in data_paths.items():
             json_map = extract_questions(path, output_paths[key])
             questions_path = f'./outputs/questions_txt_files/{key}_questions.txt'
-            """ questions = generate_questions_txt_file(json_map, questions_path)  """
             for lang in lang_codes:
-                if lang == "bn":
-                    google_translate_line_by_line(questions_path, f'./outputs/translations/google/{key}_questions_{lang}_linebyline.txt', lang)
-                elif lang == "da":
-                    deepl_translate_large_text_file(questions_path, f'./outputs/translations/deepl/{key}_questions_{lang}.txt')
+                if lang in translation_functions:
+                    dest_path = f'./outputs/translations/{lang}/{key}_questions_{lang}.txt'
+                    os.makedirs(os.path.dirname(dest_path), exist_ok=True)  # Ensure directory exists
+                    translation_functions[lang](questions_path, dest_path, lang)
+                    txt_files[key]["Translations"][lang] = dest_path
+    if(samples > 0):
+        generate_random_translation_sampling_sheet(txt_files, samples, lang_codes, "dev")
+                   
                 
     # pause and validate the translations
-        if(samples > 0):
-            generate_random_translation_sampling_sheet(txt_files, samples)
+        
             
     
     # first step with translation done, now we will find wikidata labels for the answer entities
     if extend_mintaka:
         for key, d_path in data_paths.items():
             dataset_name = os.path.basename(d_path).replace(".json","")
-            """ answer_entities = extract_answer_entities(d_path)
+            answer_entities = extract_answer_entities(d_path)
             write_json(answer_entities, f'./outputs/answer_entities_maps/{dataset_name}_answer_entities.json')
-            answer_labels = get_wikidata_labels(answer_entities)
+            answer_labels = get_wikidata_labels(answer_entities, f'./outputs/answer_labels/{dataset_name}_answer_labels.json')
             write_json(answer_labels, f'./outputs/answer_labels/{dataset_name}_answer_labels.json')
             translated_files = txt_files[key]["Translations"]
-            extend_mintaka_json(d_path, answer_labels, translated_files) """
+            extend_mintaka_json(d_path, answer_labels, translated_files)
             answer_labels = open_json(f'./outputs/answer_labels/{dataset_name}_answer_labels.json')
             generate_answer_label_sheet(answer_labels, lang_codes, dataset_name)
             
     
 
 run_pipeline(data_paths, output_paths)
-    

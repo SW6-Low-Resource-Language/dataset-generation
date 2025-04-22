@@ -40,7 +40,7 @@ def extend_mintaka_json(data_path, answer_labels, translated_files):
                 entity["label"][lang] = label
 
 
-    write_json(mintaka_data, f"{data_path.replace('.json', '_extended.json')}")
+    write_json(mintaka_data, f"{data_path.replace('.json', '_extended2.json')}")
         
 
 
