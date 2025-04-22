@@ -47,11 +47,11 @@ def run_pipeline(data_paths, lang_codes = ["fi"]):
             "fi": deepl_translate_large_text_file,
         }
         for key, path in data_paths.items():
-            questions_path = f'./outputs/questions_txt_files/{key}_questions_1.txt'
+            questions_path = f'./outputs/questions_txt_files/{key}_questions_2.txt'
             for lang in lang_codes:
                 if lang in translation_functions:
-                    print(f"Translating {key}_1 questions to {lang}...")
-                    dest_path = f'./outputs/translations/{lang}/{key}_questions_{lang}_1.txt'
+                    print(f"Translating {key}_2 questions to {lang}...")
+                    dest_path = f'./outputs/translations/{lang}/{key}_questions_{lang}_2.txt'
                     os.makedirs(os.path.dirname(dest_path), exist_ok=True)  # Ensure directory exists
                     translation_functions[lang](questions_path, dest_path, lang)
                     """ txt_files[key]["Translations"][lang] = dest_path
