@@ -24,7 +24,7 @@ import time
 base_dir = os.path.abspath(os.path.dirname(__file__))  # Get the base directory of the script
 
 data_paths = {
-    'train': './data/mintaka_test.json',
+    'train': './data/mintaka_train.json',
 }
 
 txt_files_path = os.path.join(base_dir, "outputs/txt_files.json") 
@@ -36,15 +36,10 @@ else:
     txt_files = {}
 
 translate = True
-samples = 100 # amount of translated samples extracted to excel sheet for validation
-extend_mintaka = True
+samples = 0 # amount of translated samples extracted to excel sheet for validation
+extend_mintaka = False
 
-output_paths = {
-    'dev': './data/id2question_dev.json',
-    'test': './data/id2question_test.json',
-    'train': './data/id2question_train.json',
-}
-def run_pipeline(data_paths, output_paths, lang_codes = ["fi"]):
+def run_pipeline(data_paths, lang_codes = ["fi"]):
     if translate:
         translation_functions = {
             "bn": google_translate_line_by_line,
@@ -52,17 +47,17 @@ def run_pipeline(data_paths, output_paths, lang_codes = ["fi"]):
             "fi": deepl_translate_large_text_file,
         }
         for key, path in data_paths.items():
-            questions_path = f'./outputs/questions_txt_files/{key}_questions.txt'
+            questions_path = f'./outputs/questions_txt_files/{key}_questions_1.txt'
             for lang in lang_codes:
                 if lang in translation_functions:
-                    print(f"Translating {key} questions to {lang}...")
-                    dest_path = f'./outputs/translations/{lang}/{key}_questions_{lang}.txt'
+                    print(f"Translating {key}_1 questions to {lang}...")
+                    dest_path = f'./outputs/translations/{lang}/{key}_questions_{lang}_1.txt'
                     os.makedirs(os.path.dirname(dest_path), exist_ok=True)  # Ensure directory exists
                     translation_functions[lang](questions_path, dest_path, lang)
-                    txt_files[key]["Translations"][lang] = dest_path
+                    """ txt_files[key]["Translations"][lang] = dest_path
                     print(f"Translation to {lang} completed and saved to {dest_path}")
                     write_json(txt_files, txt_files_path)  # Update JSON file after adding new translations
-                    print(f"Updated txt_files.json with {lang} translations for {key}.")
+                    print(f"Updated txt_files.json with {lang} translations for {key}.") """
             if(samples > 0):
                 sampling_path = f"./outputs/sampling/sampled_translations_{lang_codes[0]}_{key}.xlsx"
                 txt_data_object = txt_files[key]
@@ -96,4 +91,4 @@ def run_pipeline(data_paths, output_paths, lang_codes = ["fi"]):
             print(f"Pipeline for {key} dataset completed.")
     
 
-run_pipeline(data_paths, output_paths)
+run_pipeline(data_paths)
