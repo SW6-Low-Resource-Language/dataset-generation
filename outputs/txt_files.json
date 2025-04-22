@@ -1,0 +1,25 @@
+{
+    "dev": {
+        "English": "./outputs/questions_txt_files/dev_questions.txt",
+        "Translations": {
+            "da": "./outputs/translations/deepl/dev_questions_da.txt",
+            "bn": "./outputs/translations/google/dev_questions_bn_linebyline.txt",
+            "fi": "./outputs/translations/fi/dev_questions_fi.txt"
+        }
+    },
+    "test": {
+        "English": "./outputs/questions_txt_files/test_questions.txt",
+        "Translations": {
+            "da": "./outputs/translations/deepl/test_questions_da.txt",
+            "bn": "./outputs/translations/google/test_questions_bn_linebyline.txt",
+            "fi": "./outputs/translations/fi/test_questions_fi.txt"
+        }
+    },
+    "train": {
+        "English": "./outputs/questions_txt_files/train_questions.txt",
+        "Translations": {
+            "da": "./outputs/translations/deepl/train_questions_da.txt",
+            "bn": "./outputs/translations/google/train_questions_bn_linebyline.txt"
+        }
+    }
+}

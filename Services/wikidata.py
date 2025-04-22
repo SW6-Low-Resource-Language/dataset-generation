@@ -1,8 +1,9 @@
 from SPARQLWrapper import SPARQLWrapper, SPARQLExceptions, JSON
 import wikipedia
 from wikipedia.exceptions import DisambiguationError, PageError 
+from shared_utils.file_service import open_json
 import time
-from 
+
 
 query_find_labels_template = """SELECT ?entity ?label WHERE {
   VALUES ?entity { ENTITY_IDS }
@@ -117,7 +118,7 @@ def queryWikidata(query):
             time.sleep(5)
     return None
 
-def get_wikidata_labels(answer_entities, lang_codes=["da", "bn"]):
+def get_wikidata_labels(answer_entities, map_path, lang_codes=["da", "bn"]):
     """
     Retrieves labels for given Wikidata entities in specified languages.
     Args:
@@ -126,10 +127,11 @@ def get_wikidata_labels(answer_entities, lang_codes=["da", "bn"]):
     Returns:
         dict: A nested dictionary where the first level keys are entity ID's, and the second level keys are language codes. The values are the corresponding labels for the entities in the specified languages.
     """
-    entity_lan_labels_map = {}
+    entity_lan_labels_map = open_json(map_path)
     for answer_entities_ids in answer_entities.values():
         for entity in answer_entities_ids:
-            entity_lan_labels_map[entity] = {} 
+            if entity not in entity_lan_labels_map:
+                entity_lan_labels_map[entity] = {} 
             for lan in lang_codes:
                 entity_lan_labels_map[entity][lan] = None
 

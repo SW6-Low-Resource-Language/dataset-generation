@@ -3,7 +3,7 @@ from openpyxl import Workbook
 from shared_utils.file_service import open_txt
 import os
 
-def generate_random_translation_sampling_sheet(txt_data_object, samples, lang_codes, dataset_type):
+def generate_random_translation_sampling_sheet(txt_data_object, samples, lang_codes, output_path = None):
     """
     Randomly samples lines from multiple text files and writes them to an Excel file.
     
@@ -16,14 +16,14 @@ def generate_random_translation_sampling_sheet(txt_data_object, samples, lang_co
     script_dir = os.path.dirname(__file__)
     
     # Read the English file
-    english_file = txt_data_object[dataset_type]["English"]
-    english_lines = open_txt(os.path.join(script_dir, english_file))
+    english_file = txt_data_object["English"]
+    english_lines = open_txt(english_file)
     
     # Read all translation files and store lines in a dictionary
     all_lines = {"English": english_lines}
-    for language, file in txt_data_object[dataset_type]["Translations"].items():
+    for language, file in txt_data_object["Translations"].items():
         if language in lang_codes:
-            lines = open_txt(os.path.join(script_dir, file))
+            lines = open_txt(file)
             all_lines[language] = lines
     
     # Ensure all files have the same number of lines
@@ -34,7 +34,7 @@ def generate_random_translation_sampling_sheet(txt_data_object, samples, lang_co
             raise ValueError("All files must have the same number of lines")
     
    
-    if(num_lines > samples):
+    if(num_lines < samples):
         raise ValueError("Number of samples must be less than the number of lines in the file")
     
     # Randomly select indices
@@ -44,7 +44,7 @@ def generate_random_translation_sampling_sheet(txt_data_object, samples, lang_co
     wb = Workbook()
     
     # Create a sheet for each translation language
-    for language, lines in txt_data_object["Translations"].items():
+    for language, lines in all_lines.items():
         ws = wb.create_sheet(title=f"{language} samples")
         
         # Add headers
@@ -58,7 +58,9 @@ def generate_random_translation_sampling_sheet(txt_data_object, samples, lang_co
     # Remove the default sheet created by openpyxl
     del wb["Sheet"]
     
-    # Save the workbook
-    output_path = os.path.join(script_dir, "../outputs/sampling/sampled_translations.xlsx")
-    wb.save(output_path)
-    print(f"Samples written to {output_path}")
+    if output_path:
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        wb.save(output_path)
+        print(f"Samples written to {output_path}")
+    return wb
+    

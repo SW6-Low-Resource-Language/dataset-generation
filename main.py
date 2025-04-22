@@ -19,37 +19,23 @@ from Utils.generate_answer_label_sheet import generate_answer_label_sheet
 from Translation.google_integration import google_translate_line_by_line
 from Translation.deepl_integration import deepl_translate_large_text_file
 import os
+import time
+
+base_dir = os.path.abspath(os.path.dirname(__file__))  # Get the base directory of the script
+
 data_paths = {
-    'dev': './data/mintaka_dev.json',
-}
-# this object should be created on the fly when the pipeline is done
-txt_files = {
-    'dev' : {
-        "English": "./outputs/questions_txt_files/dev_questions.txt",
-        "Translations": {
-            "da": "./outputs/translations/deepl/dev_questions_da.txt",
-            "bn": "./outputs/translations/google/dev_questions_bn_linebyline.txt",
-            "fi": "./outputs/translations/fi/dev_questions_fi.txt"
-        }  
-    },
-    'test' : {
-        "English": "./outputs/questions_txt_files/test_questions.txt",
-        "Translations": {
-            "da": "./outputs/translations/deepl/test_questions_da.txt",
-            "bn": "./outputs/translations/google/test_questions_bn_linebyline.txt"
-        }
-    },
-    'train' : {
-        "English": "./outputs/questions_txt_files/train_questions.txt",
-        "Translations": {
-            "da": "./outputs/translations/deepl/train_questions_da.txt",
-            "bn": "./outputs/translations/google/train_questions_bn_linebyline.txt"
-        }
-    }
+    'train': './data/mintaka_test.json',
 }
 
+txt_files_path = os.path.join(base_dir, "outputs/txt_files.json") 
 
-translate = False
+# Load txt_files from JSON or initialize it if the file doesn't exist
+if os.path.exists(txt_files_path):
+    txt_files = open_json(txt_files_path)
+else:
+    txt_files = {}
+
+translate = True
 samples = 100 # amount of translated samples extracted to excel sheet for validation
 extend_mintaka = True
 
@@ -66,35 +52,48 @@ def run_pipeline(data_paths, output_paths, lang_codes = ["fi"]):
             "fi": deepl_translate_large_text_file,
         }
         for key, path in data_paths.items():
-            json_map = extract_questions(path, output_paths[key])
             questions_path = f'./outputs/questions_txt_files/{key}_questions.txt'
             for lang in lang_codes:
                 if lang in translation_functions:
+                    print(f"Translating {key} questions to {lang}...")
                     dest_path = f'./outputs/translations/{lang}/{key}_questions_{lang}.txt'
                     os.makedirs(os.path.dirname(dest_path), exist_ok=True)  # Ensure directory exists
                     translation_functions[lang](questions_path, dest_path, lang)
                     txt_files[key]["Translations"][lang] = dest_path
-    if(samples > 0):
-        generate_random_translation_sampling_sheet(txt_files, samples, lang_codes, "dev")
-                   
-                
-    # pause and validate the translations
-        
-            
-    
+                    print(f"Translation to {lang} completed and saved to {dest_path}")
+                    write_json(txt_files, txt_files_path)  # Update JSON file after adding new translations
+                    print(f"Updated txt_files.json with {lang} translations for {key}.")
+            if(samples > 0):
+                sampling_path = f"./outputs/sampling/sampled_translations_{lang_codes[0]}_{key}.xlsx"
+                txt_data_object = txt_files[key]
+                print(f"Generating random translation sampling sheet for {key}...")
+                generate_random_translation_sampling_sheet(txt_data_object, samples, lang_codes, sampling_path)
+        print("Translation pipeline completed. Proceeding with finding wikidata labels...")
+        time.sleep(3)  # Pause for 5 seconds before proceeding to the next step
+
     # first step with translation done, now we will find wikidata labels for the answer entities
     if extend_mintaka:
         for key, d_path in data_paths.items():
+            print
             dataset_name = os.path.basename(d_path).replace(".json","")
+            print(f"Extracting answer entities from {key} dataset...")
             answer_entities = extract_answer_entities(d_path)
             write_json(answer_entities, f'./outputs/answer_entities_maps/{dataset_name}_answer_entities.json')
-            answer_labels = get_wikidata_labels(answer_entities, f'./outputs/answer_labels/{dataset_name}_answer_labels.json')
+            print(f"Answer entities extracted and saved to {dataset_name}_answer_entities.json")
+            print(f"Finding wikidata labels for answer entities in {key} dataset... in languages {lang_codes}")
+            answer_labels = get_wikidata_labels(answer_entities, f'./outputs/answer_labels/{dataset_name}_answer_labels.json', lang_codes)
             write_json(answer_labels, f'./outputs/answer_labels/{dataset_name}_answer_labels.json')
+            print(f"Wikidata labels for answer entities saved to {dataset_name}_answer_labels.json")
             translated_files = txt_files[key]["Translations"]
-            extend_mintaka_json(d_path, answer_labels, translated_files)
+            extended_mintaka_path = f"{d_path.replace('.json', '_extended2.json')}"
+            print(f"Extending mintaka json with translated questions and labels...")
+            extend_mintaka_json(d_path, answer_labels, translated_files, extended_mintaka_path)
+            print(f"Succuesfully extended the mintaka {key} dataset and saved to {extended_mintaka_path}")
             answer_labels = open_json(f'./outputs/answer_labels/{dataset_name}_answer_labels.json')
+            print(f"Generating answer label sheet for {dataset_name}...")
             generate_answer_label_sheet(answer_labels, lang_codes, dataset_name)
-            
+            print(f"Answer label sheet for {dataset_name} generated successfully.")
+            print(f"Pipeline for {key} dataset completed.")
     
 
 run_pipeline(data_paths, output_paths)

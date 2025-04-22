@@ -1,6 +1,6 @@
 from shared_utils.file_service import open_json, write_json, open_txt
 
-def extend_mintaka_json(data_path, answer_labels, translated_files):
+def extend_mintaka_json(data_path, answer_labels, translated_files, output_path=None):
     """
     Extends the mintaka json with translated questions and relevant labels.
     Args:
@@ -39,7 +39,9 @@ def extend_mintaka_json(data_path, answer_labels, translated_files):
             for lang, label in entity_labels.items():
                 entity["label"][lang] = label
 
-
+    if output_path:
+        write_json(mintaka_data, output_path)
+    return mintaka_data
     write_json(mintaka_data, f"{data_path.replace('.json', '_extended2.json')}")
         
 
