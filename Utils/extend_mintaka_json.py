@@ -1,4 +1,4 @@
-from Services.file_service import open_json, write_json, open_txt
+from shared_utils.file_service import open_json, write_json, open_txt
 
 def extend_mintaka_json(data_path, answer_labels, translated_files):
     """

@@ -13,7 +13,7 @@ from Utils.generate_questions_txt_file import generate_questions_txt_file
 from Utils.extract_answer_entities import extract_answer_entities
 from Utils.generate_random_translation_sampling_sheet import generate_random_translation_sampling_sheet
 from Services.wikidata import get_wikidata_labels
-from Services.file_service import write_json, open_json
+from shared_utils.file_service import write_json, open_json
 from Utils.extend_mintaka_json import extend_mintaka_json
 from Utils.generate_answer_label_sheet import generate_answer_label_sheet
 from Translation.google_integration import google_translate_line_by_line

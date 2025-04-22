@@ -91,9 +91,10 @@ def queryWikidata(query):
     Returns:
         dict: The results of the SPARQL query in JSON format.
     """
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+    sparql = SPARQLWrapper("https://query.wikidata.org/sparql", agent="Extending_mintaka/1.0 (Lassemgp@gmail.com)" )
     sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
+    sparql.setReturnFormat(JSON)  # Set a proper User-Agent
+
     retries = 5
     for attempt in range(retries):
         try:
@@ -101,17 +102,18 @@ def queryWikidata(query):
             return results
         except SPARQLExceptions.EndPointInternalError as e:
             print(f"Attempt {attempt + 1}/{retries}: An internal error occurred while querying Wikidata: {e}")
-            print(f"Headers: {e.response.headers}")
         except SPARQLExceptions.QueryBadFormed as e:
             print(f"Attempt {attempt + 1}/{retries}: The query is malformed: {e}")
-            print(f"Headers: {e.response.headers}")
             break  # No point in retrying if the query is malformed
         except Exception as e:
-            print(f"Attempt {attempt + 1}/{retries}: An error occurred while querying Wikidata: {e}")
-            if hasattr(e, 'response') and hasattr(e.response, 'headers'):
-                print(f"Headers: {e.response.headers}")
+            if hasattr(e, 'response') and e.response.status == 429:  # Handle rate-limiting
+                retry_after = int(e.response.headers.get("Retry-After", 5))  # Default to 5 seconds if not provided
+                print(f"Rate limit exceeded. Retrying after {retry_after} seconds...")
+                time.sleep(retry_after)
+            else:
+                print(f"Attempt {attempt + 1}/{retries}: An error occurred while querying Wikidata: {e}")
         if attempt < retries - 1:
-            print(f"Error, Retrying in 5 seconds...")
+            print(f"Retrying in 5 seconds...")
             time.sleep(5)
     return None
 
@@ -180,8 +182,6 @@ def get_wikidata_labels_for_answer(entities, lang_codes):
 
 # Example usage
 if __name__ == "__main__":
-    search_string = "Truly Devious"
-    entity = find_wikidata_entity_from_string(search_string) #['Sound the Alarm', 'Alarm clock', 'Sound an Alarm', 'Sound the Alarm (Booker T. Jones album)', 'Sound the Alarm (band)', 'Sound the Alarm (Saves the Day album)', 'The Dawn (band)', 'Sound the Alarm (EP)', 'Saves the Day', 'Sound the Alarm (Howie Day album)']
-    print(entity)
-
+    labels = get_wikidata_labels_for_answer(["Q42", "Q1"], ["tr"])
+    print(labels)
 

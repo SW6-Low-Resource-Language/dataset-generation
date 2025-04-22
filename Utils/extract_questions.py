@@ -1,5 +1,5 @@
 from Utils.amount_chars import amount_chars
-from Services.file_service import open_json, write_json
+from shared_utils.file_service import open_json, write_json
 
 # util for extracting all the questions in english from the mintaka dataset
 def extract_questions(data_path, output_path):
