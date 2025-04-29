@@ -19,7 +19,8 @@
         "English": "./outputs/questions_txt_files/train_questions.txt",
         "Translations": {
             "da": "./outputs/translations/deepl/train_questions_da.txt",
-            "bn": "./outputs/translations/google/train_questions_bn_linebyline.txt"
+            "bn": "./outputs/translations/google/train_questions_bn_linebyline.txt",
+            "fi": "./outputs/translations/fi/train_questions_fi.txt"
         }
     }
 }

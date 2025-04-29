@@ -35,9 +35,9 @@ if os.path.exists(txt_files_path):
 else:
     txt_files = {}
 
-translate = True
+translate = False
 samples = 0 # amount of translated samples extracted to excel sheet for validation
-extend_mintaka = False
+extend_mintaka = True
 
 def run_pipeline(data_paths, lang_codes = ["fi"]):
     if translate:
@@ -47,11 +47,11 @@ def run_pipeline(data_paths, lang_codes = ["fi"]):
             "fi": deepl_translate_large_text_file,
         }
         for key, path in data_paths.items():
-            questions_path = f'./outputs/questions_txt_files/{key}_questions_2.txt'
+            questions_path = f'./outputs/questions_txt_files/{key}_questions.txt'
             for lang in lang_codes:
                 if lang in translation_functions:
                     print(f"Translating {key}_2 questions to {lang}...")
-                    dest_path = f'./outputs/translations/{lang}/{key}_questions_{lang}_2.txt'
+                    dest_path = f'./outputs/translations/{lang}/{key}_questions_{lang}.txt'
                     os.makedirs(os.path.dirname(dest_path), exist_ok=True)  # Ensure directory exists
                     translation_functions[lang](questions_path, dest_path, lang)
                     """ txt_files[key]["Translations"][lang] = dest_path
@@ -89,6 +89,5 @@ def run_pipeline(data_paths, lang_codes = ["fi"]):
             generate_answer_label_sheet(answer_labels, lang_codes, dataset_name)
             print(f"Answer label sheet for {dataset_name} generated successfully.")
             print(f"Pipeline for {key} dataset completed.")
-    
 
 run_pipeline(data_paths)
