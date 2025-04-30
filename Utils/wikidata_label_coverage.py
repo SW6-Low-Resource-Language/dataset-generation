@@ -6,7 +6,7 @@ def test_label_coverage(answer_entity_map, languages=None):
     Analyzes the coverage of Wikidata labels for a given set of entities and languages.
 
     Args:
-        labels_array (dict): A dictionary where keys are entity IDs and values are dictionaries
+        answer_entity_map (dict): A dictionary where keys are entity IDs and values are dictionaries
                              mapping language codes to their corresponding labels (or None if no label exists).
         languages (list, optional): A list of language codes to analyze. If None, it will try and determine the keys from the object
 
