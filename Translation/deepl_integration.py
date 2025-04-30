@@ -2,11 +2,7 @@ import os
 from dotenv import load_dotenv
 import deepl
 
-# Load environment variables from .env file
-load_dotenv()
-# Get the DeepL auth key from environment variables
-auth_key = os.getenv("DEEPL_AUTH_KEY")
-deepl_client = deepl.DeepLClient(auth_key)
+
 
 
 def deepl_translate_text(text, target_language="fi"):
@@ -31,6 +27,11 @@ def deepl_translate_text(text, target_language="fi"):
 
 
 def deepl_translate_large_text_file(input_path, output_path, target_language="fi"):
+    # Load environment variables from .env file
+    load_dotenv()
+    # Get the DeepL auth key from environment variables
+    auth_key = os.getenv("DEEPL_AUTH_KEY")
+    deepl_client = deepl.DeepLClient(auth_key)
     """
     Translates a large text file using the DeepL API and saves the translated file to the specified output path.
     Args:
@@ -60,6 +61,11 @@ def deepl_translate_large_text_file(input_path, output_path, target_language="fi
 
 
 if __name__ == "__main__":
+    # Load environment variables from .env file
+    load_dotenv()
+    # Get the DeepL auth key from environment variables
+    auth_key = os.getenv("DEEPL_AUTH_KEY")
+    deepl_client = deepl.DeepLClient(auth_key)
     input = "Hej hvordan har du det?"
     output = deepl_translate_text(input, target_language="fi")
     print(output)
