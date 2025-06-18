@@ -3,6 +3,16 @@ import os
 
 
 def extract_answer_entities(data_path): 
+    """
+    Extracts a mapping from item IDs to lists of entity names (WikiIDs) from a dataset.
+    Args:
+        data_path (str): Path to the JSON file containing the dataset. The dataset should be a list of items,
+            each with an 'id' and an 'answer' field. The 'answer' field should contain an 'answerType' key,
+            and depending on its value ('entity' or 'numerical'), may contain entity references.
+    Returns:
+        dict: A dictionary mapping each item's 'id' to a list of entity names (WikiIDs) extracted from the answer.
+            Only items with 'entity' or 'numerical' answer types and valid entity references are included.
+    """
     data = open_json(data_path)
     id_answer_entities_map = {}
     for item in data:

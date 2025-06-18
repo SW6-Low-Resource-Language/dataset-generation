@@ -21,6 +21,13 @@ FILTER contains(str(?e), "wikidata")
 """
 
 def find_wikidata_entity_from_string(search_string):
+    """
+    Attempts to find the Wikidata entity ID corresponding to a given search string.
+    Args:
+        search_string (str): The string to search for in Wikipedia and resolve to a Wikidata entity.
+    Returns:
+        str or None: The Wikidata entity ID (e.g., 'Q529026') if found, otherwise None.
+    """
     wp_search = wikipedia.search(search_string)
 
     print(f"searching for: {search_string}")
@@ -67,6 +74,19 @@ def find_wikidata_entity_from_string(search_string):
 
 
 def queryDBpedia(query):
+    """
+    Executes a SPARQL query against the DBpedia endpoint and returns the results in JSON format.
+
+    Args:
+        query (str): The SPARQL query string to be executed on the DBpedia endpoint.
+
+    Returns:
+        dict: The results of the SPARQL query in JSON format if successful.
+
+    Raises:
+        Prints error messages for internal endpoint errors, malformed queries, or other exceptions.
+        Does not raise exceptions directly; errors are logged to the console.
+    """
     sparql = SPARQLWrapper("http://dbpedia.org/sparql")
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)

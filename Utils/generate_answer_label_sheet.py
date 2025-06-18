@@ -1,6 +1,25 @@
 from openpyxl import Workbook
 
-def generate_answer_label_sheet(answer_labels, language_codes, dataset_name): 
+def generate_answer_label_sheet(answer_labels, dataset_name): 
+    """
+    Generates an Excel sheet containing answer labels for entities in multiple languages.
+
+    Args:
+        answer_labels (dict): A dictionary where each key is an entity ID (str) and each value is another dictionary
+                              mapping language codes (str) to their corresponding label (str) for that entity.
+                              Example:
+                              {
+                                  "Q42": {"en": "Douglas Adams", "fr": "Douglas Adams"},
+                                  "Q1": {"en": "Universe", "fr": "Univers"}
+                              }
+        dataset_name (str): The name of the dataset, used to name the output Excel file.
+
+    Functionality:
+        - Creates an Excel workbook with a sheet titled "Answer labels".
+        - The first row contains headers: "Entity ID", one column per language (e.g., "en-label", "fr-label"), and "Wikidata URL".
+        - Each subsequent row contains the entity ID, its labels in each language, and a link to its Wikidata page.
+        - Saves the Excel file to "./outputs/answer_labels/{dataset_name}_answer_labels_sheet.xlsx".
+    """
     wb = Workbook()
     ws = wb.active
     ws.title = "Answer labels"

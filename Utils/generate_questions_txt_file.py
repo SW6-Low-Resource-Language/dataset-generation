@@ -13,5 +13,4 @@ def generate_questions_txt_file(json_map, output_path, seperator = '\n'):
     data = json_map['questions'].values()
     write_txt(data, output_path, seperator)
     return data
-    print(f"Saved {len(data)} questions to {output_path} for translation")
     
