@@ -46,6 +46,6 @@ if you wish to do it for all splits in one run you should specify data_paths lik
             "sv": deepl_translate_large_text_file, 
         }`
 
-Note: There is implemented 3 control variables in the main.py file `translate`, `samples` and `extend_mintaka` which can be used to control the flow of the pipeline, so if you want to only translate the questions and have time to check them before moving on to extracting labels and extending the dataset, you can set extend_mintaka to `false` and specify the amount of random translation samples to be generated. Afterwards you can set `translate` to `false` and `extend_mintaka` to true finalize the extension of the dataset. 
+Note: There is implemented 3 control variables in the main.py file `translate`, `samples` and `extend_mintaka` which can be used to control the flow of the pipeline, so if you want to only translate the questions and have time to check them before moving on to extracting labels and extending the dataset, you can set extend_mintaka to `false` and specify the amount of random translation samples to be generated. Afterwards you can set `translate` to `false` and `extend_mintaka` to `true` to finalize the extension of the dataset. 
 Reminder: Remember to have installed all the dependencies before running the script. 
    
