@@ -4,7 +4,9 @@
         "Translations": {
             "da": "./outputs/translations/deepl/dev_questions_da.txt",
             "bn": "./outputs/translations/google/dev_questions_bn_linebyline.txt",
-            "fi": "./outputs/translations/fi/dev_questions_fi.txt"
+            "fi": "./outputs/translations/fi/dev_questions_fi.txt",
+            "sv": "./outputs/translations/sv/dev_questions_sv.txt",
+            "nb": "./outputs/translations/nb/dev_questions_nb.txt"
         }
     },
     "test": {
@@ -12,7 +14,9 @@
         "Translations": {
             "da": "./outputs/translations/deepl/test_questions_da.txt",
             "bn": "./outputs/translations/google/test_questions_bn_linebyline.txt",
-            "fi": "./outputs/translations/fi/test_questions_fi.txt"
+            "fi": "./outputs/translations/fi/test_questions_fi.txt",
+            "sv": "./outputs/translations/sv/test_questions_sv.txt",
+            "nb": "./outputs/translations/nb/test_questions_nb.txt"
         }
     },
     "train": {
@@ -20,7 +24,9 @@
         "Translations": {
             "da": "./outputs/translations/deepl/train_questions_da.txt",
             "bn": "./outputs/translations/google/train_questions_bn_linebyline.txt",
-            "fi": "./outputs/translations/fi/train_questions_fi.txt"
+            "fi": "./outputs/translations/fi/train_questions_fi.txt",
+            "sv": "./outputs/translations/sv/train_questions_sv.txt",
+            "nb": "./outputs/translations/nb/train_questions_nb.txt"
         }
     }
 }

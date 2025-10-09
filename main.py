@@ -17,14 +17,18 @@ from shared_utils.file_service import write_json, open_json
 from Utils.extend_mintaka_json import extend_mintaka_json
 from Utils.generate_answer_label_sheet import generate_answer_label_sheet
 from Translation.google_integration import google_translate_line_by_line
+from Translation.libre_integration import libretranslate_translate_large_text_file
 from Translation.deepl_integration import deepl_translate_large_text_file
 import os
 import time
+
 
 base_dir = os.path.abspath(os.path.dirname(__file__))  # Get the base directory of the script
 
 data_paths = {
     'dev': './data/mintaka_dev.json',
+    'test': './data/mintaka_test.json',
+    'train': './data/mintaka_train.json',
 }
 
 txt_files_path = os.path.join(base_dir, "outputs/txt_files.json") 
@@ -36,7 +40,7 @@ else:
     txt_files = {}
 
 translate = True
-samples = 100 # amount of translated samples extracted to excel sheet for validation
+samples = 0 # amount of translated samples extracted to excel sheet for validation
 extend_mintaka = True
 
 def run_pipeline(data_paths, lang_codes = ["fi"]):
@@ -46,6 +50,8 @@ def run_pipeline(data_paths, lang_codes = ["fi"]):
             "da": deepl_translate_large_text_file,
             "fi": deepl_translate_large_text_file,
             "de": deepl_translate_large_text_file,
+            "sv": libretranslate_translate_large_text_file,
+            "nb": libretranslate_translate_large_text_file,
         }
         for key, path in data_paths.items():
             questions_path = f'./outputs/questions_txt_files/{key}_questions.txt'
@@ -91,4 +97,4 @@ def run_pipeline(data_paths, lang_codes = ["fi"]):
             print(f"Pipeline for {key} dataset completed.")
 
 if __name__ == "__main__":
-    run_pipeline(data_paths, ["de"])
+    run_pipeline(data_paths, ["nb"])
